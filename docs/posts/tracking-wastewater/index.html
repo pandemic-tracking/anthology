@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.619">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jacqueline Houtman">
+<meta name="author" content="Lindsey Shultz">
+<meta name="author" content="Jessica Malaty Rivera">
+<meta name="author" content="Jonathan Gilmour">
+<meta name="author" content="Dave Luo">
+<meta name="author" content="Megan Diamond">
+<meta name="author" content="Rick Bright">
+<meta name="dcterms.date" content="2022-02-16">
+
+<title>Pandemic Tracking Collective - Tracking SARS-CoV-2 and its Variants in Wastewater: An Old Technique is Yielding Powerful New Insights in the COVID-19 Pandemic</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Pandemic Tracking Collective</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/pandemictrack"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#wastewater-has-played-a-role-in-disease-surveillance-for-centuries." id="toc-wastewater-has-played-a-role-in-disease-surveillance-for-centuries." class="nav-link active" data-scroll-target="#wastewater-has-played-a-role-in-disease-surveillance-for-centuries.">Wastewater has played a role in disease surveillance for centuries.</a></li>
+  <li><a href="#wastewater-surveillance-is-an-important-part-of-the-public-health-response-to-covid-19." id="toc-wastewater-surveillance-is-an-important-part-of-the-public-health-response-to-covid-19." class="nav-link" data-scroll-target="#wastewater-surveillance-is-an-important-part-of-the-public-health-response-to-covid-19.">Wastewater surveillance is an important part of the public health response to COVID-19.</a></li>
+  <li><a href="#wastewater-testing-has-been-particularly-powerful-in-tracking-sars-cov-2-variants." id="toc-wastewater-testing-has-been-particularly-powerful-in-tracking-sars-cov-2-variants." class="nav-link" data-scroll-target="#wastewater-testing-has-been-particularly-powerful-in-tracking-sars-cov-2-variants.">Wastewater testing has been particularly powerful in tracking SARS-CoV-2 variants.</a></li>
+  <li><a href="#standardization-and-increased-representation-can-improve-the-utility-of-wastewater-data." id="toc-standardization-and-increased-representation-can-improve-the-utility-of-wastewater-data." class="nav-link" data-scroll-target="#standardization-and-increased-representation-can-improve-the-utility-of-wastewater-data.">Standardization and increased representation can improve the utility of wastewater data.</a></li>
+  </ul>
+</nav>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Tracking SARS-CoV-2 and its Variants in Wastewater: An Old Technique is Yielding Powerful New Insights in the COVID-19 Pandemic</h1>
+<p class="subtitle lead">The CDC’s new data tracker has increased public interest in wastewater. Here is a deep dive into wastewater testing: its history, scientific basis, applications, and future.</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Wastewater</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jacqueline Houtman </p>
+             <p>Lindsey Shultz </p>
+             <p>Jessica Malaty Rivera </p>
+             <p>Jonathan Gilmour </p>
+             <p>Dave Luo </p>
+             <p>Megan Diamond </p>
+             <p>Rick Bright </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 16, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>The <a href="https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance">newest addition</a> to the Centers for Disease Control and Prevention’s (CDC) suite of <a href="https://covid.cdc.gov/covid-data-tracker/#datatracker-home">COVID data trackers</a> reports on levels of SARS-CoV-2 RNA in wastewater. While researchers, public health departments, and some private companies have been monitoring wastewater since the beginning of the pandemic, this tracker marks an important step in the establishment of the <a href="https://www.cdc.gov/healthywater/surveillance/wastewater-surveillance/wastewater-surveillance.html">National Wastewater Surveillance System (NWSS)</a>.</p>
+<p>Hospitalization and death rates, and case counts obtained from clinical samples, can provide information about the trajectory of the pandemic, but they do not paint a complete picture. Many infected people are asymptomatic or go untested, and the lag time between testing and reporting is often delayed beyond useful purpose. With a long history and a strong scientific basis, <a href="https://www.nytimes.com/2022/02/02/opinion/covid-variant-air-sewage.html">wastewater monitoring adds critical data</a> and insights into a rapidly evolving situation. From national systems down to the neighborhood level, or even to individual buildings, data obtained from wastewater can complement clinical data to support evidence-based public health policies and decisions in numerous ways.</p>
+<section id="wastewater-has-played-a-role-in-disease-surveillance-for-centuries." class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="wastewater-has-played-a-role-in-disease-surveillance-for-centuries.">Wastewater has played a role in disease surveillance for centuries.</h3>
+<p><a href="https://www.iwapublishing.com/news/brief-history-water-and-health-ancient-civilizations-modern-times">For thousands of years</a>, humans have recognized that their waste could harbor disease, and sanitation practices were developed to keep sewage separate from drinking water. In a classic 1854 epidemiology example, <a href="https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7150208/">John Snow</a> used a map of cholera cases in London to track the origin of the outbreak—a pump that supplied water contaminated with sewage. To stop people from using the water, he removed the pump handle. We now know that waste can inform as well as infect. Wastewater testing provides important insights into the health of a population by detecting <a href="https://www.sciencedirect.com/science/article/pii/S0048969717331601?via%3Dihub">chemicals</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0160412020304542">disease-causing organisms</a>, and <a href="https://www.sciencedirect.com/science/article/pii/S0048969717331601?via%3Dihub">other markers of public well-being</a>.</p>
+<div id="fig-1" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/02/wastewater-viz1-Street-Graph-1440x793.png" class="img-fluid figure-img"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 1: A portion of John Snow’s 1854 map of the London Cholera outbreak showing the locations of cholera cases and the source - a contaminated water pump located at the intersection of Broad Street and Cambridge Street (now Lexington Street)</figcaption><p></p>
+</figure>
+</div>
+<p>For decades, wastewater testing has played an important role in the global effort to <a href="https://polioeradication.org/">eradicate polio</a>, especially in <a href="https://academic.oup.com/jid/article/210/suppl_1/S294/2194423">resource-poor environments</a>. Poliovirus detected in wastewater can alert officials to the presence of the virus in a community, even in the <a href="https://www.pnas.org/content/115/45/E10625">absence of clinical disease</a>. <a href="https://theconversation.com/sewage-surveillance-is-the-next-frontier-in-the-fight-against-polio-105012">Genetic analysis</a> of pathogen-positive wastewater samples can help track a virus to its source and monitor a virus as it evolves. <a href="https://journals.lww.com/co-infectiousdiseases/fulltext/2020/10000/final_frontiers_of_the_polio_eradication_endgame.12.aspx">Control measures</a>, including vaccination, hospital resources, and therapeutics, can then be effectively and efficiently targeted to a specific location.</p>
+</section>
+<section id="wastewater-surveillance-is-an-important-part-of-the-public-health-response-to-covid-19." class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="wastewater-surveillance-is-an-important-part-of-the-public-health-response-to-covid-19.">Wastewater surveillance is an important part of the public health response to COVID-19.</h3>
+<p>Unlike poliovirus and the bacterium <em>Vibrio cholerae</em>, which are transmitted through water contaminated with human waste, SARS-CoV-2 is transmitted through the air. Although there is <a href="https://www.cdc.gov/coronavirus/2019-ncov/php/water.html">no evidence</a> of COVID-19 transmission through wastewater, <a href="https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7311891/">about half</a> of infected individuals can excrete the virus in their feces, even when they do not have gastrointestinal symptoms. <a href="https://www.sciencedirect.com/science/article/pii/S0048969720348932#bbb0610">Viral shedding in feces</a> can occur 3-5 days before symptoms appear, if symptoms appear at all.</p>
+<p>Data about the presence of SARS-CoV-2 RNA in wastewater can be used to monitor <a href="https://www.nature.com/articles/s41587-020-0684-z">trends</a> in community transmission and to inform public health decisions. Wastewater surveillance can provide early indications of community transmission or surges in COVID-19, sometimes <a href="https://www.sciencedirect.com/science/article/pii/S0048969721051354">preceding</a> reports of positive clinical samples by 1-2 weeks, giving health systems critical lead time.** **Declines in wastewater virus levels <a href="https://www.wbur.org/news/2022/01/12/wastewater-covid-level-decline-new-data">may also precede</a> drops in clinical cases.</p>
+<p>In the early months of the pandemic, <a href="https://www.sciencedirect.com/science/article/pii/S0048969721051354">hundreds of studies</a> demonstrated the feasibility of using wastewater surveillance to track SARS-CoV-2. On a national level, <a href="https://ehp.niehs.nih.gov/doi/full/10.1289/EHP8572">several countries</a>, including Australia, India, Israel, the Netherlands, Pakistan, and Sweden, were able to pivot existing wastewater surveillance programs to COVID-19. Currently, at least <a href="https://ucmerced.maps.arcgis.com/apps/dashboards/c778145ea5bb4daeb58d31afee389082">58 countries</a> monitor wastewater at some level. Many of the more than <a href="https://ehp.niehs.nih.gov/doi/10.1289/EHP9579">16,000 water treatment plants</a> <a href="https://biobot.io/data/">within the US</a> are monitoring wastewater, and the <a href="https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance">CDC tracker</a> is a first step toward a coordinated national system in the US. As more sites come online, and as methods are standardized, the value of the tracker will continue to increase after this promising first step.</p>
+<p>Wastewater sampling at a centralized water treatment facility can provide information for a city or region within its sewershed, the area from which wastewater arrives at a single treatment plant. Sampling at <a href="https://www.sciencedirect.com/science/article/pii/S004896972105467X">smaller sewer catchment areas</a> within the larger sewersheds, such as via manholes, can provide more focused information, sometimes down to the neighborhood level. Any “hot spots” that are detected can then be identified for targeted public health intervention and mitigation.</p>
+<p>One such “hot spot” was detected in Louisville, Kentucky during the onset of their 2021 Omicron variant surge. The Pandemic Prevention Institute (PPI) <a href="https://www.rockefellerfoundation.org/blog/optimizing-disease-detection-and-containment-through-a-wastebeforecase-approach/">partners</a> at the University of Louisville track SARS-CoV-2 in small wastewater catchment areas, which complements the clinical data collected by the Louisville Metro Department of Public Health &amp; Wellness. Prior to Omicron, clinical cases reported within the 40212 ZIP code had been roughly comparable to those of the city, but beginning in November 2021, wastewater data painted a different picture. With wastewater, Louisville was able to zoom in more closely into the community and noted that only part of the 40212 ZIP code was showing unusual patterns of virus prevalence. Specifically, in contrast to the clinical case data, wastewater data showed much higher levels of virus in the Shawnee Park area of 40212, compared to the 34th Street area and to the larger sewershed that includes both Shawnee Park and 34th Street. Such findings suggested a need for localized investigation and potential interventions in the Shawnee Park area, an opportunity that would have been delayed or missed completely by relying on clinical data alone.</p>
+<div id="fig-2" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/02/wastewater-viz2-Louisvile-Graph-1440x793.png" class="img-fluid figure-img" alt="Top is a line chart and map showing reported COVID-19 cases per 100K over time in ZIP Code 40212 being similar or lower than overall Jefferson County. Bottom is a scatter plot and map showing Shawnee Park area which is within ZIP Code 40212 with higher virus levels in its wastewater starting in November 2021 compared to the neighboring catchment and encompassing sewershed."></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 2: ZIP code-level clinical data for 40212, the Louisville, Kentucky ZIP code encompassing the Shawnee Park and 34th Street catchment areas (top), compares case rates in that ZIP code (orange) to those of Jefferson County as a whole (blue). Wastewater data (bottom) shows higher SARS-CoV-2 virus concentrations detected in Shawnee Park wastewater (pink) than in surrounding wastewater catchment areas, including 34th Street (blue), and in the larger Morris Forman Water Quality Treatment Center catchment area (purple)</figcaption><p></p>
+</figure>
+</div>
+<p>Even more localized data can be obtained by examining wastewater from individual facilities, such as <a href="https://www.cor.pa.gov/Pages/COVID-19.aspx">prisons</a>, <a href="https://www.houstontx.gov/health/NewsReleases/houston-health-department-launches-dashboard-displaying-wastewater-virus-levels.html">schools</a>, and <a href="https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7882920/">long-term-care centers</a>. Samples from airports, <a href="https://www.sciencedirect.com/science/article/pii/S0048969722002613">aircraft</a>, and <a href="https://pubmed.ncbi.nlm.nih.gov/32662867/">cruise ships</a> can reveal infections among travelers. <a href="https://www.mdpi.com/1660-4601/18/9/4455">Universities and colleges</a> have used wastewater data from dormitories to detect and control outbreaks. For example, in August 2020, the <a href="https://www.washingtonpost.com/nation/2020/08/28/arizona-coronavirus-wastewater-testing/">University of Arizona</a> detected SARS-CoV-2 in wastewater from one dormitory. All 311 residents were tested, and two asymptomatic cases were discovered. Those students were isolated, likely averting an outbreak.</p>
+<p>When an outbreak is detected in a neighborhood or building, targeted control measures can be initiated. Depending on the circumstances, these might include:</p>
+<ul>
+<li>public health outreach and education</li>
+<li>quarantine or isolation</li>
+<li>clinical screening/testing, vaccination</li>
+<li>surge staffing for hospitals</li>
+<li>targeted distribution of stockpiled inventory of therapeutics, ventilators, or oxygen</li>
+<li>increased masking</li>
+<li>social restrictions</li>
+</ul>
+<p>The public health response to such an outbreak can be <a href="https://reliefweb.int/sites/reliefweb.int/files/resources/gd-covid-19-oxfam-community-engagement-guide-270420-en.pdf">tailored to the specific population in question</a>, with attention to factors such as language, culture, disability, literacy, mobility, age, and internet access. Mobile testing and vaccination clinics may also be redirected to the area.</p>
+</section>
+<section id="wastewater-testing-has-been-particularly-powerful-in-tracking-sars-cov-2-variants." class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="wastewater-testing-has-been-particularly-powerful-in-tracking-sars-cov-2-variants.">Wastewater testing has been particularly powerful in tracking SARS-CoV-2 variants.</h3>
+<p>The emergence of the Omicron variant in <a href="https://www.rockefellerfoundation.org/case-study/vaccine-inequity-increases-the-risk-of-new-sars-cov-2-variants-emerging/">November 2021</a> has been a turning point in the COVID-19 pandemic. When it was declared a <a href="https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529)-sars-cov-2-variant-of-concern">Variant of Concern</a> by the World Health Organization on November 26, 2021, little was known about Omicron’s growth characteristics, transmissibility, immune evasion, ability to cause serious disease, or even its whereabouts. What was known was its genetic sequence. By sharing the sequence rapidly into the global GISAID domain, scientists in South Africa provided researchers and public health officials worldwide the information they needed to detect and track the rapidly spreading variant in clinical samples and in wastewater.</p>
+<div id="fig-3" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/02/wastewater-viz3-Global-Variant-Trends-1440x793.png" class="img-fluid figure-img"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 3: Global prevalence of variants of concern, showing successive waves of the Alpha, Delta, and Omicron variants.</figcaption><p></p>
+</figure>
+</div>
+<p><a href="https://www.rockefellerfoundation.org/blog/genomic-surveillance-is-essential-to-track-covid-19-variants-in-both-unvaccinated-and-vaccinated-populations/">Genomic surveillance</a> has been critical for tracking <a href="https://www.rockefellerfoundation.org/blog/making-sense-of-variants-they-all-deserve-attention-a-few-merit-concern/">SARS-CoV-2 variants</a>. Reliance on clinical samples for genomic data can be insufficient, however, when healthcare and laboratory systems are limited or overwhelmed. Globally, only <a href="https://www.gisaid.org/index.php?id=208">13 countries</a> or territories have sequenced and publicly shared more than <a href="https://www.medrxiv.org/content/10.1101/2021.01.12.21249613v1.full">5% of cases</a> with GISAID in the last 90 days. The result is a spotty and geographically skewed picture of variant presence, evolution, and spread. By turning to wastewater, a non-traditional data source that functions independent of medical systems, public health officials and researchers around the world have filled critical gaps in pathogen genomic surveillance.</p>
+<p>As the Omicron variant spread across the globe, wastewater was often the first indication that it had reached a community. <a href="https://www.cdc.gov/mmwr/volumes/71/wr/mm7103a5.htm?s_cid=mm7103a5_w">Early evidence</a> of Omicron’s presence in the US was detected in wastewater in California, Colorado, and New York City, as well as in <a href="https://www.houstontx.gov/health/NewsReleases/omicron-variant-detected-in-houstons-wastewater-houston-health-department-reports.html">Houston</a>, where the PPI partners with the Houston Health Department. In Kentucky, the PPI partners at the University of Louisville <a href="https://wfpl.org/omicron-variant-confirmed-in-several-kentucky-counties/">detected Omicron</a> in the wastewater before a confirmed case was reported from a clinical sample in the county. The researchers there were also able to track the rapid change in the dominant variant, from Delta to Omicron, in each of the larger wastewater sewersheds, as well as in the smaller catchment areas within the sewersheds.</p>
+<div id="fig-3" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<div class="flourish-embed" data-src="story/1131027?900894">
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 4: Louisville Wastewater SARS-CoV-2 Variant Surveillance: Wastewater testing can identify SARS-CoV-2 variant proportions in wastewater for small catchment areas around Louisville and at larger Water Quality Treatment Centers. This visualization shows the spread of different variants over the past ten months in each wastewater catchment area monitored by the Christina Lee Brown Envirome Institute, KY INBRE Bioinformatics and Genomics Cores, University of Louisville.</figcaption><p></p>
+</figure>
+</div>
+<p>Advances in wastewater testing for COVID-19 can facilitate surveillance for <a href="https://www.medrxiv.org/content/10.1101/2021.07.26.21261155v1">many pathogens</a>, including respiratory pathogens like <a href="https://pubs.acs.org/doi/10.1021/acs.estlett.1c00963">respiratory syncytial virus</a> (RSV) and <a href="https://okcfox.com/newsletter-daily/oklahoma-researchers-seeing-increasing-levels-of-influenza-a-in-wastewater-samples">influenza</a> <a href="https://www.khou.com/article/news/health/houston-health-department-testing-wastewater-schools-flu-covid/285-98a72baf-4988-4cd3-ae94-05c68e9430f2">virus</a>. Wastewater can also be used to monitor other <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)02724-0/fulltext">global threats</a>, like <a href="https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7128895/">antimicrobial resistant bacteria</a> in disease-causing organisms. With the technology to monitor wastewater in place, communities will be better able to quickly identify and track new disease threats as they surge and wane.</p>
+</section>
+<section id="standardization-and-increased-representation-can-improve-the-utility-of-wastewater-data." class="level3">
+<h3 class="anchored" data-anchor-id="standardization-and-increased-representation-can-improve-the-utility-of-wastewater-data.">Standardization and increased representation can improve the utility of wastewater data.</h3>
+<p>Wastewater surveillance has come into its own during the COVID-19 pandemic. As part of a comprehensive public health strategy, data derived from sewage has proven invaluable in the response to outbreaks, especially where clinical testing is lacking in capacity, access, or representation. It is not, however, a standalone technology, and works best in concert with other clinical and epidemiological studies. <a href="https://www.rockefellerfoundation.org/blog/optimizing-disease-detection-and-containment-through-a-wastebeforecase-approach/">Issues still remain</a> to be addressed. Unstandardized<a href="https://www.pnas.org/content/119/6/e2119600119">sampling</a> and <a href="https://www.sciencedirect.com/science/article/pii/S2590049822000078?via%3Dihub">laboratory</a> methods make it difficult to compare data across different municipalities. Globally, many areas lack the physical wastewater and laboratory facilities to conduct this kind of surveillance, as well as the data infrastructure to perform the required analysis. Ethical concerns, including privacy and a <a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1360-0443.2012.03887.x">history of misuse of wastewater data</a> may require extra care and education to support the implementation of wastewater surveillance systems in different areas.</p>
+<p>As the full potential of wastewater surveillance for COVID-19 begins to be realized, its advantages are increasingly appreciated by the public health community and the general public. As a leading indicator, it can alert communities to the presence of new variants or an imminent surge in clinical cases. Wastewater monitoring is cost-effective, anonymous, and passive. It is not dependent on access to health care. It provides a more timely, equitable, and representative picture of the level of virus circulating in a community than clinical data, because it encompasses data from individuals who:</p>
+<ul>
+<li>can be symptomatic, asymptomatic or presymptomatic</li>
+<li>cannot access testing</li>
+<li>choose not to test</li>
+<li>test at home and do not report their results</li>
+</ul>
+<p>The epidemiological value of wastewater monitoring has been vividly demonstrated during the COVID-19 pandemic. The number of communities that are monitoring wastewater both <a href="https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance">in the US</a> and <a href="https://ucmerced.maps.arcgis.com/apps/dashboards/c778145ea5bb4daeb58d31afee389082">worldwide</a> is increasing, though the practice is still <a href="https://www.medrxiv.org/content/10.1101/2021.03.14.21253564v2.full-text">more common in high income countries</a>. Accessible data and increased participation of low-and middle-income countries will add additional value. While national programs are vital, local initiatives can provide important information to inform public health decisions. National and international partners can play a vital role in empowering local programs and providing targeted feedback to help assist workers on the ground. This collaboration can help provide rapid, equitable knowledge about the ongoing evolution of a pandemic on a global level. The Pandemic Prevention Institute is working with partners in <a href="https://www.healio.com/news/infectious-disease/20211118/wastewaterbased-covid19-surveillance-offers-lowcost-rapid-testing-for-african-nations">Ghana</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8530769/">India</a>, and <a href="https://www.rockefellerfoundation.org/grant/emory-university-2021/">two</a> <a href="https://www.rockefellerfoundation.org/grant/emory-university-2021-3/">sites</a> in Bangladesh to enhance wastewater testing in those countries.</p>
+<p>Local disease surveillance has global impact, since lack of surveillance in one region can result in the emergence and unmonitored spread of viral variants and new pathogens that endanger the rest of the world. Wastewater surveillance will play an increasingly important role in controlling outbreaks of SARS-CoV-2, as well as future, as yet unknown, pathogens, thus helping to prevent the next pandemic.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
