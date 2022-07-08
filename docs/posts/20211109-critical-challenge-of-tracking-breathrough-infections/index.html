@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.619">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jacqueline Houtman">
+<meta name="author" content="Rebecca Glassman">
+<meta name="author" content="Lindsey Shultz">
+<meta name="author" content="Jessica Malaty Rivera">
+<meta name="author" content="Emily Bass">
+<meta name="author" content="Rick Bright">
+<meta name="dcterms.date" content="2021-11-09">
+
+<title>Pandemic Tracking Collective - The Critical Challenge of Tracking Breakthrough Infections, and Why We Still Need Better Data Standards</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Pandemic Tracking Collective</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/pandemictrack"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#how-are-states-reporting-breakthrough-infection-data" id="toc-how-are-states-reporting-breakthrough-infection-data" class="nav-link active" data-scroll-target="#how-are-states-reporting-breakthrough-infection-data">How are states reporting breakthrough infection data?</a></li>
+  <li><a href="#breakthrough-infections-are-rare-but-important-to-understand." id="toc-breakthrough-infections-are-rare-but-important-to-understand." class="nav-link" data-scroll-target="#breakthrough-infections-are-rare-but-important-to-understand.">Breakthrough infections are rare, but important to understand.</a></li>
+  <li><a href="#the-occurrence-of-breakthrough-infections-is-tied-to-the-dynamics-and-variability-in-vaccine-uptake." id="toc-the-occurrence-of-breakthrough-infections-is-tied-to-the-dynamics-and-variability-in-vaccine-uptake." class="nav-link" data-scroll-target="#the-occurrence-of-breakthrough-infections-is-tied-to-the-dynamics-and-variability-in-vaccine-uptake.">The occurrence of breakthrough infections is tied to the dynamics and variability in vaccine uptake.</a></li>
+  <li><a href="#breakthrough-tracking-is-much-more-useful-when-clinical-and-demographic-data-are-also-available." id="toc-breakthrough-tracking-is-much-more-useful-when-clinical-and-demographic-data-are-also-available." class="nav-link" data-scroll-target="#breakthrough-tracking-is-much-more-useful-when-clinical-and-demographic-data-are-also-available.">Breakthrough tracking is much more useful when clinical and demographic data are also available.</a></li>
+  <li><a href="#when-testing-data-can-be-linked-to-vaccination-data-the-result-can-be-powerful." id="toc-when-testing-data-can-be-linked-to-vaccination-data-the-result-can-be-powerful." class="nav-link" data-scroll-target="#when-testing-data-can-be-linked-to-vaccination-data-the-result-can-be-powerful.">When testing data can be linked to vaccination data, the result can be powerful.</a></li>
+  <li><a href="#the-vast-majority-of-covid-19-cases-hospitalizations-and-deaths-occur-in-those-who-are-not-fully-vaccinated." id="toc-the-vast-majority-of-covid-19-cases-hospitalizations-and-deaths-occur-in-those-who-are-not-fully-vaccinated." class="nav-link" data-scroll-target="#the-vast-majority-of-covid-19-cases-hospitalizations-and-deaths-occur-in-those-who-are-not-fully-vaccinated.">The vast majority of COVID-19 cases, hospitalizations, and deaths occur in those who are not fully vaccinated.</a></li>
+  </ul>
+</nav>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The Critical Challenge of Tracking Breakthrough Infections, and Why We Still Need Better Data Standards</h1>
+<p class="subtitle lead">Despite ample vaccine supplies, outbreaks among unvaccinated populations in the US and the appearance of the Delta variant promote infection in fully vaccinated individuals. These breakthrough infections must be carefully tracked.</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Variants</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jacqueline Houtman </p>
+             <p>Rebecca Glassman </p>
+             <p>Lindsey Shultz </p>
+             <p>Jessica Malaty Rivera </p>
+             <p>Emily Bass </p>
+             <p>Rick Bright </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 9, 2021</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>As the percentage of <a href="https://www.nytimes.com/interactive/2021/us/covid-cases.html">Americans considered fully vaccinated</a>reached 58 percent, and COVID-19-related deaths surpassed <a href="https://www.nytimes.com/interactive/2021/us/covid-cases.html">three quarters of a million</a>, concerns over breakthrough infections continue to grow. <a href="https://www.rockefellerfoundation.org/blog/the-u-s-can-lead-the-way-in-vaccine-breakthrough-reporting-will-it-squander-this-opportunity/">Breakthrough infections</a> tend to be mild, and the risk of secondary transmission from these infections, <a href="https://www.channelnewsasia.com/singapore/covid-19-changi-airport-cluster-timeline-1393701">while real</a>, especially in <a href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7031e2.htm">high-risk settings</a>, <a href="https://www.theatlantic.com/ideas/archive/2021/09/the-vaccinated-arent-just-as-likely-to-spread-covid/620161/">is low</a>compared to those who have not been fully vaccinated. What do breakthrough cases mean in the context of ending this pandemic? The answer is neither simple nor short.</p>
+<section id="how-are-states-reporting-breakthrough-infection-data" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="how-are-states-reporting-breakthrough-infection-data">How are states reporting breakthrough infection data?</h3>
+<p>Between March 2020 and March 2021, <a href="https://covidtracking.com/">The COVID Tracking Project</a> collected data on COVID-19 tests, cases, hospitalizations, and deaths from all 50 US states, the District of Columbia, and five US territories. These metrics were <a href="https://covidtracking.com/analysis-updates/five-major-metrics-covid-19-data">inconsistently defined and reported</a> by the 56 jurisdictions. The <a href="https://coronavirus.jhu.edu/pandemic-data-initiative/data-outlook/the-state-of-state-level-breakthrough-case-reporting">same seems to be true</a> of the tracking of metrics associated with <a href="https://www.rockefellerfoundation.org/blog/the-u-s-can-lead-the-way-in-vaccine-breakthrough-reporting-will-it-squander-this-opportunity/">breakthrough cases</a>, resulting in a similar patchwork of data and creating an incomplete picture of the true incidence of COVID-19 infections in fully vaccinated individuals in the US.</p>
+<div id="fig-1" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/1-1-2048x1128.png" class="img-fluid figure-img"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 1: In the US, states do not report COVID vaccine breakthrough cases, hospitalizations, or deaths in a uniform or standardized manner.</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="breakthrough-infections-are-rare-but-important-to-understand." class="level3">
+<h3 class="anchored" data-anchor-id="breakthrough-infections-are-rare-but-important-to-understand.">Breakthrough infections are rare, but important to understand.</h3>
+<p>Understanding breakthrough infections starts with knowing the “incidence” of breakthrough infections. Technically, incidence is the rate, or frequency of a disease in a select period of time. In order to properly calculate incidence, widespread testing–both diagnostic and viral genome sequencing–is critical, as well as the ability to link a positive test to the vaccination status of the individual. Right now, there isn’t a clear or standardized approach to linking these important pieces of information on state or national dashboards. These data would also help illuminate the real-world data of vaccine effectiveness and detect emerging viral variant trends.</p>
+</section>
+<section id="the-occurrence-of-breakthrough-infections-is-tied-to-the-dynamics-and-variability-in-vaccine-uptake." class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="the-occurrence-of-breakthrough-infections-is-tied-to-the-dynamics-and-variability-in-vaccine-uptake.">The occurrence of breakthrough infections is tied to the dynamics and variability in vaccine uptake.</h3>
+<p>On a <a href="https://www.nytimes.com/interactive/2020/us/covid-19-vaccine-doses.html#vulnerable">county-by-county level</a> the pattern of vaccination in the US is far from uniform. While <a href="https://covid.cdc.gov/covid-data-tracker/#county-view">9%</a> of counties have rates below 30% of their total population fully vaccinated, only <a href="https://covid.cdc.gov/covid-data-tracker/#county-view">3%</a> have rates above 70% of their total population fully vaccinated, and <a href="https://www.kff.org/coronavirus-covid-19/issue-brief/latest-data-on-covid-19-vaccinations-race-ethnicity/">vast disparities</a> still remain along <a href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7022e1.htm?s_cid=mm7022e1_w">economic</a>, <a href="https://www.kff.org/coronavirus-covid-19/issue-brief/latest-data-on-covid-19-vaccinations-race-ethnicity/">racial</a>, and <a href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7020e3.htm">geographic</a> lines.</p>
+<div id="fig-2" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/2-2048x1128.png" class="img-fluid figure-img"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 2: Vaccination rates visualized on a county-by-county basis show a great deal of variability within regions and states.</figcaption><p></p>
+</figure>
+</div>
+<p>Within countries like the US, which have secured enough doses to vaccinate the entire population <a href="https://www.nytimes.com/2021/09/21/opinion/sunday/covid-vaccine-world.html?referringSource=articleShare">three times over</a>, <a href="https://www.washingtonpost.com/health/2021/09/23/covid-unvaccinated-but-willing/">accessibility can still be difficult</a> at the individual or local level. As of the beginning of November, <a href="https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-total-admin-rate-total">more than 21%</a> of US residents over the age of 12 remain unvaccinated. Some say they will eventually get the vaccine, yet as of <a href="https://www.kff.org/coronavirus-covid-19/poll-finding/kff-covid-19-vaccine-monitor-october-2021/">October 2021</a>, 16% of adult survey respondents said they will “definitely not” get the vaccine, for <a href="https://www.vox.com/2021/6/2/22463223/covid-19-vaccine-hesitancy-reasons-why">a variety of reasons</a>. Even among the vaccinated, those with compromised immune systems because of age, disease, genetic conditions, or medical treatments may not generate a robust immune response to the vaccine and may thus be more susceptible to severe consequences from vaccine breakthrough. <strong>The safety of these vulnerable individuals depends on the vaccination status of those around them, and the risk of infection rises as transmission rates increase. </strong></p>
+<div id="fig-3" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/3-2048x1128.png" class="img-fluid figure-img"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 3: Daily vaccinations in the US peaked in April 2021, then fell, ticking up again in the fall due, in part, to the approval of booster doses for certain populations. Daily COVID-19 cases increased in late summer, after a midsummer lull.</figcaption><p></p>
+</figure>
+</div>
+<p>By mid-May 2021, the number of new daily cases was declining and <a href="https://ourworldindata.org/us-states-vaccinations">nearly 37%</a> of US residents had been fully vaccinated. On May 13, the US Centers for Disease Control and Infection (CDC) stated that it was safe for fully vaccinated individuals to <a href="https://www.reuters.com/world/us/cdc-ease-mask-guidance-vaccinated-people-sources-2021-05-13/">go without masks</a>indoors, and many state and local governments relaxed their policies on non-pharmaceutical interventions, such as indoor mask mandates. Vaccination rates had leveled off. Pandemic-weary individuals, both vaccinated and unvaccinated, began gathering maskless. As a result, localized outbreaks caused pockets of very high transmission rates, concentrated largely in areas with low vaccine uptake. In some areas, the case, hospitalization, and death rates have exceeded those of the January peak.The start of school at the end of the summer exacerbated the problem. <strong>The dominance of the <a href="https://www.rockefellerfoundation.org/blog/making-sense-of-variants-they-all-deserve-attention-a-few-merit-concern/">highly transmissible Delta variant</a> in these “hot spots” <a href="https://www.nejm.org/doi/full/10.1056/nejmoa2108891">contributed to an increase in the number of infections</a> in both vaccinated and unvaccinated individuals. </strong></p>
+<div id="fig-4" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/ptc1a-viz4-final-1440@2x-sm-2048x1128.png" class="img-fluid figure-img"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 4: In some states, the number of cases, hospitalizations, and deaths in late summer and fall exceeded those of the January peak.</figcaption><p></p>
+</figure>
+</div>
+<p>On a national level, the CDC announced that as of May 1, 2021, it would only investigate breakthrough infections that resulted in hospitalization or death. This change <a href="https://www.rockefellerfoundation.org/blog/the-u-s-can-lead-the-way-in-vaccine-breakthrough-reporting-will-it-squander-this-opportunity/">greatly reduced reporting</a> of asymptomatic breakthrough infections, as well as symptomatic infections that were not serious enough to require hospitalization. This change in policy could make it more difficult to detect new virus variants before they become widespread.</p>
+<p>Tracking mild or moderate vaccine breakthrough infections can be difficult for a number of reasons:</p>
+<ul>
+<li>Vaccinated people with mild symptoms may not think they have COVID-19, ascribing their symptoms to allergies, or the common cold, and may never be tested.</li>
+<li>Others may choose to test at home with an over-the-counter test, the results of which may never be reported, since that data is often literally trashed.</li>
+<li>Testing for asymptomatic breakthrough infections is often conducted for reasons such as requirements for workplaces, schools, or sports teams, hospital admissions, or potential contact with an infected person, and may therefore not be representative of the community at large.</li>
+<li>The way states and territories report and publish testing, reinfection, and breakthrough data is not standardized.</li>
+</ul>
+<p>Despite these difficulties, even less-than-perfect data could provide insights into the state of the pandemic. At the very least, tracking hospitalizations and deaths in fully vaccinated individuals can reveal part of the problem. To date,36 US jurisdictions report breakthrough cases, 34 report breakthrough hospitalizations, and 37 report breakthrough infection related deaths. Unfortunately, <a href="https://www.washingtonpost.com/opinions/2021/10/18/racial-disparities-may-be-emerging-breakthrough-infections-we-must-track-them-better/">not all states report this breakdown of data</a>, for reasons including the inability to <a href="https://www.politico.com/news/2021/08/25/cdc-pandemic-limited-data-breakthroughs-506823">match hospitalization and immunization records</a>.</p>
+</section>
+<section id="breakthrough-tracking-is-much-more-useful-when-clinical-and-demographic-data-are-also-available." class="level3">
+<h3 class="anchored" data-anchor-id="breakthrough-tracking-is-much-more-useful-when-clinical-and-demographic-data-are-also-available.">Breakthrough tracking is much more useful when clinical and demographic data are also available.</h3>
+<p>Some jurisdictions in the US provide good data. The <a href="https://coronavirus.dc.gov/data/vaccination">District of Columbia</a>, for example, provides case, hospitalization, and death rates based on vaccination status. In addition, DC provides demographic information for breakthrough cases, including age, gender, race and ethnicity, as well as vaccine type, symptom status, chronology, and whether the case was confirmed or self-reported.</p>
+<p>The CDC reports <a href="https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status">cases</a> for 16 jurisdictions and <a href="https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status">deaths</a> for 15 jurisdictions by vaccination status, vaccine manufacturer. Through COVID-NET, the CDC also reports on <a href="https://covid.cdc.gov/covid-data-tracker/#covidnet-hospitalizations-vaccination">hospitalizations</a> by vaccination status for 250 acute-care hospitals in 14 states.</p>
+</section>
+<section id="when-testing-data-can-be-linked-to-vaccination-data-the-result-can-be-powerful." class="level3">
+<h3 class="anchored" data-anchor-id="when-testing-data-can-be-linked-to-vaccination-data-the-result-can-be-powerful.">When testing data can be linked to vaccination data, the result can be powerful.</h3>
+<p>For example, after an <a href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7031e2.htm#contribAff">outbreak in Barnstable County, Massachusetts</a> in July, the Massachusetts State Public Health Laboratory and the Broad Institute of the Massachusetts Institute of Technology and Harvard University were able to combine testing data with vaccination data and contact tracing to determine that 74% of the 469 cases they studied occurred in fully vaccinated individuals. Of the 133 samples sequenced, 89% were of the highly transmissible Delta variant. Their findings further suggested that fully vaccinated people who were infected could transmit the virus to others. These findings prompted the CDC to <a href="https://www.reuters.com/world/us/cdc-set-unveil-revised-mask-guidance-vaccinated-americans-sources-2021-07-27/">change its guidance</a> on July 27 for vaccinated individuals to return to wearing masks indoors in areas where virus transmission was high. Further study showed that, although more than 1,000 people were involved, with evidence of <a href="https://www.medrxiv.org/content/10.1101/2021.10.20.21265137v1">transmission between vaccinated individuals</a>, the outbreak subsided. Control of the outbreak <a href="https://www.bostonglobe.com/2021/10/21/metro/new-study-reveals-why-provincetown-did-not-become-covid-superspreader/">was attributed</a> to the high vaccination rate and a robust public health response involving extensive testing, contact tracing, and reimposition of indoor mask mandates.</p>
+</section>
+<section id="the-vast-majority-of-covid-19-cases-hospitalizations-and-deaths-occur-in-those-who-are-not-fully-vaccinated." class="level3">
+<h3 class="anchored" data-anchor-id="the-vast-majority-of-covid-19-cases-hospitalizations-and-deaths-occur-in-those-who-are-not-fully-vaccinated.">The vast majority of COVID-19 cases, hospitalizations, and deaths occur in those who are not fully vaccinated.</h3>
+<p>Infections in fully vaccinated individuals are much less common, and tend to be milder. Nevertheless, <strong>breakthrough infections can serve as surveillance tools to detect potential new variants or declining vaccine efficacy. </strong>Information on vaccinated individuals with breakthrough cases is needed to determine what host or viral factors were involved in the breakthrough. Are breakthrough infections more common in those with certain underlying medical conditions? Is vaccine-induced immunity waning? Was the infecting virus the dominant strain in the area, or perhaps a novel variant?</p>
+<p>As vaccine rollout for the 28 million <a href="https://www.cdc.gov/media/releases/2021/s1102-PediatricCOVID-19Vaccine.html">children aged 5 to 11 in the US</a> begins, there is hope that total vaccination rates will climb, providing more protection against infection in both vaccinated and unvaccinated individuals. Nationally and globally, however, equitable distribution of effective vaccines is needed to bring an end to the pandemic. Careful monitoring of infections in fully vaccinated individuals will help detect potential roadblocks to achieving that goal.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
