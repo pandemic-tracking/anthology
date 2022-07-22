@@ -1,0 +1,21 @@
+---
+title: "About"
+image: ptc-logo-transparent.png
+
+about:
+  template: jolla
+  image-shape: rectangle
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/pandemictrack
+    # - icon: linkedin
+    #   text: LinkedIn
+    #   href: https://linkedin.com
+    # - icon: github
+    #   text: Github
+    #   href: https://github.com
+
+---
+
+A group of former leads and key contributors with The COVID Tracking Project. Now working with The Rockefeller Foundation's Pandemic Prevention Institute. Still tracking.

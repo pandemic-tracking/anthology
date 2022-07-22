@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "PTC"
+  
+  navbar:
+    logo: "ptc-bars.png"
+    collapse: false
+    left:
+      - text: "Anthology"
+        file: index.qmd
+      - text: "Scorecards"
+        file: scorecards.qmd
+    right:
+      - icon: info-circle-fill
+        # text: ""
+        href: about.html
+      # - icon: github
+      #   href: https://github.com/pandemic-track
+      - icon: twitter
+        href: https://twitter.com/pandemictrack
+  google-analytics: 
+    tracking-id: "UA-234526530-1"
+    anonymize-ip: true
+    storage: none
+format:
+  html:
+    theme: [darkly, ptc-custom.scss]

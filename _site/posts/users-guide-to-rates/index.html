@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.619">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kara Schechtman">
+<meta name="author" content="Lindsey Shultz">
+<meta name="author" content="Dave Luo">
+<meta name="author" content="Jacqueline Houtman">
+<meta name="author" content="Rebecca Glassman">
+<meta name="author" content="Jonathan Gilmour">
+<meta name="author" content="Leo Wolansky">
+<meta name="author" content="Kaitlyn Johnson">
+<meta name="author" content="Jessica Malaty Rivera">
+<meta name="dcterms.date" content="2022-04-05">
+
+<title>Pandemic Tracking Collective - A User’s Guide to US Vaccine Breakthrough Rates</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Pandemic Tracking Collective</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/pandemictrack"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#what-is-a-breakthrough-rate" id="toc-what-is-a-breakthrough-rate" class="nav-link active" data-scroll-target="#what-is-a-breakthrough-rate"><strong>What is a breakthrough rate?</strong></a>
+  <ul class="collapse">
+  <li><a href="#anatomy-of-a-rate" id="toc-anatomy-of-a-rate" class="nav-link" data-scroll-target="#anatomy-of-a-rate"><strong>Anatomy of a rate</strong></a></li>
+  </ul></li>
+  <li><a href="#vaccine-breakthrough-rates" id="toc-vaccine-breakthrough-rates" class="nav-link" data-scroll-target="#vaccine-breakthrough-rates">Vaccine breakthrough rates</a></li>
+  <li><a href="#rate-ratios-and-vaccine-effectiveness" id="toc-rate-ratios-and-vaccine-effectiveness" class="nav-link" data-scroll-target="#rate-ratios-and-vaccine-effectiveness"><strong>Rate ratios and vaccine effectiveness</strong></a></li>
+  <li><a href="#how-do-states-calculate-vaccine-breakthrough-rates" id="toc-how-do-states-calculate-vaccine-breakthrough-rates" class="nav-link" data-scroll-target="#how-do-states-calculate-vaccine-breakthrough-rates"><strong>How do states calculate vaccine breakthrough rates?</strong></a>
+  <ul class="collapse">
+  <li><a href="#population-definitions" id="toc-population-definitions" class="nav-link" data-scroll-target="#population-definitions"><strong>Population definitions</strong></a></li>
+  <li><a href="#are-partially-vaccinated-individuals-included-in-the-unvaccinated-population" id="toc-are-partially-vaccinated-individuals-included-in-the-unvaccinated-population" class="nav-link" data-scroll-target="#are-partially-vaccinated-individuals-included-in-the-unvaccinated-population">Are partially vaccinated individuals included in the “unvaccinated” population?</a></li>
+  <li><a href="#are-boosted-individuals-included-in-the-vaccinated-population" id="toc-are-boosted-individuals-included-in-the-vaccinated-population" class="nav-link" data-scroll-target="#are-boosted-individuals-included-in-the-vaccinated-population">Are boosted individuals included in the “vaccinated” population?</a></li>
+  <li><a href="#connecting-vaccination-data" id="toc-connecting-vaccination-data" class="nav-link" data-scroll-target="#connecting-vaccination-data">Connecting vaccination data</a></li>
+  <li><a href="#age-adjusted-rates" id="toc-age-adjusted-rates" class="nav-link" data-scroll-target="#age-adjusted-rates"><strong>Age-adjusted rates</strong></a></li>
+  </ul></li>
+  <li><a href="#putting-it-all-together" id="toc-putting-it-all-together" class="nav-link" data-scroll-target="#putting-it-all-together">Putting it all together</a></li>
+  </ul>
+</nav>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">A User’s Guide to US Vaccine Breakthrough Rates</h1>
+<p class="subtitle lead">We explain breakthrough rates, rate ratios, and vaccine effectiveness, describe the (sometimes problematic) ways jurisdictions report these numbers, and give advice on how to interpret them.</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Vaccine Effectiveness</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kara Schechtman </p>
+             <p>Lindsey Shultz </p>
+             <p>Dave Luo </p>
+             <p>Jacqueline Houtman </p>
+             <p>Rebecca Glassman </p>
+             <p>Jonathan Gilmour </p>
+             <p>Leo Wolansky </p>
+             <p>Kaitlyn Johnson </p>
+             <p>Jessica Malaty Rivera </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 5, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>With the United States over a year into its vaccination campaign, all eyes right now are on Covid-19 rates broken out by vaccination status—measures of the number of Covid-19 cases, hospitalizations, and deaths per 100,000 vaccinated or unvaccinated individuals. Shared by the <a href="https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status">US Centers for Disease Control and Prevention</a> (CDC) as well as many <a href="https://www.rockefellerfoundation.org/pandemicpreventioninstitute/u-s-vaccine-breakthrough-reporting-scorecard/">state, territorial</a>, and local health departments, rates broken down by vaccination status provide a useful way to compare vaccinated and unvaccinated individuals’ relative risk, assess an individual’s absolute risk, and understand how vaccines are faring over time against challenges like new variants.</p>
+<p>Yet with any Covid-19 metric, even apparently simple, straightforward calculations can <a href="https://covidtracking.com/analysis-updates/silent-data-mismatches-are-compromising-key-covid-19-indicators">hide surprising complexity</a>; vaccine breakthrough rates are no exception to that trend. While the CDC shares standardized rates data aggregated from up to <a href="https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status">29 US jurisdictions</a> representing 67% of the US total population, it does not provide breakdowns of this data by state and territory. As a result, getting more granular data requires turning to a patchwork of state and territorial data sources, for which, even among those jurisdictions publishing their data, <a href="https://www.rockefellerfoundation.org/blog/the-critical-challenge-of-tracking-breakthrough-infections-and-why-we-still-need-better-data-standards/?utm_source=Twitter&amp;utm_medium=organic_social&amp;utm_campaign=PPI_PTC">consistency is hard to come by</a>.</p>
+<p>In this post, we’ll be giving you a guide to interpreting Covid-19 breakthrough rates offered by the CDC, state, and territorial governments—data which can be both very useful when used properly and very difficult to interpret in light of definitional inconsistencies across jurisdictions.</p>
+<section id="what-is-a-breakthrough-rate" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="what-is-a-breakthrough-rate"><strong>What is a breakthrough rate?</strong></h2>
+<section id="anatomy-of-a-rate" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="anatomy-of-a-rate"><strong>Anatomy of a rate</strong></h3>
+<p>Before diving into the complexities of breakthrough rates, it’s worth reviewing <a href="https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section1.html#:~:text=In%20epidemiology%2C%20a%20rate%20is,a%20specified%20period%20of%20time.">what rates are in public health and epidemiology</a> and why they are so useful. Rates in this piece refer to the number of events or outcomes of interest that occur per person in the population susceptible to that event or outcome, over a specified time period (this could be granular, like daily or weekly, but also could be cumulative across the course of the pandemic).<br>
+</p>
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Rate-1-1440x583.jpg" class="img-fluid"></p>
+<p>This calculation will tell you the proportion of individuals, in the specified population, that the event has occurred in over the specified time period. If the rate is less than one, that means the event has not happened to every single person in the population over the time period in question. For example, in a population with a 0.5 per capita_ _rate of a given event, we would expect one out of every two people in that population to have experienced that event within the time period.</p>
+<p>Rates are so useful because <strong>they provide a way of understanding and comparing the frequency of events across populations of different sizes, like Wyoming’s and California’s.</strong> <strong>By dividing the number of cases in each state by the total population, we can control for those different population sizes.</strong></p>
+<div id="tbl-table1" class="tbl-parent column-page-right quarto-layout-panel anchored">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="flourish-embed flourish-table quarto-layout-cell" data-src="visualisation/9210267?900894" style="flex-basis: 100.0%;justify-content: center;">
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+</div>
+<div class="panel-caption table-caption">
+<p><span class="figure-caption">Table 1. 7-day average of Covid-19 cases on February 23, 2022 in California and Wyoming. California has a population nearly 70 times that of Wyoming’s, and had 10,123 cases to Wyoming’s 142 cases. However, California’s rate per 100,000 was 25.6, while Wyoming’s was close at 24.6, highlighting that counts without rates can obscure trends in the data.</span></p>
+</div>
+</div>
+</section>
+</section>
+<section id="vaccine-breakthrough-rates" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="vaccine-breakthrough-rates">Vaccine breakthrough rates</h2>
+<p>In the context of <a href="https://www.cdc.gov/vaccines/covid-19/downloads/covid-vaccine-breakthrough-case-investigations-protocol.pdf">vaccine breakthrough data</a>, rates serve a very similar purpose as they do in comparisons across states: they let us fairly compare Covid-19 statistics across differently-sized populations. But instead of state populations, <strong>the populations in question for vaccine breakthrough rates are those of vaccinated individuals and unvaccinated individuals.</strong></p>
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Rate-per-capita-1440x581.jpg" class="img-fluid"></p>
+<p>Breakthrough rates are calculated for a specific time period, in a specific region. Almost all states that report breakthrough data will perform the analogous calculation for the unvaccinated population to compare with vaccine breakthrough rates.</p>
+<p>Since <a href="https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covidview/past-reports/08132021.html">August 2021</a>, the fully vaccinated population has outnumbered the unvaccinated population in the United States. Just as California’s raw case counts are higher than Wyoming’s because California has more residents than Wyoming,** raw counts of vaccine breakthrough cases, hospitalizations, or deaths may look high in comparison to unvaccinated counts just because vaccinated people outnumber unvaccinated people**. Using rates per 100,000 individuals lets us control for those population differences and make a fairer comparison. In the CDC’s data, for example, taking a rate of cases demonstrates there is a larger gap in Covid-19 incidence between vaccinated and unvaccinated populations than the raw counts might imply.</p>
+<div id="fig-1" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<div class="flourish-embed" data-src="story/1201660?889196">
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 1: A sequence of illustrative examples showing how raw counts of cases in vaccinated compared to unvaccinated are misleading and can be calculated into rates per 100k and rate ratios for more appropriate population-adjusted comparison</figcaption><p></p>
+</figure>
+</div>
+<p>Unlike state populations, which are relatively stable over the time frame of interest, <strong>the size of vaccinated and unvaccinated populations constantly change as more individuals get vaccinated. </strong>That makes calculating rates by vaccination status more data-intensive than calculating other Covid-19 rates. Taking a vaccine breakthrough case rate over time requires a well-defined time series for both the numerator of cases in vaccinated individuals and** for the denominator—the growing size of the vaccinated population.**</p>
+<p>How states find these population totals can have a big impact on the rates they calculate. Over- or under-estimating the unvaccinated population by using out-of-date or improperly-estimated data can result in <a href="https://twitter.com/JamesWard73/status/1436017194060636164">erroneous</a> <a href="https://www.theguardian.com/theobserver/commentisfree/2021/jun/06/have-more-than-100-per-cent-of-people-been-vaccinated">summary</a> figures and require <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-COVID-19-Cases-or-Deaths-by-Age-Group-and/3rge-nu2a/data">corrections</a> that will be examined below.</p>
+</section>
+<section id="rate-ratios-and-vaccine-effectiveness" class="level2">
+<h2 class="anchored" data-anchor-id="rate-ratios-and-vaccine-effectiveness"><strong>Rate ratios and vaccine effectiveness</strong></h2>
+<p>By comparing rates of cases, hospitalizations, and deaths broken down by vaccination status, we can get a picture of the differences in disease incidence and severe disease between these two populations. Rates by vaccine status allow us to calculate metrics that quantify important metrics, like <strong>rate ratios and vaccine effectiveness.</strong></p>
+<p><strong>Rate ratios</strong> <strong>(RRs) </strong>capture how many more times Covid-19 cases, hospitalizations, or deaths occur in unvaccinated individuals than vaccinated individuals. For example, if the outcome of interest is cases:</p>
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Rate-Ratio-1440x581.jpg" class="img-fluid"></p>
+<p>Since vaccinations are expected to reduce the risk of cases, hospitalizations, and deaths across the board, the rate ratios are almost always numbers greater than one, meaning a person who is unvaccinated is at higher risk than one who is not. The rate ratio is a metric often highlighted on state <a href="https://covid19.ca.gov/state-dashboard/">dashboards</a> as well as by the <a href="https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status">CDC COVID data tracker. The rate ratio number (and definition of what populations are being compared) is often summarized in headlines as an “X” multiple</a>; for example, the CDC page states that “unvaccinated people aged 5 years and older had <strong>2.8X</strong> risk of testing positive for COVID-19 in February, compared to people vaccinated with at least a primary series.”</p>
+<p><strong>Vaccine effectiveness (VE) </strong>is the real-world counterpart measure to vaccine efficacy, which is used in controlled trials to quantify the protective effect of vaccines against Covid-19 cases and severe outcomes. VE measures how much vaccination reduces_ _the number of Covid-19 cases, hospitalizations, or deaths. One way of finding this value is (where RR represents the rate ratio as shown above):</p>
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Vaccine-Effectiveness-1440x586.jpg" class="img-fluid"></p>
+<p>By comparing population-level rates, VE measures the relative risk of an outcome in a vaccinated group compared to an unvaccinated group of similar makeup. For example, a vaccine effectiveness of 65% against infection means there were 65% fewer cases in a group of vaccinated individuals compared to a similar group that is unvaccinated.</p>
+<p>Because both RR and VE depend on rates, they can be affected by the different methodological choices states make in their data definitions and rate calculations.</p>
+</section>
+<section id="how-do-states-calculate-vaccine-breakthrough-rates" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="how-do-states-calculate-vaccine-breakthrough-rates"><strong>How do states calculate vaccine breakthrough rates?</strong></h2>
+<p>In the absence of federal standards for public Covid-19 data reporting, states and territories <strong>make inconsistent choices about the definitions and methodologies used when calculating rates.</strong></p>
+<ul>
+<li>States make different choices when they <strong>define populations</strong> of “vaccinated” and “unvaccinated” individuals that comprise rates’ denominators.</li>
+<li>Some states use <strong>age adjustment methodologies</strong> on top of their rate calculations to control for different age distributions among vaccinated and unvaccinated populations while other states do not age-adjust their rates.</li>
+</ul>
+<p><strong>These discrepancies in definitions and methodologies can make large differences in the value of the rates.</strong></p>
+<section id="population-definitions" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="population-definitions"><strong>Population definitions</strong></h3>
+<p>Covid-19 vaccination is not a single, clear-cut event that neatly segments the population into vaccinated and unvaccinated groups. To ascertain individuals’ vaccination status, states have to track them across different doses, and across variable numbers of doses.</p>
+<div id="tbl-2" class="tbl-parent column-page-right quarto-layout-panel anchored">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="flourish-embed flourish-table quarto-layout-cell" data-src="visualisation/9239278?889196" style="flex-basis: 100.0%;justify-content: center;">
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+</div>
+<div class="panel-caption table-caption">
+<p><span class="figure-caption">Table 2. Depending on the vaccine product and other situations, an individual in the US could receive up to 5 vaccine doses.</span></p>
+</div>
+</div>
+<p>As a result of this ambiguity, methods for breaking down the population into comparison groups have varied across jurisdictions. Some details of vaccinated and unvaccinated population definitions are too poorly documented to understand how states are handling them. For example, states may not explicitly address how they handle the Johnson &amp; Johnson vaccine, and no state addresses how they count additional doses for immunocompromised individuals, who comprise at least <a href="https://www.ama-assn.org/delivering-care/public-health/what-tell-immunocompromised-patients-about-covid-19-vaccines">2.7% of the US adult population—or about 7 million people</a>. But with what documentation states do provide, we can observe two major differences in definitions of populations across states, both of which appear to have a large effect on their rates:</p>
+<ul>
+<li><strong>Whether or not states include partially vaccinated individuals (with one dose of a two-dose primary series for mRNA vaccines) in their “unvaccinated” populations.</strong></li>
+<li><strong>Whether states are separating out boosted individuals in their “vaccinated” populations.</strong></li>
+</ul>
+<div id="fig-2" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Unvaccinated-Population-Denom-1440x793.png" class="img-fluid figure-img"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 2: Figure 2. 23 states report rates as a time series, but they use different definitions of the “unvaccinated” population denominator. Some lump in partially vaccinated individuals, while others exclude those partially vaccinated or split them out into a separate comparison group.</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="are-partially-vaccinated-individuals-included-in-the-unvaccinated-population" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="are-partially-vaccinated-individuals-included-in-the-unvaccinated-population">Are partially vaccinated individuals included in the “unvaccinated” population?</h3>
+<p>Of the 23 states that report vaccine breakthrough rate over time, at least 14 states appear to include partially vaccinated individuals in their “unvaccinated” populations, while nine states appear to exclude partially vaccinated individuals from their “unvaccinated” populations (Virginia is the only state that separates “partially vaccinated” into a separate group).** **Six of these states did not define denominators in detail, so assumptions were made to determine how their unvaccinated populations are defined.</p>
+<p><strong>States that include partially vaccinated individuals may appear to have lower rates of cases in their unvaccinated populations than states that exclude partially vaccinated individuals. </strong>In turn, these states may appear to have lower RRs and VEs than states excluding partially vaccinated individuals. This is especially true when the share of partially vaccinated is high, whether because many individuals have not completed their primary series or because of a recent uptick in vaccinations. The inclusion or exclusion of partially vaccinated individuals in the unvaccinated population is a critical piece of information for understanding and comparing the metrics reported by states and is one of the criteria in the Pandemic Prevention Institute’s <a href="https://www.rockefellerfoundation.org/pandemicpreventioninstitute/u-s-vaccine-breakthrough-reporting-scorecard/">Vaccine Breakthrough Reporting Scorecard</a>.</p>
+<p><strong>The decision to include or exclude partially vaccinated individuals can make a big difference to unvaccinated rates, and in turn RR and VE calculations</strong>. For example, on its <a href="https://www.vdh.virginia.gov/coronavirus/see-the-numbers/covid-19-in-virginia/covid-19-cases-by-vaccination-status/">dashboard</a>, Virginia breaks out rates and RRs by fully vaccinated, partially vaccinated, and unvaccinated populations. Its data demonstrates a large difference in rates between unvaccinated and partially vaccinated individuals. Data from other states, like <a href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7037a7.htm?s_cid=mm7037a7_w#contribAff">New York</a>, supports this observation.</p>
+<div id="tbl-3" class="tbl-parent column-page-right quarto-layout-panel anchored">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="flourish-embed flourish-table quarto-layout-cell" data-src="visualisation/9240420?889196" style="flex-basis: 100.0%;justify-content: center;">
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+</div>
+<div class="panel-caption table-caption">
+<p><span class="figure-caption">Table 3. Covid-19 case rates in Virginia for week ending March 26, 2022. The data indicates that unvaccinated people developed Covid-19 at a rate 6.7x that of fully vaccinated people and 3x that of partially vaccinated people.</span></p>
+</div>
+</div>
+</section>
+<section id="are-boosted-individuals-included-in-the-vaccinated-population" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="are-boosted-individuals-included-in-the-vaccinated-population">Are boosted individuals included in the “vaccinated” population?</h3>
+<p>Effectiveness of the primary vaccine series against infection—and (to a lesser degree) against severe disease and death—wanes over time, especially with <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2119451">Omicron being the dominant circulating variant</a>. Booster doses can provide additional protection, but also introduce additional complexity. Just as combining partially vaccinated and unvaccinated populations can obscure key differences between the two populations, <strong>combining boosted populations with those who have completed their primary series into a single “vaccinated” population can obscure important trends</strong>. Data from states, like <a href="https://covid19.ca.gov/state-dashboard/">California</a>, that separate out these two categories demonstrates large differences between these two populations.</p>
+<p>Currently, only 11 states out of the 23 that provide time series of vaccine breakthrough rates break down their fully vaccinated rates into categories of those who received their primary series and those who have received their booster; all other states that report a time series either combine the two categories or don’t provide clear data definitions.</p>
+<div id="fig-3" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Rates-by-Booster-Status-1440x793.png" class="img-fluid figure-img"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 3: 11 states reporting vaccine breakthrough rates data distinguish in their “vaccinated” group between those vaccinated with a primary series of doses only and those who have received an additional/booster dose.</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="connecting-vaccination-data" class="level3">
+<h3 class="anchored" data-anchor-id="connecting-vaccination-data">Connecting vaccination data</h3>
+<p>Documenting breakthrough cases requires connecting clinical information (testing, hospitalization, and deaths) with the complete vaccination record of that individual. Errors in connecting data can result in the misclassification of cases. For example:</p>
+<ul>
+<li>If the vaccination status of a vaccinated person who contracts Covid-19 is unknown or unrecorded, that individual may be incorrectly classified as unvaccinated and therefore a non-breakthrough case.</li>
+<li>If an individual’s second or third vaccine dose is not connected to previous doses, that vaccination may be misclassified as a first dose.</li>
+</ul>
+<p>Simply determining which individuals represent breakthrough cases can be an administrative quagmire; <strong>case and vaccination datasets are usually housed in different data systems</strong>. Most states have a centralized immunization information system (IIS) containing vaccination data, which will often <a href="https://covid19.ncdhhs.gov/media/380/open">not contain information</a> on individuals vaccinated through federal and other supplemental systems. The records in IIS must then be cross-referenced with one or more complementary data systems that contain case information, often done through an automated system. The information states use to connect data (the individual’s name, date of birth, and address, for example) may vary—as does how closely the data has to align in order to be considered a match.</p>
+<p>In <a href="https://www.dshs.texas.gov/immunize/covid19/data/CasesandDeathsbyVaccinationStatus-TechnicalNotes.pdf">Texas</a>, for instance, only exact matches between case data and vaccination records for first name, last name, and date of birth will be considered a breakthrough case. While some states also incorporate cases <a href="https://doh.wa.gov/sites/default/files/2022-02/420-339-VaccineBreakthroughReport.pdf">matched by hand by local health departments</a> or other interviewers, if a breakthrough case cannot be correctly identified, it will usually be misclassified as a non-breakthrough case. <strong>Because these misclassifications reduce the number of breakthrough cases that can be counted, they may artificially reduce the breakthrough rate and increase the unvaccinated rate, leading to an inflated RR and VE calculation for a given population.</strong> Given <a href="https://ehrintelligence.com/news/patient-matching-hurt-by-data-errors-lack-of-government-support">how frequently</a> this <a href="https://www.modernhealthcare.com/article/20160123/MAGAZINE/301239980/seeking-a-solution-for-patient-record-matching">kind of error</a> occurs in more general situations, this kind of distortion represents a real challenge for incompatible data systems.</p>
+<p>The <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-COVID-19-Cases-or-Deaths-by-Age-Group-and/3rge-nu2a/data">CDC</a> and some states like <a href="https://kingcounty.gov/depts/health/covid-19/data/~/media/depts/health/communicable-diseases/documents/C19/calculation-method-technical-appendix.ashx">Washington</a> have introduced methods to account for measurement errors that overestimate how many people have been vaccinated. <strong>Difficulty <a href="https://khn.org/news/article/cdc-senior-covid-vaccination-rates-appear-inflated/">correctly matching booster doses</a> to their initial series can lead to third doses inadvertently being classified as first doses</strong>, leading to the impossible figure of over 100% of people in a given age range having received their first dose. Likewise, difficulty determining the correct population figures used to calculate rates—for instance, due to there being fewer people or shifts in the population distribution by age since the last census—can lead to implausibly high vaccination percentages and, conversely, a derived count of unvaccinated people that is too low, which would lead to an overestimation of rates in the unvaccinated.</p>
+</section>
+<section id="age-adjusted-rates" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="age-adjusted-rates"><strong>Age-adjusted rates</strong></h3>
+<p>Even if every record were perfectly matched and every population definition perfectly standardized, <a href="https://www.kff.org/coronavirus-covid-19/poll-finding/kff-covid-19-vaccine-monitor-profile-of-the-unvaccinated/">inherent differences</a> between vaccinated and unvaccinated populations still exist. Age is a particularly strong predictor of Covid-19 outcomes, and in general also a predictor of vaccine status. Due to a number of factors like the time at which they became eligible and perceived risk, the vaccinated population overall is likely to be older than the unvaccinated population. Since older people are generally more at risk for worse outcomes than younger people, RR and vaccine effectiveness calculations could be biased toward worse outcomes based solely on the age distribution of the individuals who are vaccinated.</p>
+<p>Along these lines, we see states report two types of rates:</p>
+<ul>
+<li><strong>Crude rates</strong>—calculated using the total number of outcomes in the total without <a href="https://www.cdc.gov/cancer/uscs/technical_notes/stat_methods/rates.htm">adjusting for variations in a factor</a> like age distribution</li>
+<li><strong>Age-adjusted rates</strong>—calculated by adjusting the crude rate to reflect the age distribution of a “<a href="http://medbox.iiab.me/modules/en-cdc/www.cdc.gov/nchs/tutorials/NHANES/NHANESAnalyses/AgeStandardization/Info1.htm">standard population</a>,” usually the state or federal population as a whole.</li>
+</ul>
+<p><strong>States that use a crude rate risk distorting the effectiveness of vaccines at a given point in time. </strong>Switching to an age-adjusted rate as <a href="https://covid19.colorado.gov/press-release/colorado-introduces-age-adjusted-vaccine-breakthrough-tracking-tool#:~:text=Age%20adjustment%20allows%20for%20a,distribution%20of%20the%20unvaccinated%20population">Colorado did in the fall of 2021</a> can help create a more accurate picture of vaccine effectiveness over time. However, states using age-adjusted rates must choose a dataset to come up with the best estimate of who is currently living in their jurisdiction. This choice alone can introduce discrepancies across states because:</p>
+<ul>
+<li>they may choose different census data sources</li>
+<li>they may choose sources from different years</li>
+<li>older data may not accurately reflect the current population in a jurisdiction</li>
+</ul>
+<p>Once the state or public health body selects a data source, they <a href="https://www.health.ny.gov/diseases/chronic/ageadj.htm">adjust the crude rates</a> as if both the vaccinated and unvaccinated populations had the same age distribution as the standard population to minimize the confounding effect of differences in age structure. A number of <a href="https://www.health.state.mn.us/diseases/coronavirus/stats/vbt.html#vbtt1">states</a>, with varying population data sources, use age-adjusted rates in their assessment of breakthrough data.</p>
+<div id="fig-4" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Presenting-1440x793.png" class="img-fluid figure-img"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 4: Of the 23 states reporting breakthrough rates, some report age-adjusted rates, some report crude rates, some report disaggregated rates by age group, and for some it’s unclear if and how rates are adjusted for differences in age distribution.</figcaption><p></p>
+</figure>
+</div>
+<p>The difference in crude versus age-adjusted rates can also be compared in data compiled at a <a href="https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36">multi-state level</a> by the CDC:</p>
+<div id="fig-5" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<div class="flourish-embed" data-src="story/1227285?889196">
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 5: CDC-compiled data shows weekly case and death rates per 100K by vaccine status with age adjustment compared to without age adjustment (crude rates).</figcaption><p></p>
+</figure>
+</div>
+<p>Adjusting for different age distributions can make a big difference in reported rates. In the above figure, that effect is especially pronounced in reporting the death rates. The age-adjusted death rate is much higher than the crude rate in the unvaccinated population, while it is lower when age-adjusted in the boosted population. Rates can also be presented broken out by age group to show the relative risk within and across age groups, as the CDC does for <a href="https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status">cases, deaths</a>, and <a href="https://covid.cdc.gov/covid-data-tracker/#covidnet-hospitalizations-vaccination">hospitalizations</a> aggregated across multiple state and local jurisdictions.</p>
+<div id="fig-6" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<div class="flourish-embed" data-src="story/1227283?889196">
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 6: CDC-compiled data shows the relative risk by vaccine status and age group as weekly rate ratios and rates per 100K for cases, hospitalizations, and deaths before and after Omicron became dominant. Hospitalization data source does not provide rates for the 12-17 age group.</figcaption><p></p>
+</figure>
+</div>
+<p><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>In light of these methodological differences, looking at multiple rate data sources and studies in aggregate can inform a more complete understanding of VE. For example, the United Kingdom’s Health Security Agency (UKHSA) evaluates a range of VE studies to provide consensus estimates of VE against different outcomes of Omicron by vaccine product, dose, and time since last dose.</p>
+<div id="tbl-4" class="tbl-parent column-page-right quarto-layout-panel anchored">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="flourish-embed flourish-table quarto-layout-cell" data-src="visualisation/9196161?889196" style="flex-basis: 100.0%;justify-content: center;">
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+</div>
+<div class="panel-caption table-caption">
+<p><span class="figure-caption">Table 4. UKHSA reports expert panel consensus estimates of VE against different Omicron outcomes by mRNA vaccine product and time since completion of primary series or booster dose</span></p>
+</div>
+</div>
+</section>
+</section>
+<section id="putting-it-all-together" class="level2">
+<h2 class="anchored" data-anchor-id="putting-it-all-together">Putting it all together</h2>
+<p>If we assume these breakthrough case, hospitalization, and death counts, <strong>our numerator</strong>, are a reasonable reflection of facts on the ground, the challenge remains to determine the proper population figure to take as** our denominator **(despite unstandardized definitions of vaccinated, unvaccinated, and boosted and differing <a href="https://www.npr.org/2022/03/10/1083732104/2020-census-accuracy-undercount-overcount-data-quality">data sources for overall population</a>).</p>
+<p>If we assume our numerator and denominator are both reasonable, we now need to understand them <strong>across time</strong>. A time series of daily or weekly rates provides a more responsive way of seeing how the pandemic is changing and what interventions may be necessary to address it. This requires accounting for the changing composition of who is making up the unvaccinated, vaccinated, and boosted groups over time.</p>
+<p><strong>Using only crude population rates can make interpretation difficult, as age is a major factor in both who is likely to be vaccinated as well as who is likely to have a poor outcome.</strong> Age adjustment can compensate for these variations, and rate ratios broken out by age and vaccination status can show how the risks for different subpopulations vary across time. However, even these age-adjusted figures can be subject to other unexpected biases that require more thorough, comprehensive analysis.</p>
+<p>An actionable and interpretable measure of risk by vaccination status over time and in real time requires, among other things: standardized definitions and transparent methodologies, the ability to match data across sometimes incompatible data systems, and the funding and dedication to do so. States handle methodology about numerators and denominators (and the figures derived from them) in differing and often unclear ways. This results in a patchwork of unstandardized jurisdictional rates data. <strong>This means we have to be comfortable with uncertainty and triangulate across our best data sources to interpret trends in breakthrough data.</strong></p>
+<p>As new variants emerge in a population with an increasingly complex vaccination landscape, we hope that states and jurisdictions will become more transparent about their methodologies and limitations. A lack of consistency in states’ reporting is one of the reasons our team <a href="https://twitter.com/PPI_Insights/status/1509523364842508292?s=20&amp;t=DMmtYUX8htpzaUdLAid6xA">decided to stop collecting breakthrough data</a>. The federal government could help by providing disaggregated rate breakdowns by jurisdiction in addition to national rates. <strong>Looking forward, well-documented, standardized methods will be needed to handle the challenges presented by an <a href="https://www.rockefellerfoundation.org/case-study/variants-sublineages-and-recombinants-the-constantly-changing-genome-of-sars-cov-2/">evolving virus</a> as it encounters continuously changing levels of immunity in both individuals and populations.</strong></p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1" role="doc-endnote"><p>When the rates are further separated by both vaccination status and age, as seen in figure 6, it appears that the case rate in the 18–49 age group is actually higher for those who were boosted than for those who received only the primary series. It would be wrong to jump to the conclusion that getting vaccinated and boosted is now less effective against infection than getting just the primary vaccine series. This pattern also does not appear in the rates of hospitalization or death among boosted versus primary series vaccinated in any age group. What may actually be happening involves yet another confounding factor: the time since vaccination (or boosting) and how people move between groups defined as vaccinated and boosted. Because of waning vaccine effectiveness over time, a population that mostly was vaccinated many months ago may seem to reflect a lower vaccine effectiveness against infection in aggregate than a recently-vaccinated population.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

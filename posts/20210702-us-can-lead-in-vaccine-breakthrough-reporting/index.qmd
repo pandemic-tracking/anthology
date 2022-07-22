@@ -1,0 +1,106 @@
+---
+title: "The U.S. Can Lead the Way in Vaccine Breakthrough Reporting. Will It Squander This Opportunity"
+subtitle: "In May 2021, the US Centers for Disease Control and Prevention scaled back on the number of vaccine breakthrough cases it would study and report. More data, not less, is critical to understand the epidemiology of SARS-CoV-2 and to measure vaccine efficacy."
+date: "2021-07-02"
+author: 
+  - name: "Jacqueline Houtman"
+  - name: "Jessica Malaty Rivera"
+  - name: "Rick Bright"
+  - name: "Lindsey Shultz"
+  - name: "Rebecca Glassman"
+ 
+categories: ["Vaccine Breakthrough"]
+image: image.png
+title-block-banner: false
+reference-location: document
+---
+
+::: {.callout-note}
+This piece is originally published at [https://www.rockefellerfoundation.org/blog/the-u-s-can-lead-the-way-in-vaccine-breakthrough-reporting-will-it-squander-this-opportunity/](https://www.rockefellerfoundation.org/blog/the-u-s-can-lead-the-way-in-vaccine-breakthrough-reporting-will-it-squander-this-opportunity/)
+:::
+
+A vaccine breakthrough is defined as a SARS-CoV-2 infection in someone who is fully vaccinated. The US Centers for Disease Control and Prevention’s (CDC) [case definition](https://www.cdc.gov/vaccines/covid-19/downloads/COVID-vaccine-breakthrough-case-investigations-Protocol.pdf) for vaccine breakthrough cases include:
+
+
+
+* A US resident who has SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected 14 days or more after completing all recommended doses of a US Food and Drug Administration (FDA)-authorized COVID-19 vaccine
+* No prior SARS-CoV-2 positive PCR or antigen test in the last 45 days
+
+SARS-CoV-2 breakthrough infections are extremely rare—documented cases generally occur in less than 0.1% of vaccinated individuals—and tend to cause less severe disease than infections in those who have never been vaccinated. **Timely information about these infections is crucial to our understanding of the clinical and epidemiological implications of the breakthrough cases. **There are many reasons for vaccine breakthroughs, each of which has important and varying implications:
+
+
+
+* A weakened immune system in a vaccinated individual (due to age, medical treatment, or a pre-existing condition)
+* Vaccine degradation (due to improper storage, for example)
+* Waning vaccine-induced immunity (studies on the duration of immunity are ongoing)
+* A viral variant that can bypass vaccine-induced immunity
+
+The CDC reported that between January 1 and April 30, 2021, [10,262 breakthrough infections](https://www.cdc.gov/mmwr/volumes/70/wr/mm7021e3.htm) had been voluntarily reported in 46 US states and territories. Of those infections, 27% were in asymptomatic individuals, 10% of infected people were known to be hospitalized and 2% died. 
+
+Sequencing and sharing information about viruses associated with breakthrough infections is a public health priority. Doing so can provide an early warning of the emergence of a known or novel virus variant that can bypass immunity conferred by the vaccines currently in use. This is critical to know early to guide public health guidance and to inform scientists of the need to consider modifying the vaccine formulation or to administer a booster dose of existing vaccine. Of the positive vaccine breakthrough infections that were sequenced to date within the United States, 64% were identified as variants of concern.
+
+**Seventeen states currently report vaccine breakthroughs publicly on a regular basis, with varying levels of detail.** Ten states report only total numbers and/or the number of vaccine breakthroughs that resulted in hospitalization or death. One state reports vaccine breakthroughs broken down by vaccine manufacturers. Our research into US state reporting of vaccine breakthrough cases can be found [here](https://airtable.com/shrfozPg0LLtFswPD).
+
+
+
+* **[Illinois](https://www.dph.illinois.gov/covid19/vaccinedata?county=Illinois)** reports only those breakthrough infections resulting in hospitalization or death.
+* **[Idaho](https://public.tableau.com/app/profile/idaho.division.of.public.health/viz/DPHIdahoCOVID-19Dashboard/Home)** and **[Maine](https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml)** report only the total number of breakthrough infections. 
+* **[California](https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/COVID-19/Post-Vaccine-COVID19-Cases.aspx)**, **[Delaware](https://news.delaware.gov/2021/06/04/weekly-covid-19-update-june-4-2021-delaware-cases-continue-downward-trend/)**, **[Indiana](https://www.coronavirus.in.gov/vaccine/2680.htm)**, **[Michigan](https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173_105123---,00.html)**, **[Tennessee](https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/CriticalIndicatorReport.pdf)**, **[Utah](https://coronavirus.utah.gov/case-counts/)**, and **[Vermont](https://www.healthvermont.gov/covid-19/current-activity/weekly-data-summary)** report the total number of breakthrough infections, as well as the number of breakthrough infections that result in hospitalization or death.
+* **[Oklahoma](https://oklahoma.gov/content/dam/ok/en/covid19/documents/weekly-epi-report/2021.06.30%20Weekly%20Epi%20Report.pdf)** reports the total number of breakthrough infections broken down by vaccine manufacturers, as well as the number that result in hospitalization or death.
+
+In addition to the number of vaccine breakthroughs, six states report sequencing results identifying viral lineages of the breakthrough infections on their public pages.
+
+
+
+* **[Nebraska](https://dhhs.ne.gov/Pages/News-Releases.aspx)** reports the total number of breakthrough cases, and the number of sequenced specimens that represented variants of concern.
+* **[Arkansas](https://www.healthy.arkansas.gov/images/uploads/pdf/Weekly_COVID-19_Variant_of_Concern_VOC,_Week_Ending_Saturday_June_12,_2021.pdf)** reports the total number of sequenced specimens that revealed infection with a VOC or VOI, as well as age demographics.
+* **[Alaska](http://hss.state.ak.us/covid19/humancov/AKSeqCon_GenomicSituationReport.pdf)** reports the total number of patients under investigation for breakthrough infections, the lineages of all specimens successfully sequenced, and the number of breakthrough infections that result in [hospitalization or death](https://content.govdelivery.com/accounts/AKDHSS/bulletins/2e0800f).
+* **[Montana](https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/demographics) **reports the total number of breakthrough cases, the number of those that result in hospitalization or death, as well as the number and lineages of sequenced specimens that revealed infection with a VOC or VOI.
+* **[Oregon](https://govstatus.egov.com/OR-OHA-COVID-19)** reports the total number of breakthrough cases, the number of those that result in hospitalization or death, were symptomatic, and the number and lineages of sequenced specimens that revealed infection with a VOC or VOI. They also report the median age and age range of deaths and the number of vaccine breakthrough cases observed in those who reside in long-term care facilities or other congregate care settings.
+* **[Washington](https://www.doh.wa.gov/Portals/1/Documents/1600/coronavirus/data-tables/420-339-VaccineBreakthroughReport.pdf)** reports the total number of breakthrough cases, the [lineage breakdowns](https://www.doh.wa.gov/Portals/1/Documents/1600/coronavirus/data-tables/420-316-SequencingAndVariantsReport.pdf) of sequenced cases identified as from a VOC or VOI, the number that were symptomatic, hospitalized and died, as well as age, sex and race/ethnicity demographics. 
+
+Other US jurisdictions have reported on vaccine breakthroughs just once, on an irregular basis, or only in certain parts of the state, also with varying levels of detail. 
+
+
+
+* **[Connecticut](https://portal.ct.gov/DPH/Press-Room/Press-Releases---2021/DPH-Releases-Data-on-Covid-19-Vaccine-Breakthrough-Cases-Highlighting-Vaccine-Effectiveness)** reported the total number of breakthrough cases, including the number of breakthrough infections that were asymptomatic, and caused hospitalization or death, as well as gender demographics and the number of breakthrough cases that occurred in residents of long term care facilities on May 7, 2021.
+* **[Massachusetts](https://www.mass.gov/doc/memorandum-reporting-of-vaccine-breakthrough-covid-19-cases-resulting-in-hospitalization-or-death)** reported the total number of breakthrough cases on May 27, 2021.
+* **[Clark County, Nevada](https://covid.southernnevadahealthdistrict.org/cases/breakthrough/)** reports the total number of breakthrough cases resulting in hospitalizations and deaths, as well as information on vaccine type and age, gender, race/ethnicity, and underlying condition demographics in hospitalized cases.
+* **[Colorado](https://www.cdc.gov/mmwr/volumes/70/wr/pdfs/mm7019e2-H.pdf)** reported seven cases of breakthrough cases with the epsilon variant via the CDC’s _Morbidity and Mortality Weekly Report_ (_MMWR_) as of March 2021.
+* **[West Virginia](https://www.youtube.com/watch?v=vXA1BpT_YE8&t=464s)** reported 129 breakthrough cases during a press briefing on April 16, 2021.
+* **[Utah](https://www.facebook.com/utgovernorcox/videos/378519296893109/)** reported the total number of breakthrough cases, as well as the number of breakthrough infections that resulted in hospitalization or death at a press briefing on May 27, 2021.
+* **[New Mexico](https://cv.nmhealth.org/wp-content/uploads/2021/06/FINAL-NM-COVID19-Day-449-Press-Update2021_06_02.pdf)** reported the total number of breakthrough cases, as well as the number of breakthrough infections that resulted in hospitalization or death at a press briefing on June 2, 2021.
+
+In many states, public information about vaccine breakthrough cases are only available via media reports, which may be incomplete or even biased. Some states do not make the information public at all. 
+
+**The best approach to controlling the Covid-19 pandemic is through widespread vaccination.** The study of vaccine breakthrough infections is one way to ensure that vaccination is, and will continue to be successful.  By thoroughly investigating viruses that apparently breach the immunity barrier, we can monitor their prevalence and evaluate potential mechanisms for their occurence. Knowledge of the virus, combined with clinical and demographic information, can be supportive to a better understanding of how the immune status of vaccinated individuals may have contributed to virus evasion of immunity. Linked data to know which vaccine was administered, and when, can further clarify trends that may be associated with specific vaccines to better inform their appropriate use. Importantly, sequencing breakthrough viruses will show if a vaccine-resistant variant virus is circulating or a new variant is emerging. 
+
+The [10,262 vaccine breakthrough infections](https://www.cdc.gov/mmwr/volumes/70/wr/mm7021e3.htm) reported to the CDC as of April 30 is likely an undercount of the overall number of these cases across the US. As the [Maine Center for Disease Control & Prevention](https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml) points out, “not all cases are investigated to determine vaccine status and it takes time to validate vaccine status, delaying cases being included in the count.“ It is also reasonable to assume that many more asymptomatic breakthrough infections exist than have been detected, as many vaccinated individuals without symptoms are unlikely to seek testing or medical attention. Routine surveillance for vaccine breakthrough is not common.
+
+Of the 10,262 vaccine breakthrough cases submitted to the CDC as of April 30, [only 555](https://www.cdc.gov/mmwr/volumes/70/wr/mm7021e3.htm) of the specimens had sequencing data available. There are numerous reasons for such a low number of sequenced samples, including both technical issues and policy decisions. 
+
+
+
+* As stated by CDC Director Dr. [Rochelle Walensky](https://www.npr.org/sections/health-shots/2021/05/27/1000933529/cdc-approach-to-breakthrough-infections-sparks-concerns), there was not enough virus to successfully sequence “a large portion” of samples from asymptomatic individuals. 
+* The quality of RNA in the sample may be inadequate for sequencing. 
+* Lack of coordination between health care facilities, laboratories, and health departments contributes to the low number of samples sequenced. Diagnostic labs that do not do genomic sequencing often [discard](https://www.nature.com/articles/d41586-021-00908-0) samples after testing rather than storing them for possible sequencing, for example. 
+* Because of lack of coordination, as well as privacy issues, the information needed to thoroughly investigate the causes of vaccine breakthrough is often not connected with samples.  
+* There can be a significant time lag between the results of diagnostic tests and sequencing. 
+
+On May 1, the CDC transitioned from investigating all reported vaccine breakthrough cases [“to focus on identifying and investigating only hospitalized or fatal cases due to any cause.”](https://www.cdc.gov/vaccines/covid-19/health-departments/breakthrough-cases.html)  The reasons given were to improve data quality and focus on clinically important infections with an impact on public health. The aforementioned lack of sequenceable RNA in samples suggests that the viral load in asymptomatic breakthrough cases is quite low. “The level of virus is so low, it makes it extremely unlikely, not impossible, but very, very low likelihood that they are going to transmit it,” said [Dr. Anthony Fauci](https://www.cnbc.com/2021/05/18/new-york-yankees-breakthrough-covid-cases-in-vaccinated-team-members.html). 
+
+This change in breakthrough reporting policy has drawn criticism from scientists, many of whom argue that every breakthrough infection provides important information. As with infections in unvaccinated individuals, breakthrough infections span the clinical spectrum from asymptomatic to fatally severe. Just as the early pandemic was driven by (untested) asymptomatic infections, some worry that a vaccine-resistant variant could become widespread before it is detected. As more individuals are vaccinated or infected, selective pressure from the immune response may favor the emergence of new variants. Early warning of such an occurrence could be achieved by regular sequencing of a greater number of breakthrough viruses, from the full clinical spectrum, from a diverse population, and in a variety of geographic areas.  
+
+::: {#fig-1 .column-page-right}
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/6474991?900894"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+Vaccine breakthrough data reported by the CDC
+
+:::
+
+The policy change has resulted in a dramatic drop in the number of vaccine breakthrough cases reported by the CDC, while the number of reporting jurisdictions increased from 46 to 47. The limitation on the vaccine breakthrough cases the CDC will fully investigate does not, however, prevent states from publicly reporting more information than the CDC requests. Washington, for example, is reporting granular vaccine breakthrough data on a regular basis in two weekly reports. Their [SARS-CoV-2 Vaccine Breakthrough Surveillance and Case Information Resource](https://www.doh.wa.gov/Portals/1/Documents/1600/coronavirus/data-tables/420-339-VaccineBreakthroughReport.pdf) includes comprehensive demographic data for cases, a cross tab breakdown on the number of symptomatic and/or hospitalized cases, and the number of deaths among vaccine breakthrough cases. Their [SARS-CoV-2 Sequencing and Variants report](https://www.doh.wa.gov/Portals/1/Documents/1600/coronavirus/data-tables/420-316-SequencingAndVariantsReport.pdf) includes a variant lineage breakdown for vaccine breakthrough cases.
+
+Vaccine breakthrough is a rare occurrence, so every bit of information that can be gleaned from such cases will inform scientists about the epidemiology and evolution of the virus. This information would be much more valuable if it were linked to data regarding the vaccination, the lineage of the virus causing the breakthrough, and clinical and demographic information about the infected individuals. Unfortunately the US health system is ill-suited to connect those dots. States, academic hospitals, and research centers in the US rarely share and aggregate their vaccine breakthrough data, which results in an incomplete picture of the prevalence, spread, and risk associated with emerging variants. This challenge grows exponentially more difficult on a global level.
+
+Coordination requires cooperation, sharing data, and sharing viral specimens. More data is better than less. More connected data is even better. The COVID-19 pandemic is not over, and the availability, transparency, and management of this information is vital to getting the world through this outbreak. Improvements in our global early warning systems will strengthen our ability to detect outbreaks sooner to reduce the risk of another pandemic.  

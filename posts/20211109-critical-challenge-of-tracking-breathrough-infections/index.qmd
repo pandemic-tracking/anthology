@@ -1,0 +1,96 @@
+---
+title: "The Critical Challenge of Tracking Breakthrough Infections, and Why We Still Need Better Data Standards"
+subtitle: "Despite ample vaccine supplies, outbreaks among unvaccinated populations in the US and the appearance of the Delta variant promote infection in fully vaccinated individuals. These breakthrough infections must be carefully tracked."
+date: "2021-11-09"
+author: 
+  - name: "Jacqueline Houtman"
+  - name: "Rebecca Glassman"
+  - name: "Lindsey Shultz"
+  - name: "Jessica Malaty Rivera"
+  - name: "Emily Bass"
+  - name: "Rick Bright"
+categories: ["Variants"]
+image: https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/2-1440x793.png
+title-block-banner: false
+reference-location: document
+---
+
+::: {.callout-note}
+This piece is originally published at [https://www.rockefellerfoundation.org/blog/the-critical-challenge-of-tracking-breakthrough-infections-and-why-we-still-need-better-data-standards/](https://www.rockefellerfoundation.org/blog/the-critical-challenge-of-tracking-breakthrough-infections-and-why-we-still-need-better-data-standards/)
+:::
+
+As the percentage of [Americans considered fully vaccinated](https://www.nytimes.com/interactive/2021/us/covid-cases.html) reached 58 percent, and COVID-19-related deaths surpassed [three quarters of a million]( https://www.nytimes.com/interactive/2021/us/covid-cases.html), concerns over breakthrough infections continue to grow. [Breakthrough infections](https://www.rockefellerfoundation.org/blog/the-u-s-can-lead-the-way-in-vaccine-breakthrough-reporting-will-it-squander-this-opportunity/) tend to be mild, and the risk of secondary transmission from these infections, [while real](https://www.channelnewsasia.com/singapore/covid-19-changi-airport-cluster-timeline-1393701), especially in [high-risk settings](https://www.cdc.gov/mmwr/volumes/70/wr/mm7031e2.htm), [is low](https://www.theatlantic.com/ideas/archive/2021/09/the-vaccinated-arent-just-as-likely-to-spread-covid/620161/) compared to those who have not been fully vaccinated. What do breakthrough cases mean in the context of ending this pandemic? The answer is neither simple nor short. 
+
+### How are states reporting breakthrough infection data?
+
+Between March 2020 and March 2021, [The COVID Tracking Project](https://covidtracking.com/) collected data on COVID-19 tests, cases, hospitalizations, and deaths from all 50 US states, the District of Columbia, and five US territories. These metrics were [inconsistently defined and reported](https://covidtracking.com/analysis-updates/five-major-metrics-covid-19-data) by the 56 jurisdictions. The [same seems to be true](https://coronavirus.jhu.edu/pandemic-data-initiative/data-outlook/the-state-of-state-level-breakthrough-case-reporting) of the tracking of metrics associated with [breakthrough cases](https://www.rockefellerfoundation.org/blog/the-u-s-can-lead-the-way-in-vaccine-breakthrough-reporting-will-it-squander-this-opportunity/), resulting in a similar patchwork of data and creating an incomplete picture of the true incidence of COVID-19 infections in fully vaccinated individuals in the US. 
+
+::: {#fig-1 .column-page-right}
+
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/1-1-2048x1128.png)
+
+In the US, states do not report COVID vaccine breakthrough cases, hospitalizations, or deaths in a uniform or standardized manner.
+
+:::
+
+### Breakthrough infections are rare, but important to understand.
+
+Understanding breakthrough infections starts with knowing the “incidence” of breakthrough infections. Technically, incidence is the rate, or frequency of a disease in a select period of time. In order to properly calculate incidence, widespread testing--both diagnostic and viral genome sequencing--is critical, as well as the ability to link a positive test to the vaccination status of the individual. Right now, there isn’t a clear or standardized approach to linking these important pieces of information on state or national dashboards. These data would also help illuminate the real-world data of vaccine effectiveness and detect emerging viral variant trends. 
+
+### The occurrence of breakthrough infections is tied to the dynamics and variability in vaccine uptake.
+
+On a [county-by-county level](https://www.nytimes.com/interactive/2020/us/covid-19-vaccine-doses.html#vulnerable) the pattern of vaccination in the US is far from uniform. While [9%](https://covid.cdc.gov/covid-data-tracker/#county-view) of counties have rates below 30% of their total population fully vaccinated, only [3%](https://covid.cdc.gov/covid-data-tracker/#county-view) have rates above 70% of their total population fully vaccinated, and [vast disparities](https://www.kff.org/coronavirus-covid-19/issue-brief/latest-data-on-covid-19-vaccinations-race-ethnicity/) still remain along [economic](https://www.cdc.gov/mmwr/volumes/70/wr/mm7022e1.htm?s_cid=mm7022e1_w), [racial](https://www.kff.org/coronavirus-covid-19/issue-brief/latest-data-on-covid-19-vaccinations-race-ethnicity/), and [geographic](https://www.cdc.gov/mmwr/volumes/70/wr/mm7020e3.htm) lines. 
+
+::: {#fig-2 .column-page-right}
+
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/2-2048x1128.png)
+
+Vaccination rates visualized on a county-by-county basis show a great deal of variability within regions and states.
+
+:::
+
+Within countries like the US, which have secured enough doses to vaccinate the entire population [three times over](https://www.nytimes.com/2021/09/21/opinion/sunday/covid-vaccine-world.html?referringSource=articleShare), [accessibility can still be difficult](https://www.washingtonpost.com/health/2021/09/23/covid-unvaccinated-but-willing/) at the individual or local level. As of the beginning of November, [more than 21%](https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-total-admin-rate-total) of US residents over the age of 12 remain unvaccinated. Some say they will eventually get the vaccine, yet as of [October 2021](https://www.kff.org/coronavirus-covid-19/poll-finding/kff-covid-19-vaccine-monitor-october-2021/), 16% of adult survey respondents said they will “definitely not” get the vaccine, for [a variety of reasons](https://www.vox.com/2021/6/2/22463223/covid-19-vaccine-hesitancy-reasons-why). Even among the vaccinated, those with compromised immune systems because of age, disease, genetic conditions, or medical treatments may not generate a robust immune response to the vaccine and may thus be more susceptible to severe consequences from vaccine breakthrough. **The safety of these vulnerable individuals depends on the vaccination status of those around them, and the risk of infection rises as transmission rates increase. **
+
+::: {#fig-3 .column-page-right}
+
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/3-2048x1128.png)
+
+Daily vaccinations in the US peaked in April 2021, then fell, ticking up again in the fall due, in part, to the approval of booster doses for certain populations. Daily COVID-19 cases increased in late summer, after a midsummer lull.
+
+:::
+
+By mid-May 2021, the number of new daily cases was declining and [nearly 37%](https://ourworldindata.org/us-states-vaccinations) of US residents had been fully vaccinated. On May 13, the US Centers for Disease Control and Infection (CDC) stated that it was safe for fully vaccinated individuals to [go without masks](https://www.reuters.com/world/us/cdc-ease-mask-guidance-vaccinated-people-sources-2021-05-13/) indoors, and many state and local governments relaxed their policies on non-pharmaceutical interventions, such as indoor mask mandates. Vaccination rates had leveled off. Pandemic-weary individuals, both vaccinated and unvaccinated, began gathering maskless. As a result, localized outbreaks caused pockets of very high transmission rates, concentrated largely in areas with low vaccine uptake. In some areas, the case, hospitalization, and death rates have exceeded those of the January peak.The start of school at the end of the summer exacerbated the problem. **The dominance of the [highly transmissible Delta variant](https://www.rockefellerfoundation.org/blog/making-sense-of-variants-they-all-deserve-attention-a-few-merit-concern/) in these “hot spots” [contributed to an increase in the number of infections](https://www.nejm.org/doi/full/10.1056/nejmoa2108891) in both vaccinated and unvaccinated individuals. **
+
+::: {#fig-4 .column-page-right}
+
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/ptc1a-viz4-final-1440@2x-sm-2048x1128.png)
+
+In some states, the number of cases, hospitalizations, and deaths in late summer and fall exceeded those of the January peak.
+
+:::
+
+On a national level, the CDC announced that as of May 1, 2021, it would only investigate breakthrough infections that resulted in hospitalization or death. This change [greatly reduced reporting](https://www.rockefellerfoundation.org/blog/the-u-s-can-lead-the-way-in-vaccine-breakthrough-reporting-will-it-squander-this-opportunity/) of asymptomatic breakthrough infections, as well as symptomatic infections that were not serious enough to require hospitalization. This change in policy could make it more difficult to detect new virus variants before they become widespread.
+
+Tracking mild or moderate vaccine breakthrough infections can be difficult for a number of reasons: 
+
+
+
+* Vaccinated people with mild symptoms may not think they have COVID-19, ascribing their symptoms to allergies, or the common cold, and may never be tested. 
+* Others may choose to test at home with an over-the-counter test, the results of which may never be reported, since that data is often literally trashed. 
+* Testing for asymptomatic breakthrough infections is often conducted for reasons such as requirements for workplaces, schools, or sports teams, hospital admissions, or potential contact with an infected person, and may therefore not be representative of the community at large. 
+* The way states and territories report and publish testing, reinfection, and breakthrough data is not standardized. 
+
+Despite these difficulties, even less-than-perfect data could provide insights into the state of the pandemic. At the very least, tracking hospitalizations and deaths in fully vaccinated individuals can reveal part of the problem. To date,36 US jurisdictions report breakthrough cases, 34 report breakthrough hospitalizations, and 37 report breakthrough infection related deaths. Unfortunately, [not all states report this breakdown of data](https://www.washingtonpost.com/opinions/2021/10/18/racial-disparities-may-be-emerging-breakthrough-infections-we-must-track-them-better/), for reasons including the inability to [match hospitalization and immunization records](https://www.politico.com/news/2021/08/25/cdc-pandemic-limited-data-breakthroughs-506823). 
+
+### Breakthrough tracking is much more useful when clinical and demographic data are also available.
+Some jurisdictions in the US provide good data. The [District of Columbia](https://coronavirus.dc.gov/data/vaccination), for example, provides case, hospitalization, and death rates based on vaccination status. In addition, DC provides demographic information for breakthrough cases, including age, gender, race and ethnicity, as well as vaccine type, symptom status, chronology, and whether the case was confirmed or self-reported. 
+
+The CDC reports [cases](https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status) for 16 jurisdictions and [deaths](https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status) for 15 jurisdictions by vaccination status, vaccine manufacturer. Through COVID-NET, the CDC also reports on [hospitalizations](https://covid.cdc.gov/covid-data-tracker/#covidnet-hospitalizations-vaccination) by vaccination status for 250 acute-care hospitals in 14 states. 
+
+### When testing data can be linked to vaccination data, the result can be powerful.
+For example, after an [outbreak in Barnstable County, Massachusetts](https://www.cdc.gov/mmwr/volumes/70/wr/mm7031e2.htm#contribAff) in July, the Massachusetts State Public Health Laboratory and the Broad Institute of the Massachusetts Institute of Technology and Harvard University were able to combine testing data with vaccination data and contact tracing to determine that 74% of the 469 cases they studied occurred in fully vaccinated individuals. Of the 133 samples sequenced, 89% were of the highly transmissible Delta variant. Their findings further suggested that fully vaccinated people who were infected could transmit the virus to others. These findings prompted the CDC to [change its guidance](https://www.reuters.com/world/us/cdc-set-unveil-revised-mask-guidance-vaccinated-americans-sources-2021-07-27/) on July 27 for vaccinated individuals to return to wearing masks indoors in areas where virus transmission was high. Further study showed that, although more than 1,000 people were involved, with evidence of [transmission between vaccinated individuals](https://www.medrxiv.org/content/10.1101/2021.10.20.21265137v1), the outbreak subsided. Control of the outbreak [was attributed](https://www.bostonglobe.com/2021/10/21/metro/new-study-reveals-why-provincetown-did-not-become-covid-superspreader/) to the high vaccination rate and a robust public health response involving extensive testing, contact tracing, and reimposition of indoor mask mandates.
+
+### The vast majority of COVID-19 cases, hospitalizations, and deaths occur in those who are not fully vaccinated. 
+Infections in fully vaccinated individuals are much less common, and tend to be milder. Nevertheless, **breakthrough infections can serve as surveillance tools to detect potential new variants or declining vaccine efficacy. **Information on vaccinated individuals with breakthrough cases is needed to determine what host or viral factors were involved in the breakthrough. Are breakthrough infections more common in those with certain underlying medical conditions? Is vaccine-induced immunity waning? Was the infecting virus the dominant strain in the area, or perhaps a novel variant? 
+
+As vaccine rollout for the 28 million [children aged 5 to 11 in the US](https://www.cdc.gov/media/releases/2021/s1102-PediatricCOVID-19Vaccine.html) begins, there is hope that total vaccination rates will climb, providing more protection against infection in both vaccinated and unvaccinated individuals. Nationally and globally, however, equitable distribution of effective vaccines is needed to bring an end to the pandemic. Careful monitoring of infections in fully vaccinated individuals will help detect potential roadblocks to achieving that goal.

@@ -1,0 +1,183 @@
+---
+title: "Making Sense of Variants: They All Deserve Attention. A Few Merit Concern."
+subtitle: "Careful surveillance and study of SARS-CoV-2 variants will help determine the public health threats they pose and the mitigation efforts they require."
+date: "2021-07-30"
+author: 
+  - name: "Jacqueline Houtman"
+  - name: "Lindsey Shultz"
+  - name: "Rebecca Glassman"
+  - name: "Jessica Malaty Rivera"
+  - name: "Rick Bright"
+
+categories: ["Variants"]
+image: image.png
+title-block-banner: false
+reference-location: document
+---
+
+::: {.callout-note}
+This piece is originally published at [https://www.rockefellerfoundation.org/blog/making-sense-of-variants-they-all-deserve-attention-a-few-merit-concern/](https://www.rockefellerfoundation.org/blog/making-sense-of-variants-they-all-deserve-attention-a-few-merit-concern/)
+:::
+
+- SARS-CoV-2 has already mutated since it was first identified and will continue to do so.
+- Robust global genomic sequencing is the best tool for tracking existing variants and detecting new ones.
+- This information enables public health officials, governments, and communities to take action that can save lives. The more high-quality data that is available, the more effective the response.
+- Even as new variants emerge, vaccines, masking, and social distancing remain critical to ending the Covid-19 pandemic.
+
+Every week, it seems, coverage of existing and emerging variants multiplies, with each headline scarier than the last. Terms like “Superstrains,” “Double Mutants,” “Delta Plus” and “Covid on Steroids” are attention-grabbing but do little to convey what countries and communities should expect–or do–in terms of these variant viruses. This document is designed as a guide to what matters, what to watch for, and why.
+
+**Bottom line:** Effective surveillance that detects emerging variants is critical to the Covid-19 response. It’s not yet universal, even in countries like the U.S. where there is widespread vaccine access. It will be crucial to scale surveillance along with vaccine access worldwide, since careful study of their characteristics can determine which variants need to be more closely monitored as possible public health threats.
+
+### What’s a variant? 
+
+All viruses mutate, including SARS-CoV-2, the virus that causes Covid-19. Mutations are the occasional mistakes that occur when a virus replicates–or makes copies of itself–inside host cells. Usually, those mistakes make no difference in how the virus functions. Sometimes the mistakes even weaken the virus, and viruses with those mutations die out. Once in a while, however, an accumulation of advantageous mutations can make a virus better at infecting cells, causing disease, evading the immune system, or spreading within a population, thereby being designated a “variant” of the wild-type (original) virus.
+
+### How do variants get found--and are they all alike? 
+
+Scientists track these SARS-CoV-2 variants, those with mutations that differ in such a way to make them clinically or epidemiologically important. Detecting variants usually requires sequencing the entire genome of a virus, that is, all of its genes. This process takes longer than the diagnostic PCR test, which is designed to detect only small parts of the genome. **Variant surveillance, accomplished by sequencing a representative sample of viral specimens in a population, is essential to determine if new variants are emerging or if known variants are becoming more widespread**. Additional epidemiological, clinical, and laboratory studies are used to assess the properties of variants. Possible [characteristics of variants](https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-info.html) might include:
+
+
+
+* Interference with diagnostic tests (The [Alpha variant](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/959426/Variant_of_Concern_VOC_202012_01_Technical_Briefing_5.pdf), for example, has a genetic change that results in false negative PCR results in one diagnostic test kit.) 
+* Increased ability to bind to or multiply in cells in the laboratory
+* Increased ability to grow in the laboratory in the presence of antiviral antibodies
+* Increased community transmission within a population
+* Reduced effectiveness of therapeutic drugs such as monoclonal antibodies
+* Increased incidence or severity of disease in infected individuals
+* Ability to infect previously infected individuals (reinfection)
+* Ability to infect fully vaccinated individuals ([vaccine breakthrough](https://www.rockefellerfoundation.org/blog/the-u-s-can-lead-the-way-in-vaccine-breakthrough-reporting-will-it-squander-this-opportunity/))
+
+### What happens when a variant is found--and what’s in a name? 
+
+The World Health Organization (WHO) is monitoring more than [50 different variants of the SARS-CoV-2 virus](https://www.cnbc.com/2021/06/16/who-says-delta-covid-variant-has-now-spread-to-80-countries-and-it-keeps-mutating.html). Most are unlikely to be problematic, but a handful can be classified by the U.S. Centers for Disease Control and Prevention ([CDC](https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-classifications.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fvariants%2Fvariant-info.html)) and [WHO](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/) into four categories, based on genetic or epidemiological evidence:
+
+
+
+* **Alerts for Further Monitoring** are variants with genetic markers that are suspected to affect virus characteristics but require enhanced monitoring and evidence to assess their epidemiological impact. Former variants of concern and variants of interest may be monitored for an extended period of time under this classification. Some organizations designate variants in this category as  [Variants Under Monitoring (VUM)](https://www.ecdc.europa.eu/en/covid-19/variants-concern).
+* **Variants of Interest (VOI)** are those with genetic markers predicted or known to affect virus characteristics and identified in multiple cases of Covid-19, in clusters or in multiple countries.
+* **Variants of Concern (VOC)** are variants that have been demonstrated to be more transmissible, cause more severe disease, or make vaccines, diagnostic tests, medications, or public health measures less effective.
+* **Variants of High Consequence (VOHC)** are those that cause significant reductions in the effectiveness of diagnostic tests, vaccines, or therapeutic drugs or cause significantly more severe disease. As of mid-July 2021, no variant has been designated a VOHC.
+
+Groups of scientists name variants with different strings of letters and numbers that trace their genetic lineages, which can be confusing to the public. News organizations and others addressing non-scientific audiences have attempted to simplify the naming of variants by referring to the countries in which they first emerged, but that can result in stigma, blame, or prejudice. In an effort to identify viruses in easier-to-pronounce and non-stigmatizing ways, the WHO recently proposed a new system of labeling variants of interest and concern using letters of the Greek alphabet.
+
+::: {#tbl-1}
+| WHO label | Pango Lineage               | GISAID clade/lineage | Nextstrain clade | Earliest documented samples |
+|-----------|-----------------------------|----------------------|------------------|-----------------------------|
+| Alpha     | B.1.1.7                     | GRY                  | 20I (V1)         | United Kingdom,   Sep-2020  |
+| Beta      | B.1.351 B.1.351.2 B.1.351.3 | GH/501Y.V2           | 20H (V2)         | South Africa,   May-2020    |
+| Gamma     | P.1 P.1.1 P.1.2             | GR/501Y.V3           | 20J (V3)         | Brazil,   Nov-2020          |
+| Delta     | B.1.617.2 AY.1 AY.2         | G/478K.V1            | 21A              | India,   Oct-2020           |
+
+[Table 1. Current Variants of Concern (VOC), as designated by the WHO]{.figure-caption}
+
+:::
+
+Each country can classify variants based on local prevalence and transmission rates, and the WHO can determine if variants are of global interest or concern. Variant designations can change, as well. For example, the [Epsilon variant](https://covariants.org/variants/S.L452R) was designated a VOC by the CDC, but not by the WHO, because it was not widespread outside of the U.S. and Mexico. The CDC has since downgraded Epsilon to a VOI. On [July 6, 2021](https://www.who.int/publications/m/item/weekly-epidemiological-update-on-covid-19---6-july-2021), the WHO recognized four VOIs (Eta, Iota, Kappa, and Lambda), and reclassified three former VOIs (Epsilon, Zeta, and Theta) as “Alerts for further monitoring.” Variant classifications may escalate or de-escalate based on emerging evidence, including a change in relative risk compared to other circulating variants.
+
+These designations reflect evidence-informed predictions of the risks a variant might pose to individual and public health, which can be obscured by media coverage. It is nearly impossible to predict exactly how a new mutation or a new variant will affect the spread of Covid-19. Careful study of the data, however, can help public health authorities track, or even control variants that emerge. Global surveillance of emerging variants can enable vaccine developers to monitor the likelihood of vaccine breakthrough infections and consider strategies for booster shots and new vaccines in the future.
+
+### What’s a dominant lineage--and why does it matter? 
+
+In the United States, at least 33 states report variant data publicly on a regular basis. The presence of variants is usually expressed as a proportion of total samples sequenced. The [CDC estimates](https://covid.cdc.gov/covid-data-tracker/#variant-proportions) that as of July 3, 28.7% of viruses sequenced in the US were variants of concern of the Alpha lineage, 51.7% were of the Delta lineage and 8.9% were of the Gamma lineage. The distribution of variants across the US is not uniform, and [significant regional differences](https://covid.cdc.gov/covid-data-tracker/#variant-proportions) exist. 
+
+All VOI and VOC worldwide merit close observation. Some remain restricted to outbreaks in limited geographical areas. Others can rapidly spread worldwide, displacing other circulating viruses and becoming what’s known as the “dominant lineage.” The Alpha variant, for example, was first detected in the UK in September 2020 and became the dominant lineage there by December 2020. By spring, the Alpha variant was detected in [over 150 countries](https://ophrp.org/upload/pdf/j-phrp-2021-0037.pdf)  and had become the dominant lineage in the US. The Delta variant is on track to have a similar global effect, playing a significant role in the devastating spring surge in India and displacing the Alpha variant as the dominant lineage in the UK in May 2021 and US in July 2021. The Delta variant of SARS-CoV-2 was upgraded from a VOI to a VOC [by the WHO on May 11,](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/) and [by the CDC on June 15](https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-info.html#Concern), 2021. Its spread during early 2021 can be examined from India, where it was first discovered, through the UK where it was introduced relatively early via travel, and to the US where it arose as the dominant global variant. A robust approach to sequencing variants and tracking their spread allows countries to understand and anticipate the arrival of dominant variants, which may be more transmissible, as is the case with the Delta variant, or have different impacts on disease progression. Sequencing allows countries to remain one step ahead of variants, which can be crucial for planning and response.
+
+### The GISAID initiative
+
+The [GISAID](https://www.gisaid.org/) Initiative promotes the rapid sharing of data from all influenza viruses and the coronavirus causing Covid-19. This includes genetic sequence and related clinical and epidemiological data associated with human viruses, and geographical as well as species-specific data associated with avian and other animal viruses, to help researchers understand how viruses evolve and spread during epidemics and pandemics. GISAID’s EpiCoV™ database provides by far the largest global collection of genetic sequences and associated metadata of SARS-CoV-2, with about 2.25 million entries as of July 2021. The Rockefeller Foundation is working to expand global genomic sequencing capacity, with plans to collaborate with GISAID, advancing its pathogen data-sharing platform to enable more rapid sharing of data to trigger public health action and development of vaccines and diagnostic tests.
+
+::: {#fig-1 .column-page-right}
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/6680291?900894"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+Global variant trends
+
+:::
+
+### What does the Delta variant say about sequencing and response strategy as of mid-2021? 
+
+#### India: Without vaccines or a resilient health system, surveillance falters.
+
+The progenitor of the Delta variant (B.1.617) was first identified in late 2020 in India. Of the three variants derived from that progenitor, one (Kappa, or B.1.617.1) has been designated a VOI by the WHO and another (Delta, or B.1.617.2) is designated a VOC. Between January and April 2021, the Indian SARS-CoV-2 sequencing consortium (INSACOG) was sequencing approximately [0.75%](https://www.nature.com/articles/d41586-021-01427-8) of positive cases (although the [original stated target was to randomly sequence 5%](https://www.nature.com/articles/d41586-021-01427-8)). In March 2021, INSACOG identified Delta as a public health threat, due to a spike in cases and the presence of several concerning [mutations](https://www.nature.com/articles/d41586-021-01427-8) in samples taken in the prior three months. The massive spring increase in cases in India, almost all of which were the [due in large part to the Delta variant, which spread rapidly in the context of](https://www.nature.com/articles/d41586-021-01274-7) and low vaccination rates, overwhelmed already strained healthcare systems throughout the country. This burden greatly reduced the percentage of samples sequenced. It’s critical to pair investments in health systems and surveillance, so that epidemic surges trigger vaccination, care and treatment without letting sequencing lag behind. 
+
+Based on the limited available data, by [mid-April 2021](https://www.ecdc.europa.eu/sites/default/files/documents/Emergence-of-SARS-CoV-2-B.1.617-variants-in-India-and-situation-in-the-EUEEA_0.pdf), Delta became the dominant lineage of SARS-CoV-2 in India. Assuming the most recent two weeks of data is incomplete, data derived from [GISAID](https://www.gisaid.org) on 6/28 indicates India sequenced an average of 0.04% of its Covid-19 cases in the month of June. During this time, their median number of days (median lag time) from specimen collection to sequencing and GISAID submission was 17 days. There are many variables affecting turnaround time. The vast majority of sites worldwide lack sequencing capabilities, for example, and it takes time to transfer the samples to sequencing laboratories. Nevertheless, a target of less than seven days is reasonable and achievable in many places. **A functioning healthcare infrastructure, adequate and equitable vaccine supplies, and higher sequencing capacity are essential for rapid and effective pandemic response.**
+
+::: {#fig-2 .column-page-right}
+<div class="flourish-embed flourish-chart" data-src="visualisation/6680680?718630"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-scatter" data-src="visualisation/6657806?718630"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/6693629?718630"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+India variant trends
+:::
+
+#### The UK: Vaccine coverage, time to plan, and a coordinated response.
+
+The Delta variant was first detected in the UK in February 2021. Between March 25 and April 7, 5.1% of travellers from India, 3.7% of those from Bangladesh, and 6.2% of those from Pakistan tested positive for Covid-19. In response, the government placed [strict restrictions](https://www.bbc.com/news/56801288) on travel from [Pakistan and Bangladesh](https://www.gov.uk/government/news/countries-added-to-red-list-to-protect-uk-against-variants-of-concern) on April 9 and from [India](https://www.gov.uk/government/news/india-added-to-red-list-as-cases-of-new-variant-rise) on April 23. Of those travellers who had been in these countries in the previous ten days, only UK citizens or legal residents were allowed entry, and they were subject to a mandatory ten-day quarantine and repeated testing for SARS-CoV-2.  These policies presented the UK with additional time to gather data and prepare a response to the new variant. The backbone of an effective CovidOVID-19 response is widespread access to and uptake of effective vaccines. This is a top priority for resources and national programming. To protect the gains made in countries, such as the UK, where vaccination rates are high, near universal screening and sequencing of travelers with rigorous quarantine measures and contact tracing can help protect progress made. This suite of approaches will be critical to employ as variants emerge and spread worldwide.
+
+The UK experience offers a positive example. The country has a robust sequencing program and recently introduced a new, cost-effective rapid [genotyping](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0243185) [assay](https://www.gov.uk/government/news/groundbreaking-new-technology-to-detect-known-variants-of-concern), which has greatly [increased the volume and speed](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/994839/Variants_of_Concern_VOC_Technical_Briefing_16.pdf) of identification of variants, with a turnaround time of [12-24 hours](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/993879/Variants_of_Concern_VOC_Technical_Briefing_15.pdf), compared to [5-23 days](https://www.gisaid.org/index.php?id=208) for traditional sequencing techniques. Assuming the most recent two weeks of data is incomplete, data derived from [GISAID](https://www.gisaid.org) indicates the UK has sequenced an average of 41% of its Covid-19 cases in the prior four weeks, with a median lag time of 10 days. Delta overcame Alpha as the predominant variant in May 2021, and a Delta-driven uptick in new cases has prompted a [delay](https://www.reuters.com/world/uk/uks-johnson-set-announce-delay-end-covid-restrictions-2021-06-13/) in lifting remaining Covid-19 social restrictions from June 21 to July 19, 2021. That time will be used to ramp up vaccinations. The Delta variant now accounts for [99%](https://www.gov.uk/government/news/confirmed-cases-of-covid-19-variants-identified-in-uk) of sequenced cases and [97%](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1001009/Variants_of_Concern_VOC_Technical_Briefing_18.pdf) of genotyped cases in the UK. The comprehensive nature of its sequencing program has allowed the UK to respond in a timely and tailored manner to evolving data on the ground.
+
+::: {#fig-3 .column-page-right}
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/6696914?718630"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-scatter" data-src="visualisation/6696927?718630"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/6696961?718630"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+UK variant trends
+
+:::
+
+#### The US: National gaps in vaccine coverage and sequencing.
+
+Sequencing has been less robust in the US. The Delta variant was first detected in the US in [March 2021](https://www.cdc.gov/coronavirus/2019-ncov/variants/variant.html). Although its prevalence as of July 7, 2021 is lower in the US than the UK, its numbers are rising. [Genomic surveillance in the US](https://covid.cdc.gov/covid-data-tracker/#variant-proportions) indicated that the Delta variant accounted for less than 1% of cases as of April 4, doubling approximately every two weeks and accounting for more than 51% of cases as of July 3. Just as the Alpha variant became the dominant lineage in the US in [mid-March](https://www.nytimes.com/2021/02/07/health/coronavirus-variant-us-spread.html), in large part because it was more transmissible than the prevalent lineages at the time, the even more transmissible Delta variant is replacing Alpha. As scientists predicted, Delta [has become the dominant lineage ](https://www.reuters.com/world/us/delta-variant-already-dominant-us-cdc-estimates-show-2021-07-07/)in the US. Parts of [Missouri](https://www.kcmo.gov/Home/Components/News/News/1636/625), [Nevada](https://www.nytimes.com/live/2021/07/07/world/covid-19-vaccine-coronavirus-updates-#nevada-covid-delta), [California](https://www.latimes.com/california/story/2021-07-08/coronavirus-cases-in-california-rise-for-first-time-in-months-as-delta-variant-spreads), and [Colorado](https://www.denverpost.com/2021/07/08/colorado-delta-variant-country-jam/) are seeing Delta-related surges in Covid-19 cases. 
+
+::: {#fig-4 .column-page-right}
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/6697064?718630"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-scatter" data-src="visualisation/6697098?718630"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/6697144?718630"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+US variant trends
+
+:::
+
+
+Throughout 2020, laboratories in the US lacked the resources and infrastructure needed for effective genomic surveillance of SARS-CoV-2 variants. In December 2020, the US ranked [43rd in the world](https://www.washingtonpost.com/world/2020/12/23/us-leads-world-coronavirus-cases-ranks-43rd-sequencing-check-variants/), sequencing only 0.3% of samples. With increased federal [funding](https://jamanetwork.com/journals/jama/fullarticle/2777988) and [coordination](https://jamanetwork.com/journals/jama/fullarticle/2776739), beginning in early 2021, the capacity and speed of genomic sequencing have ramped up, along with an increased scrutiny on the scope of data being made available to the public. In the United States as of June 2021, at least 33 states reported variant data publicly on a regular basis. Assuming incomplete data for the two weeks prior, data derived from [GISAID](https://www.gisaid.org) on 6/28 indicates the US as a whole sequenced nearly 4.8% of its Covid-19 cases in the month of June, with a median lag time of 15 days. As of [July 21](https://www.gisaid.org/index.php?id=209), states’ median percent sequenced in the past 30 days ranged from 0% (South Dakota) to 13.28% (Nebraska) and the median lag time ranged from 7 days (Kansas and Nebraska) to 23 days (Delaware and Vermont), illustrating the differences in sequencing capacity between states. Although this is a slight improvement, US sequencing efforts are still insufficient to detect and monitor variants that emerge and circulate. Scientists have recommended sequencing between [5%](https://www.medrxiv.org/content/10.1101/2021.01.12.21249613v1.full) to [30%](https://magazine.jhsph.edu/2021/covid-19-how-track-viral-variants) of cases.  
+
+As of July 20, 2021, the Delta variant has been detected in [124](https://www.who.int/publications/m/item/weekly-epidemiological-update-on-covid-19---20-july-2021) countries with a prevalence of [over 75%](https://www.who.int/publications/m/item/weekly-epidemiological-update-on-covid-19---20-july-2021) in more than a dozen countries. Case numbers are expected to increase, especially in areas with low vaccination rates and insufficient genomic surveillance. With just 1% of people vaccinated, [cases in Africa](https://www.washingtonpost.com/world/2021/07/09/coronavirus-latest-updates/) are doubling every 18 days, with Namibia, Uganda, Zambia, and South Africa most severely affected. [Indonesia, Thailand, and South Korea](https://www.cidrap.umn.edu/news-perspective/2021/07/delta-covid-variant-surges-asia-casts-shadow-olympics) are seeing record number of cases, and the Delta variant became dominant in [Japan](https://covariants.org/per-country) before the Olympic Games Opening Ceremony on July 23, prompting Olympic officials to ban all spectators. Parts of [Australia](https://www.npr.org/2021/06/29/1011201162/coronavirus-surges-arnound-the-world-are-linked-to-delta-variant) are locking down due to Delta outbreaks.
+
+### How do scientists assess the danger posed by any given variant?
+
+All [variants](https://abcnews.go.com/Health/delta-covid-19-variant-now-80-countries/story?id=78339159), including Delta, are assessed for transmissibility, severity of disease, and ability to evade the immune system. In a _Washington Post_ [editorial](https://www.washingtonpost.com/opinions/2021/06/16/delta-variant-ashish-jha-us-vaccines/), Dr. Ashish K. Jha, Dean of the Brown University School of Public Health called the Delta variant “one of the first triple threats across all those factors.” Studies have shown that the Delta variant is [40-60% more transmissible](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/993879/Variants_of_Concern_VOC_Technical_Briefing_15.pdf) than the Alpha variant, which is in turn [43-90%](https://science.sciencemag.org/content/372/6538/eabg3055) more transmissible than the original virus. The increased transmissibility of Delta may be related to a [1,000-fold increase](https://www.npr.org/sections/goatsandsoda/2021/07/08/1013794996/why-the-delta-variant-is-so-contagious-a-new-study-sheds-light) in the amount of virus in the respiratory tract, compared to the original virus. Infection with the Delta variant is [twice as likely](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)01358-1/fulltext?utm_campaign=lancetcovid21&utm_source=twitter&utm_medium=social) as the Alpha variant to result in an ER visit or hospitalization. Reports out of [Guangzhou, China](https://www.nytimes.com/2021/06/12/world/china-covid-delta-variant-guangzhou.html) suggest an increase in the severity of disease caused by the Delta variant.  A [study in the UK](https://covid.joinzoe.com/post/new-top-5-covid-symptoms) found that, as of June 23, 2021, the most common symptoms of Covid-19 in unvaccinated people are headache and runny nose, with shortness of breath and loss of the sense of smell being much rarer, ”indicating the symptoms as recorded previously are changing with the evolving variants of the virus.”
+
+### How do vaccines factor in?	
+
+Every variant of concern is evaluated to assess how well it is neutralized by antibodies from vaccinated individuals. Clinical studies assess how well vaccines perform against infection or disease caused by variants. So far, the information about vaccine-induced protection against variants has been reassuring for the people and places where vaccines are available. Fully vaccinated individuals mount a robust immune response that provides [good protection](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)01358-1/fulltext) against all known variants, including Delta. Those who have only received the first dose of a two-dose regimen, however, have reduced protection against the Delta variant compared to other known variants. Some studies show efficacy against symptomatic disease as low as [33%](https://www.bmj.com/content/373/bmj.n1346) in singly vaccinated individuals, however studies also indicate around [75% vaccine effectiveness](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/997414/Variants_of_Concern_VOC_Technical_Briefing_16.pdf) is maintained against hospitalization, even after only one dose. (Studies on the single-dose Johnson & Johnson/Janssen vaccine are [ongoing](https://apps.who.int/iris/bitstream/handle/10665/341784/WHO-2019-nCoV-vaccines-SAGE-recommendation-Ad26.COV2.S-2021.2-eng.pdf?sequence=2), and while some [conflicting findings](https://www.biorxiv.org/content/10.1101/2021.07.19.452771v1) exist, early [data](https://www.nejm.org/doi/full/10.1056/NEJMc2108829) showed promising [results](https://www.jnj.com/positive-new-data-for-johnson-johnson-single-shot-covid-19-vaccine-on-activity-against-delta-variant-and-long-lasting-durability-of-response), especially against severe disease.) It is important to note that many differences exist in these studies, including methodological differences as well as the populations and vaccines involved, and additional clinical and laboratory studies are needed to provide a [clearer picture](https://www.who.int/publications/m/item/weekly-epidemiological-update-on-covid-19---20-july-2021).
+
+In addition to the biological complexities emerging variants can create, improving vaccination rates remain a notable challenge.  Worldwide, [fifteen countries](https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html) have more than 50% of residents fully vaccinated as of July 20. In the US, only 48.7% of the population is [fully vaccinated](https://covid.cdc.gov/covid-data-tracker/#vaccinations) as of July 20, but states range from 33.7% (Alabama) to 67% (Vermont). On a [county-by-county](https://www.nytimes.com/interactive/2020/us/covid-19-vaccine-doses.html) basis, the variation in vaccination rates is even greater. This situation can lead to local [pockets of increased transmission](https://www.bloomberg.com/news/articles/2021-06-16/pockets-of-unvaccinated-americans-threaten-to-prolong-pandemic), resulting in more cases, more viral replication, and more opportunities for new mutations and new variants to emerge.
+
+**The immense and preventable delay in scaling global access to vaccinations is also the time window in which variants can continue to evolve**. A [new subtype](https://www.sciencemediacentre.org/expert-reaction-to-cases-of-the-b-1-617-2-delta-variant-with-the-k417n-mutation/) derived from the Delta variant has already been detected in India, the UK, Portugal, and the US. Dubbed B.1.617.2.1, AY.1, or, more colloquially “Nepal Variant” or “Delta Plus,” it possesses an additional mutation (K417N) that is also present in the Beta variant. This mutation has been associated with an [increased ability](https://www.sciencedirect.com/science/article/pii/S0888754321001798) to [evade the immune system](https://www.theguardian.com/world/2021/jun/03/nepal-covid-variant-does-it-exist-should-concerned). That mutation, combined with the increased transmissibility of Delta, has raised the concern of scientists and this virus subtype is being closely watched, although it has not yet been given a designation separate from the Delta VOC. Fortunately, it can be identified with the new [rapid genotyping assay](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/994839/Variants_of_Concern_VOC_Technical_Briefing_16.pdf), which will aid in surveillance. 
+
+::: {#fig-5 .column-page-right}
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/6697196?718630"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/6700372?718630"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+Percent of new cases sequenced and submission lag per specimen collection week
+
+:::
+
+### How do surveillance and vaccination work together to curb the pandemic?
+
+Globally, there is a wide range in the percent of positive Covid-19 samples that are sequenced; some countries sequence [less than 0.01%, while some sequence more than 77%](https://coronavirus.jhu.edu/data/variant-data). The reasons for these disparities are many, including resources, technology, infrastructure, and policy decisions. There is no definitive way to predict where the next variant will emerge, and without ample sequencing, variants can become widespread before they are even detected. In addition, the lag time between obtaining a sample, determining its sequence, and reporting that data publicly needs to be shortened. **A lag time of weeks, or even months, enables emerging variants to circulate widely before mitigation measures can be taken.** It is also important to note that the samples chosen to sequence are rarely representative. [Sampling bias](https://outbreak.info/situation-reports/caveats) can result from differences in sequencing capacity and lag times, as well as selective sampling during outbreaks and among travellers. Worldwide increases in sequencing capacity and speed are necessary for effective variant surveillance.  
+
+**The best way to interrupt the transmission cycle is full vaccination, which protects those who are vaccinated, as well as unvaccinated or under-vaccinated members of their [households](https://www.nejm.org/doi/full/10.1056/NEJMc2107717) and [communities](https://www.nature.com/articles/s41591-021-01407-5).** Vaccination rates, like sequencing rates, vary widely between (and within) countries. Increasing those rates requires international cooperation. Countries, where variants are detected, should be helped, not stigmatized. A country with high testing, sequencing, and vaccination rates may be at an advantage, but it may only be temporary. If the rest of the world is not included in surveillance and vaccination efforts, there is little chance of ending the current pandemic or preventing the next one.
+
+Attention-grabbing headlines about variants may get more clicks and airtime, but they do little to promote public health and mitigate community risk. Detecting new or more widespread variants should trigger action, not panic. **An outbreak should result in more testing and sequencing, as well as enhanced vaccination efforts and non-pharmaceutical interventions such as masking and social restrictions on a personal and community level.** Global cooperative surveillance and careful study of the properties of viral variants will provide the information we need to react in a fact-based rather than fear-based way to any new “supervirus.”
+
+---
+We are grateful to the data contributors who shared the data used in this Web Application via the GISAID Initiative[^1]^,^[^2]: the Authors, the Originating Laboratories responsible for obtaining the specimens, and the Submitting Laboratories that generated the genetic sequences and metadata.
+
+GISAID data provided on this website are subject to GISAID [Terms and Conditions](https://www.gisaid.org/DAA).
+
+[^1]:Elbe, S., and Buckland-Merrett, G. (2017) Data, disease and diplomacy: GISAID’s innovative contribution to global health. Global Challenges, 1:33-46. DOI: [10.1002/gch2.1018](http://dx.doi.org/10.1002/gch2.1018)  PMCID: [31565258](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6607375/)
+[^2]:Shu, Y., McCauley, J. (2017) GISAID: From vision to reality. EuroSurveillance, 22(13). DOI: [10.2807/1560-7917.ES.2017.22.13.30494](http://dx.doi.org/10.2807/1560-7917.ES.2017.22.13.30494) PMCID: [PMC5388101](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5388101/)
