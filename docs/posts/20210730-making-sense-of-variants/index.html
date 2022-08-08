@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.619">
+<meta name="generator" content="quarto-1.0.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,7 +39,7 @@ ul.task-list{list-style: none;}
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -300,7 +300,7 @@ Note
 <div class="flourish-embed flourish-chart" data-src="visualisation/6680291?900894">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 1: Global variant trends</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 1: Global variant trends</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -321,7 +321,7 @@ Note
 <div class="flourish-embed flourish-chart" data-src="visualisation/6693629?718630">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 2: India variant trends</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 2: India variant trends</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -340,7 +340,7 @@ Note
 <div class="flourish-embed flourish-chart" data-src="visualisation/6696961?718630">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 3: UK variant trends</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 3: UK variant trends</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -358,7 +358,7 @@ Note
 <div class="flourish-embed flourish-chart" data-src="visualisation/6697144?718630">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 4: US variant trends</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 4: US variant trends</figcaption><p></p>
 </figure>
 </div>
 <p>Throughout 2020, laboratories in the US lacked the resources and infrastructure needed for effective genomic surveillance of SARS-CoV-2 variants. In December 2020, the US ranked <a href="https://www.washingtonpost.com/world/2020/12/23/us-leads-world-coronavirus-cases-ranks-43rd-sequencing-check-variants/">43rd in the world</a>, sequencing only 0.3% of samples. With increased federal <a href="https://jamanetwork.com/journals/jama/fullarticle/2777988">funding</a> and <a href="https://jamanetwork.com/journals/jama/fullarticle/2776739">coordination</a>, beginning in early 2021, the capacity and speed of genomic sequencing have ramped up, along with an increased scrutiny on the scope of data being made available to the public. In the United States as of June 2021, at least 33 states reported variant data publicly on a regular basis. Assuming incomplete data for the two weeks prior, data derived from <a href="https://www.gisaid.org">GISAID</a> on 6/28 indicates the US as a whole sequenced nearly 4.8% of its Covid-19 cases in the month of June, with a median lag time of 15 days. As of <a href="https://www.gisaid.org/index.php?id=209">July 21</a>, states’ median percent sequenced in the past 30 days ranged from 0% (South Dakota) to 13.28% (Nebraska) and the median lag time ranged from 7 days (Kansas and Nebraska) to 23 days (Delaware and Vermont), illustrating the differences in sequencing capacity between states. Although this is a slight improvement, US sequencing efforts are still insufficient to detect and monitor variants that emerge and circulate. Scientists have recommended sequencing between <a href="https://www.medrxiv.org/content/10.1101/2021.01.12.21249613v1.full">5%</a> to <a href="https://magazine.jhsph.edu/2021/covid-19-how-track-viral-variants">30%</a> of cases.</p>
@@ -382,7 +382,7 @@ Note
 <div class="flourish-embed flourish-chart" data-src="visualisation/6700372?718630">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 5: Percent of new cases sequenced and submission lag per specimen collection week</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 5: Percent of new cases sequenced and submission lag per specimen collection week</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -408,6 +408,24 @@ Note
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

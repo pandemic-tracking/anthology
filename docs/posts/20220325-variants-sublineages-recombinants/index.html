@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.619">
+<meta name="generator" content="quarto-1.0.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -41,7 +41,7 @@ ul.task-list{list-style: none;}
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -230,7 +230,7 @@ Note
 <div class="flourish-embed flourish-chart" data-src="visualisation/9014533?900894">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 1: Chart of global SARS-CoV-2 Variant of Concern (VOC) growth from October 4, 2020 to March 21, 2022</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 1: Chart of global SARS-CoV-2 Variant of Concern (VOC) growth from October 4, 2020 to March 21, 2022</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -240,7 +240,7 @@ Note
 <div id="fig-2" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/03/sublineages-viz2-final-1440@2x-1440x793.png" class="img-fluid figure-img"></p>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 2: SARS-CoV-2 evolutionary tree diagram using Nextstrain data and adapted from the work of Dr.&nbsp;Emma Hodcroft. The distance between branches and twigs shows the differences in mutations between lineages and sublineages. This tree shows both Pango lineages and Nextstrain clades for Delta and Omicron where applicable.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 2: SARS-CoV-2 evolutionary tree diagram using Nextstrain data and adapted from the work of Dr.&nbsp;Emma Hodcroft. The distance between branches and twigs shows the differences in mutations between lineages and sublineages. This tree shows both Pango lineages and Nextstrain clades for Delta and Omicron where applicable.</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -253,7 +253,7 @@ Note
 <div class="flourish-embed flourish-chart" data-src="visualisation/9015978?900894">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 3: Global Omicron sublineage growth. BA.1, BA.1.1, and BA.3 all display S-gene target failure (SGTF). SGTF is a characteristic allowing for rapid detection of probable BA.1, BA.1.1, and BA.3 Omicron (and previously the Alpha variant). BA.2 does not display SGTF, leading to it being dubbed the “Stealth Variant.”</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 3: Global Omicron sublineage growth. BA.1, BA.1.1, and BA.3 all display S-gene target failure (SGTF). SGTF is a characteristic allowing for rapid detection of probable BA.1, BA.1.1, and BA.3 Omicron (and previously the Alpha variant). BA.2 does not display SGTF, leading to it being dubbed the “Stealth Variant.”</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -286,6 +286,24 @@ Note
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

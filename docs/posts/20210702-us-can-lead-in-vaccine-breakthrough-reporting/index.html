@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.619">
+<meta name="generator" content="quarto-1.0.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,7 +39,7 @@ ul.task-list{list-style: none;}
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -231,7 +231,7 @@ Note
 <div class="flourish-embed flourish-chart" data-src="visualisation/6474991?900894">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 1: Vaccine breakthrough data reported by the CDC</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 1: Vaccine breakthrough data reported by the CDC</figcaption><p></p>
 </figure>
 </div>
 <p>The policy change has resulted in a dramatic drop in the number of vaccine breakthrough cases reported by the CDC, while the number of reporting jurisdictions increased from 46 to 47. The limitation on the vaccine breakthrough cases the CDC will fully investigate does not, however, prevent states from publicly reporting more information than the CDC requests. Washington, for example, is reporting granular vaccine breakthrough data on a regular basis in two weekly reports. Their <a href="https://www.doh.wa.gov/Portals/1/Documents/1600/coronavirus/data-tables/420-339-VaccineBreakthroughReport.pdf">SARS-CoV-2 Vaccine Breakthrough Surveillance and Case Information Resource</a> includes comprehensive demographic data for cases, a cross tab breakdown on the number of symptomatic and/or hospitalized cases, and the number of deaths among vaccine breakthrough cases. Their <a href="https://www.doh.wa.gov/Portals/1/Documents/1600/coronavirus/data-tables/420-316-SequencingAndVariantsReport.pdf">SARS-CoV-2 Sequencing and Variants report</a> includes a variant lineage breakdown for vaccine breakthrough cases.</p>
@@ -243,6 +243,24 @@ Note
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
