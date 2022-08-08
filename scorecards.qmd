@@ -271,6 +271,7 @@ The current CDC data does not update frequently and does not include the ability
 
 ### July 7 2022
 ![](scorecards/btscorecard-20220707.png)
+[[7/7/22 data file](https://github.com/pandemic-tracking/bi/blob/d750786817220a1a37ef2c315b110a1039bbe425/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv)]{.aside}
 
 ### June 2 2022
 [[6/2/22 data file](https://github.com/pandemic-tracking/bi/blob/4387ee9e70398de782d6766ce1f08c42d9925e54/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv)]{.aside}

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.619">
+<meta name="generator" content="quarto-1.0.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -44,7 +44,7 @@ ul.task-list{list-style: none;}
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -227,14 +227,14 @@ As with cumulative data, states can report time series data either as raw number
 <div id="fig-1" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2021/12/btscorecard-viz1-final-1440@2x-1440x793.png" class="img-fluid figure-img"></p>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 1: Currently, nine states receive an F grade because they do not share data regularly. Of the remaining states, three (California, Colorado, and Utah) meet the criteria for an A.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 1: Currently, nine states receive an F grade because they do not share data regularly. Of the remaining states, three (California, Colorado, and Utah) meet the criteria for an A.</figcaption><p></p>
 </figure>
 </div>
 <p>Our analysis of state reporting found <strong>that most states are now reporting breakthrough data</strong>—with 43 out of 52 juridictions now regularly sharing data, up from <a href="https://www.google.com/url?q=https://www.kff.org/policy-watch/covid-19-vaccine-breakthrough-cases-data-from-the-states/&amp;sa=D&amp;source=docs&amp;ust=1639640438444000&amp;usg=AOvVaw2F1m_Wd2i1HqbFibMMOTp9">just over half that in the summer.</a> Those states almost all report important cumulative counts of cases, hospitalizations, and deaths. The majority of those states also report time-series data, with 34 states reporting at least one metric over time.</p>
 <div id="fig-2" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2021/12/btscorecard-viz2-final-1440@2x-1440x793.png" class="img-fluid figure-img"></p>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 2: Including states with both regular and ad hoc public reports, as of December 16, 2021, 40 states have reported cumulative breakthrough cases, 37 states have reported cumulative breakthrough hospitalizations, and 42 states have reported cumulative breakthrough deaths.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 2: Including states with both regular and ad hoc public reports, as of December 16, 2021, 40 states have reported cumulative breakthrough cases, 37 states have reported cumulative breakthrough hospitalizations, and 42 states have reported cumulative breakthrough deaths.</figcaption><p></p>
 </figure>
 </div>
 <p><br>
@@ -255,6 +255,24 @@ That so many states are reporting data is impressive given the uphill battle tha
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

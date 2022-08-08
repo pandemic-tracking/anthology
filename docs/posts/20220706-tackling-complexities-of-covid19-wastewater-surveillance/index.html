@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.619">
+<meta name="generator" content="quarto-1.0.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,7 +39,7 @@ ul.task-list{list-style: none;}
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -190,7 +190,7 @@ Note
 <div id="fig-1" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/07/ww-process-final-1440@2x-1440x793.png" class="img-fluid figure-img"></p>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 1: Wastewater monitoring is a process that requires multiple steps to collect, process, and analyze samples and report data.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 1: Wastewater monitoring is a process that requires multiple steps to collect, process, and analyze samples and report data.</figcaption><p></p>
 </figure>
 </div>
 <section id="sampling-where-and-when" class="level4">
@@ -220,7 +220,7 @@ Note
 <div id="fig-2" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/07/ww-pcrtypes-final-1440@2x-1440x793.png" class="img-fluid figure-img"></p>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 2: In quantitative PCR, the signal is detected over the course of the amplification process. The more of the target sequence present in the original sample, the quicker the signal will reach the detection threshold. In digital PCR, the sample is separated into thousands of separate amplification reactions, each of which results in either a positive or negative signal at the endpoint.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 2: In quantitative PCR, the signal is detected over the course of the amplification process. The more of the target sequence present in the original sample, the quicker the signal will reach the detection threshold. In digital PCR, the sample is separated into thousands of separate amplification reactions, each of which results in either a positive or negative signal at the endpoint.</figcaption><p></p>
 </figure>
 </div>
 <p>One of the most important choices in developing PCR for wastewater analysis is selecting which sequences within the dozen or so SARS-CoV-2 genes to target. The specificity of a PCR assay is determined by the sequence of the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7340604/">primers</a>, short stretches of DNA that correspond to parts of the target gene. The choice of target sequences and primers can vary between laboratories and, depending on the <a href="https://www.rockefellerfoundation.org/case-study/variants-sublineages-and-recombinants-the-constantly-changing-genome-of-sars-cov-2/">evolution of the virus</a>, may need to be changed.</p>
@@ -273,7 +273,7 @@ Note
 <div class="flourish-embed flourish-map" data-src="visualisation/10520083?900894">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 3: US counties with SARS-CoV-2 wastewater monitoring. Coverage is growing, but many counties and some states and territories still lack wastewater monitoring.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 3: US counties with SARS-CoV-2 wastewater monitoring. Coverage is growing, but many counties and some states and territories still lack wastewater monitoring.</figcaption><p></p>
 </figure>
 </div>
 <p>While the CDC’s <a href="https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance">NWSS site</a> currently displays only trends in virus levels in wastewater, sequencing of viral RNA is essential for tracking variants in communities able to perform that analysis, Early detection of new variants in a community can track the introduction and geographic spread of variants. Expansion of sequencing capacity would help improve genomic surveillance of both clinical and wastewater samples. As with quantitative analysis, genomic analysis would benefit from standardization. CDC is working with the National Center for Biotechnology Information (NCBI) to establish a <a href="https://www.nist.gov/system/files/documents/2021/07/23/Kirby-day1.pdf">wastewater sequencing database</a>.</p>
@@ -301,6 +301,24 @@ Note
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

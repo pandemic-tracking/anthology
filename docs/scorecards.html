@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.619">
+<meta name="generator" content="quarto-1.0.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,7 +33,7 @@ ul.task-list{list-style: none;}
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -186,7 +186,7 @@ Note
 <div class="flourish-embed flourish-map" data-src="visualisation/10254485?900894">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 1: Most recent hexmap of scorecard</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 1: Most recent hexmap of scorecard</figcaption><p></p>
 </figure>
 </div>
 <section id="scorecard-and-criteria" class="level3">
@@ -526,9 +526,9 @@ Note
 </section>
 <section id="scorecard-archive" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="scorecard-archive">Scorecard Archive</h2>
-<section id="july-7-2022" class="level3">
+<section id="july-7-2022" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="july-7-2022">July 7 2022</h3>
-<p><img src="scorecards/btscorecard-20220707.png" class="img-fluid"></p>
+<div class="page-columns page-full"><p><img src="scorecards/btscorecard-20220707.png" class="img-fluid"> </p><div class="no-row-height column-margin column-container"><span class="aside"><a href="https://github.com/pandemic-tracking/bi/blob/d750786817220a1a37ef2c315b110a1039bbe425/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv">7/7/22 data file</a></span></div></div>
 </section>
 <section id="june-2-2022" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="june-2-2022">June 2 2022</h3>
@@ -566,6 +566,24 @@ Note
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
