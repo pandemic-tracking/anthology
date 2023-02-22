@@ -38,7 +38,7 @@ Most recent hexmap of scorecard
 Our state scoring system uses 29 criteria to calculate the grade for each state and territory we track. (We use “state” throughout to refer to states, territories, and the District of Columbia.)
 
 ::: {#tbl-sheet}
-<iframe width=650 height=600 src="https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRfTwTWTRDFmtTf9sVC8LyFVOeAuuEcFVmT_FXXKo5yaxKaAddidM2J90CSr7FWl0uXOIySFD7e948g/pubhtml#"></iframe>
+<iframe width=650 height=600 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2qBA8Pd3X_5dPmPZDVan0PyEdOlHP1gdiRbzoRw1OnDahJ7QfawDes3k8Dq37Su_rzdYxFrTSQxt4/pubhtml"></iframe>
 
 Most recent scorecard
 
@@ -255,28 +255,47 @@ The current CDC data does not update frequently and does not include the ability
 
 ### Changelog
 
-+---------------+---------------+
-| Date          | Change        |
-+===============+===============+
++---------------+-----------------------------------------------+
+| Date          | Change                                        |
++===============+===============================================+
 | 2/25/22       | - Added booster data reporting best practices |
-+---------------+---------------+
-| 7/7/22        | - Added recent reporting best practices |
-|               | - Removed North Dakota example | 
-|               | - Added New Mexico |
-+---------------+---------------+
++---------------+-----------------------------------------------+
+| 7/7/22        | - Added recent reporting best practices       |
+|               | - Removed North Dakota example                | 
+|               | - Added New Mexico                            |
++---------------+-----------------------------------------------+
 
 *Last Updated: 7/7/22*
 
 ## Scorecard Archive
+
+### December 1 2022
+![](scorecards/btscorecard-20221201.png)
+[[12/1/22 data file](https://github.com/pandemic-tracking/bi/blob/6059cb93495925e619f0b17454165f107c1631e8/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv)]{.aside}
+
+### November 3 2022
+![](scorecards/btscorecard-20221103.png)
+[[11/3/22 data file](https://github.com/pandemic-tracking/bi/blob/7d85d637b340d293e4aea1922bf7d3250a3e68d4/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv)]{.aside}
+
+### October 6 2022
+![](scorecards/btscorecard-20221006.png)
+[[10/6/22 data file](https://github.com/pandemic-tracking/bi/blob/17aad39e0ebefb1af32a364b81da7219b5ce0c7e/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv)]{.aside}
+
+### September 1 2022
+![](scorecards/btscorecard-20220901.png)
+[[9/1/22 data file](https://github.com/pandemic-tracking/bi/blob/7ff1aefecbe9c4ac58fcdc96ba0ba27c57fb4612/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv)]{.aside}
+
+### August 8 2022
+![](scorecards/btscorecard-20220804.png)
+[[8/4/22 data file](https://github.com/pandemic-tracking/bi/blob/dbfed7b441be417bf4bcf034fc2bdd756404645a/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv)]{.aside}
 
 ### July 7 2022
 ![](scorecards/btscorecard-20220707.png)
 [[7/7/22 data file](https://github.com/pandemic-tracking/bi/blob/d750786817220a1a37ef2c315b110a1039bbe425/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv)]{.aside}
 
 ### June 2 2022
-[[6/2/22 data file](https://github.com/pandemic-tracking/bi/blob/4387ee9e70398de782d6766ce1f08c42d9925e54/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv)]{.aside}
-
 ![](scorecards/btscorecard-20220602.png)
+[[6/2/22 data file](https://github.com/pandemic-tracking/bi/blob/4387ee9e70398de782d6766ce1f08c42d9925e54/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv)]{.aside}
 
 ### May 5 2022
 ![](scorecards/btscorecard-20220505.png)
@@ -287,16 +306,13 @@ The current CDC data does not update frequently and does not include the ability
 ![](scorecards/btscorecard-20220407.png)
 
 ### March 10 2022
+![](scorecards/btscorecard-20220310.png)
 [[3/10/22 data file](https://github.com/pandemic-tracking/bi/blob/1d2be8240b45c98efdeb973d4af58931ca6adde9/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv)]{.aside}
 
-![](scorecards/btscorecard-20220310.png)
-
 ### February 10 2022
+![](scorecards/btscorecard-20220210.png)
 [[2/10/22 data file](https://github.com/pandemic-tracking/bi/blob/b99d01884cf5acf9486a32bfe16d9d4831bd77a7/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv)]{.aside}
 
-![](scorecards/btscorecard-20220210.png)
-
 ### January 13 2022
-[[1/13/22 data file](https://github.com/pandemic-tracking/bi/blob/e9ab72a8eebbf408b248ea78001ad7bb1df39591/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv)]{.aside}
-
 ![](scorecards/btscorecard-20220113.png)
+[[1/13/22 data file](https://github.com/pandemic-tracking/bi/blob/e9ab72a8eebbf408b248ea78001ad7bb1df39591/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv)]{.aside}
