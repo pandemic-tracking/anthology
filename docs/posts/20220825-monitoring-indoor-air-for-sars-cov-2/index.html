@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jacqueline Houtman">
+<meta name="author" content="Lindsey Shultz">
+<meta name="author" content="Rebecca Glassman">
+<meta name="author" content="Jonathan Gilmour">
+<meta name="author" content="Jessica Malaty Rivera">
+<meta name="author" content="Kaitlyn Johnson">
+<meta name="dcterms.date" content="2022-08-25">
+
+<title>PTC - There’s Something in the Air: Monitoring Indoor Air for SARS-CoV-2</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-234526530-1', { 'storage': 'none' });
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
+</script>
+
+
+</head>
+
+<body class="floating nav-fixed slimcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../ptc-bars.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">PTC</span>
+    </a>
+  </div>
+          <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">Anthology</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../scorecards.html">
+ <span class="menu-text">Scorecards</span></a>
+  </li>  
+</ul>
+          <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../about.html"><i class="bi bi-info-circle-fill" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/pandemictrack"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#sars-cov-2-in-the-environment" id="toc-sars-cov-2-in-the-environment" class="nav-link active" data-scroll-target="#sars-cov-2-in-the-environment">SARS-CoV-2 in the Environment</a></li>
+  <li><a href="#history-from-canaries-to-anthrax" id="toc-history-from-canaries-to-anthrax" class="nav-link" data-scroll-target="#history-from-canaries-to-anthrax">History: From Canaries to Anthrax</a></li>
+  <li><a href="#air-sampling-science" id="toc-air-sampling-science" class="nav-link" data-scroll-target="#air-sampling-science">Air Sampling Science</a></li>
+  <li><a href="#proof-of-concept-laboratory-studies-and-controlled-environments" id="toc-proof-of-concept-laboratory-studies-and-controlled-environments" class="nav-link" data-scroll-target="#proof-of-concept-laboratory-studies-and-controlled-environments">Proof of Concept: Laboratory Studies and Controlled Environments</a></li>
+  <li><a href="#the-real-world" id="toc-the-real-world" class="nav-link" data-scroll-target="#the-real-world">The Real World</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#the-advantage-of-air" id="toc-the-advantage-of-air" class="nav-link" data-scroll-target="#the-advantage-of-air">The Advantage of Air</a></li>
+  <li><a href="#the-challenge-of-air" id="toc-the-challenge-of-air" class="nav-link" data-scroll-target="#the-challenge-of-air">The Challenge of Air</a></li>
+  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a></li>
+  </ul>
+</nav>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">There’s Something in the Air: Monitoring Indoor Air for SARS-CoV-2</h1>
+<p class="subtitle lead">Air surveillance in indoor spaces where people gather can be an important complement to clinical and wastewater data.</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Air Monitoring</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jacqueline Houtman </p>
+             <p>Lindsey Shultz </p>
+             <p>Rebecca Glassman </p>
+             <p>Jonathan Gilmour </p>
+             <p>Jessica Malaty Rivera </p>
+             <p>Kaitlyn Johnson </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 25, 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This piece is originally published at <a href="https://www.rockefellerfoundation.org/blog/theres-something-in-the-air-monitoring-indoor-air-for-sars-cov-2/">https://www.rockefellerfoundation.org/blog/theres-something-in-the-air-monitoring-indoor-air-for-sars-cov-2/</a></p>
+</div>
+</div>
+<p>Public health decisions about Covid-19 depend to a large extent on knowledge about the level of SARS-CoV-2 circulating in a community. Clinical data obtained from individuals through nasal swab samples is crucial, but with a <a href="https://twitter.com/PPI_Insights/status/1526327292976324609?s=20&amp;t=Z-Hrs9hAnL5s-s7tlWoaVw">decrease in case reporting, in part due to increased home testing</a>, the data needed to estimate disease prevalence is becoming less reliable. As an important complement to clinical data, monitoring of the <a href="https://www.karger.com/Article/FullText/511575?ref=36#ref36">physical environment</a> for the presence of the virus—and for viral variants— is essential for informing public health decisions, detecting outbreaks, and preventing future pandemics.</p>
+<section id="sars-cov-2-in-the-environment" class="level3">
+<h3 class="anchored" data-anchor-id="sars-cov-2-in-the-environment">SARS-CoV-2 in the Environment</h3>
+<p>Of the methodologies for environmental surveillance, <a href="https://www.rockefellerfoundation.org/case-study/tracking-sars-cov-2-and-its-variants-in-wastewater-an-old-technique-is-yielding-powerful-new-insights-in-the-covid-19-pandemic/">wastewater monitoring</a> has received the most attention. Wastewater has proved to be a valuable addition to the public health toolbox. Since SARS-CoV-2 is shed in feces, it can be detected in sewage as it flows to wastewater treatment facilities. The percentage of infected individuals who <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7311891/">shed virus</a> in the feces varies, however, as does the amount of viral RNA shed. Viral variants <a href="https://www.medrxiv.org/content/10.1101/2022.05.12.22274823v1.full.pdf">may also differ</a> in the amount of fecal shedding. Analysis of wastewater introduces <a href="https://www.rockefellerfoundation.org/case-study/tackling-the-complexities-of-covid-19-wastewater-surveillance/">complexities</a> that can make interpretation difficult. Monitoring for SARS-CoV-2 in a variety of environmental contexts would provide a more complete picture of the viruses circulating in a community.</p>
+<p>As a respiratory pathogen, the most relevant surveillance for SARS-CoV-2 would involve exhaled air. Virus from respiratory droplets falls on surfaces, and <a href="https://www.nih.gov/news-events/news-releases/new-coronavirus-stable-hours-surfaces#:">early studies</a> showed viral RNA could be detected on these surfaces for days. It eventually became clear that transmission of Covid-19 is primarily through <a href="https://www.science.org/doi/10.1126/science.abd9149">aerosols</a>, not respiratory droplets and that surface virus is a poor <a href="https://onlinelibrary.wiley.com/doi/10.1111/ina.12930">indicator</a> of viral load in an environment. Detecting virus on a surface does not imply that it is infectious, and exuberant disinfection of surfaces (<a href="https://www.theatlantic.com/ideas/archive/2020/07/scourge-hygiene-theater/614599/">“hygiene theater”</a>) was determined to be less effective at preventing the spread of Covid-19 than strategies to mitigate aerosol transmission, such as masking and ventilation. Airborne virus is thus a logical target for monitoring.</p>
+</section>
+<section id="history-from-canaries-to-anthrax" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="history-from-canaries-to-anthrax">History: From Canaries to Anthrax</h3>
+<p>For centuries, diseases were thought to be caused by miasmas, or “bad air.” Today, we know that pathogens and pollutants in the air can indeed make us sick. Air surveillance for pollutants goes back as far as the 19th century with literal <a href="https://www.smithsonianmag.com/smart-news/story-real-canary-coal-mine-180961570/">canaries</a> in coal mines, which would die if carbon monoxide levels got too high (a practice that was continued <a href="https://review.gale.com/2020/09/08/canaries-in-the-coal-mine/">until 1996</a>). Sampling air specifically for microorganisms began in 1861 with <a href="https://pubmed.ncbi.nlm.nih.gov/22267210/">Louis Pasteur</a>. In the 1930s, <a href="https://www.karger.com/Article/FullText/511575">William Firth Wells</a> developed an “<a href="https://academic.oup.com/aje/article-abstract/31-SectionB/2/85/130873?redirectedFrom=fulltext">air centrifuge</a>” to detect pathogens, including influenza virus, from the air. Mechanical methods for sampling air to measure <a href="https://www.aqmd.gov/home/research/publications/the-evolution-of-air-quality-monitoring">air pollution</a> were first developed in the 1940s. Air sampling technology progressed over the decades, but accelerated in the aftermath of the terrorist attacks of September 11, 2001, with an increased awareness of the threat of bioterrorism.</p>
+<p>Beginning in late September 2001, several letters containing a powdered form of the <a href="https://www.smithsonianmag.com/smithsonian-institution/anthrax-letters-terrorized-nation-now-decontaminated-public-view-180960407/">anthrax</a> bacterium (<em>Bacillus anthracis</em>) were mailed to prominent members of the media and Congress. Ultimately, 17 individuals who handled those <a href="https://www.fbi.gov/history/famous-cases/amerithrax-or-anthrax-investigation">letters</a> became ill, and five died. (<a href="https://www.cdc.gov/anthrax/pdf/evergreen-pdfs/anthrax-evergreen-content-english.pdf">Anthrax</a> can be transmitted by several routes, but inhalation anthrax is the most deadly form of the disease.) In response, the <a href="https://www.dhs.gov/biowatch-program">US Department of Homeland Security</a> developed the <a href="https://www.ncbi.nlm.nih.gov/books/NBK219708/">BioWatch</a> system in 2003. The US Centers for Disease Control and Prevention (CDC), which had <a href="https://archives.fbi.gov/archives/news/pressrel/press-releases/statement-of-director-mueller-on-fbi-investigations-into-anthrax-exposures-and-suspected-anthrax-exposure">analyzed the powder</a> in the letters, addressed anthrax as a <a href="https://www.cdc.gov/anthrax/bioterrorism/index.html">potential bioterrorism agent</a>. The CDC <a href="https://www.cdc.gov/niosh/hhe/reports/pdfs/2002-0109-2927.pdf">evaluated</a> several methods for sampling air for <em>B. anthracis</em> at a contaminated US Postal Service processing facility in Trenton, New Jersey.</p>
+
+<div class="no-row-height column-margin column-container"><div id="img-1" class="">
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/anthrax.jpg" class="img-fluid"></p>
+<p>When mail delivered to Capitol Hill was suspected of anthrax contamination, it was collected for analysis. Air samplers were used to monitor the containment area for <em>B. anthracis</em>. Image Credit: US Federal Bureau of Investigation.</p>
+</div></div></section>
+<section id="air-sampling-science" class="level3">
+<h3 class="anchored" data-anchor-id="air-sampling-science">Air Sampling Science</h3>
+<p>There are several <a href="https://link.springer.com/article/10.1007/s11356-021-13001-w">methods</a> for sampling air.</p>
+<ul>
+<li><strong>Passive sampling</strong> allows suspended particles to fall through gravity onto collection material, such as agar plates or an adhesive surface.</li>
+<li><strong><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ina.12875">Electrostatic precipitation</a></strong> applies an electric current to the air, ionizing it. As aerosols and droplets collide with the ionized air, they become charged and are attracted to an oppositely charged electrode.</li>
+<li><strong>Active filtration</strong> involves passing air through a filter and analyzing the material that is collected on the filter. A wide range of filter materials have been used in this type of sampler.</li>
+<li><strong>Impingers and impactors</strong> are active forms of sampling that force air onto the surface of a liquid or solid collection material, sometimes first forcing the air through slits or sieves of known size to limit the size of the particles collected. In the abovementioned anthrax study, an impactor was found to be the most sensitive of the methods tested.</li>
+</ul>
+</section>
+<section id="proof-of-concept-laboratory-studies-and-controlled-environments" class="level3">
+<h3 class="anchored" data-anchor-id="proof-of-concept-laboratory-studies-and-controlled-environments">Proof of Concept: Laboratory Studies and Controlled Environments</h3>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7905194/">Numerous studies</a> have been performed to assess the effectiveness of air sampling for SARS-CoV-2 using different methods of sampling. <a href="https://www.medrxiv.org/content/10.1101/2021.03.26.21254416v1">Passive</a> and <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ina.12875">electrostatic</a> methods were found to be relatively ineffective for detecting respiratory viruses in the air. Early studies were performed in laboratory and health care settings, or in rooms where Covid-19 patients were being isolated. In <a href="https://www.nature.com/articles/s41598-022-11303-8">one study</a>, using an impaction-based sampler in a dormitory isolation room, for example, increased symptoms in patients was associated with a higher aerosol viral load, while improved ventilation decreased the amount of virus detected in the air.</p>
+</section>
+<section id="the-real-world" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="the-real-world">The Real World</h3>
+<p>Once proof of concept had been established, the next step in developing an air surveillance strategy was to move from highly controlled situations to sites where substantial numbers of people gather naturally, in real life. In a project <a href="https://www.wpr.org/its-science-fiction-until-it-isnt-uw-madison-joins-global-institute-help-prepare-prevent-future">supported by The Rockefeller Foundation’s</a> <a href="https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-key-grants-and-collaborations-toward-the-creation-of-a-pandemic-prevention-institute/">U.S. Regional Accelerators for Genomic Surveillance</a>, <a href="https://openresearch.labkey.com/project/Coven/begin.view?">researchers</a> at the University of Wisconsin-Madison <a href="https://www.nature.com/articles/s41467-022-32406-w">performed air surveillance</a> in 15 sites, including rooms in hospitals, schools, and athletic buildings, as well as establishments serving food and beverages.</p>
+
+<div class="no-row-height column-margin column-container"><div id="img-2" class="">
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/The-Real-World.jpg" class="img-fluid"></p>
+<p>The size and portability of air samplers, as seen on the left in this school study site, can make them very useful in monitoring for airborne viruses in localized settings, like particular hallways or classrooms. Photo Credit: O’Connor Labs, UW-Madison</p>
+</div></div><p>To perform the <a href="https://openresearch.labkey.com/wiki/Coven/page.view?name=Current%20Sampling%20Workflow%20at%20UW-Madison">surveillance</a>, the researchers used an <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257689">impactor-type</a> air sampler with cartridges that were simple to change with minimal training, allowing individuals at the site such as staff or students to replace cartridges, which are the <a href="https://www.nytimes.com/2021/03/24/health/coronavirus-testing-airborne-aerosol-indoor.html">size of a 10 cc syringe.</a> A barcode system kept track of samples using a mobile phone app. The barcode on the cartridge was scanned when it was inserted and removed from the sampler, and metadata about the location (via GPS) and sampling time was automatically recorded. In the laboratory, the contents of the cartridge were removed and analyzed by <a href="https://www.ncbi.nlm.nih.gov/probe/docs/techqpcr/">quantitative PCR (qPCR)</a>.</p>
+<div id="fig-1" class="quarto-figure quarto-figure-center column-page-right anchored">
+<figure class="figure">
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/Air-Surveillance1-2048x1128.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: Air sampling study design. At the sampling site, a barcode on the cartridge was scanned to record the beginning and end of the sampling time, as well as the location of the site. The cartridge was transported to the laboratory for analysis. PCR results were combined with metadata.</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="results" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="results">Results</h3>
+<p>Daily, over the course of 29 weeks, 527 samples were collected, 106 of which were positive for the presence of SARS-CoV-2. In one example, when an outbreak of 20 confirmed cases occurred at one site, positive air samples were detected 7 days before the first confirmed case was reported. These findings demonstrate the utility of air surveillance and that it can be part of an effective public health strategy, particularly for keeping places like classrooms and hospitals virus-free. Some samples obtained in the study underwent genomic sequencing and all of them contained mutations characteristic of the variants (i.e., Delta and Omicron) that were predominant at the time samples were taken.</p>
+<p>The group expanded the study to test weekly for the presence of <a href="https://www.nature.com/articles/s41467-022-32406-w">40 additional pathogens</a>, including bacteria, viruses, and fungi. They detected 16 pathogens in eight sites, and noted distinctive patterns. For example:</p>
+<ul>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5075545/">Bocavirus</a>, which is typically found in respiratory infections in children under two years of age, was only found in sites where there were young children.</li>
+<li>Influenza A virus was detected in on-campus sites during an influenza outbreak at the University of Wisconsin-Madison.</li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div id="img-3" class="">
+<p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/Results.png" class="img-fluid"></p>
+<p>The convenience of air samplers means they can be used in many public settings, which also provides an opportunity to educate the public on what they are and why air surveillance can be an important part of the public health pandemic toolkit. Photo Credit: O’Connor Labs, UW-Madison</p>
+</div></div></section>
+<section id="the-advantage-of-air" class="level3">
+<h3 class="anchored" data-anchor-id="the-advantage-of-air">The Advantage of Air</h3>
+<p>While wastewater surveillance has been demonstrated to be a crucial tool in the public health response to Covid-19 in a community, this study, and others, illustrate the usefulness of monitoring the air for SARS-CoV-2 in indoor spaces. Air surveillance does have some advantages over wastewater surveillance that may make it a preferable method in some situations.</p>
+<ul>
+<li>There is no need for a centralized sewer. Air sampling can be performed anywhere people breathe, without the requirement that they use a bathroom.</li>
+<li>It is safer. There are no manholes to climb into or exposure to raw sewage (which can contain other pathogens).</li>
+<li>There is no technical expertise required to collect samples.</li>
+<li>It is portable and can easily be moved from room to room within a building. (The unit used in the UW-Madison study weighs less than 30 pounds.)</li>
+<li>It can be targeted in space and time. For example, it can be used for individual events or gatherings. Mitigation efforts can then be deployed very precisely.</li>
+</ul>
+</section>
+<section id="the-challenge-of-air" class="level3">
+<h3 class="anchored" data-anchor-id="the-challenge-of-air">The Challenge of Air</h3>
+<p>As with wastewater surveillance, the methods and equipment used by investigators can vary greatly and must be <a href="https://journals.sagepub.com/doi/pdf/10.1177/1420326X20980160">standardized</a>. In addition, wastewater is generally sampled from defined streams; it flows through pipes. Air circulates in a much less defined way, and is more difficult to quantify. The placement of the sampler can affect the usefulness of air monitoring, and an inappropriate placement may not reflect the actual viral content of the air, causing a misleading measure of the risk of transmission in a room. Some factors that <a href="https://www.epa.gov/sites/default/files/2014-08/documents/sec_2.pdf">can affect airflow</a> and viral spread in a room include:</p>
+<ul>
+<li>Temperature gradients</li>
+<li>Humidity</li>
+<li>The number and activity level of people</li>
+<li>Shape of the room</li>
+<li>Open windows and doors</li>
+<li>Effectiveness of HVAC system</li>
+</ul>
+<p>The sampler used in the UW-Madison costs approximately $5,000 for a unit that can sample one room at a time, reflecting a substantial startup cost. Cartridges and testing add additional expenses. <a href="https://www.pnas.org/doi/10.1073/pnas.2119600119">Wastewater monitoring</a> also has significant startup and testing costs, but expenses for both systems can be limited by optimizing sample location and timing.</p>
+<p>There are also ethical questions about <a href="https://www.nytimes.com/2021/03/24/health/coronavirus-testing-airborne-aerosol-indoor.html">what to do with positive results</a>. Because of the way the experiments were conducted by the UW-Madison group, it was not possible to use that information to intervene in that particular outbreak, but positive results could be a signal to increase public health measures in an area. Maintaining the privacy of the individuals involved may be challenging.</p>
+</section>
+<section id="future-directions" class="level3">
+<h3 class="anchored" data-anchor-id="future-directions">Future Directions</h3>
+<p>Monitoring air for SARS-CoV-2 is not yet in widespread use. The technology and methods for air monitoring continue to be developed, refined, and standardized.</p>
+<ul>
+<li>One of the more important variables in air sampling is the placement of the sampler for optimum detection of airborne virus. Since humans exhale carbon dioxide (CO<sub>2</sub>), monitors to measure <a href="https://forhealth.org/tools/co2-calculator/">CO2 levels</a> can be used to <a href="https://www.rnz.co.nz/news/in-depth/470690/whose-breath-are-you-breathing">assess the amount of exhaled air</a> in a room. Measuring levels of CO<sub>2</sub> can thus be a way to optimize sampler placement to better detect virus.</li>
+<li>In the UW-Madison work described here, sampler cartridges were transported to a laboratory for analysis, resulting in a delay in determining the viral content of the sampled air, and thus a delay in implementing appropriate mitigation measures. Real-time detection of aerosol virus is under development by numerous groups, including those in the <a href="https://news.miami.edu/stories/2021/09/researchers-developing-air-quality-sensors-to-detect-covid-19.html">United States</a>, <a href="https://www.smithsdetection.com/contact-us/">United Kingdom</a>, <a href="https://www.mcgill.ca/oss/article/covid-19-critical-thinking-general-science/bioclouds-science-air">Canada</a>, and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8009694/">South Korea</a>.<br>
+</li>
+<li>Improved ventilation and filtration of indoor air is known to reduce the risk of viral transmission. <a href="https://healthydavistogether.org/wp-content/uploads/2021/06/HealthyDavisTogether__AirFilterSampling.pdf">Integrating air filtration with air sampling</a> would allow simultaneous mitigation and monitoring.</li>
+<li>Researchers at <a href="https://ysph.yale.edu/news-article/wearable-air-sampler-detects-personal-exposure-to-sars-cov-2/">Yale University</a> are developing personal, wearable monitoring devices.</li>
+</ul>
+<p>Expanded monitoring of indoor air for SARS-CoV-2 can act as an important complement to clinical and wastewater data. Air surveillance also shows promise for detecting other airborne pathogens and will be an important tool for detecting future outbreaks and possibly identifying early indicators and warnings for future pandemics.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

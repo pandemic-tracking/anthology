@@ -1,0 +1,137 @@
+---
+title: The Increasing Burden of Dengue Fever in a Changing Climate
+subtitle: "Multiple effects of climate change affect the incidence and severity of dengue fever."
+date: "2022-11-10"
+author: 
+  - name: "Jacqueline Houtman"
+  - name: "Lindsey Shultz"
+  - name: "Rebecca Glassman"
+  - name: "Jonathan Gilmour"
+  - name: "Jessica Malaty Rivera"
+  - name: "Sam Scarpino"
+categories: ["Dengue","Climate Change"]
+image: thumbnail.jpg
+title-block-banner: false
+---
+::: {.callout-note}
+This piece is originally published at [https://www.rockefellerfoundation.org/blog/the-increasing-burden-of-dengue-fever-in-a-changing-climate/](https://www.rockefellerfoundation.org/blog/the-increasing-burden-of-dengue-fever-in-a-changing-climate/)
+:::
+
+When they think of climate change, many people envision global warming and a rising sea level. While climate change is indeed warming the globe and causing the seas to rise, that is not the only detrimental effect. [Disruption of weather patterns](https://climate.nasa.gov/effects/) can include stronger and more frequent storms, droughts, wildfires, and heat waves. Climate change can also affect agriculture and land use. As regions become less livable, more people will become [climate refugees](https://www.unhcr.org/en-us/climate-change-and-disasters.html). These other consequences of climate change can have profound effects on infectious diseases. In this way, climate change can contribute to the emergence or spread of diseases. 
+
+Dengue fever, a disease transmitted by mosquitoes, illustrates the potential for climate change to promote disease outbreaks. In the last fifty years, the incidence of dengue fever has increased 30-fold by one estimate, to an annual rate of [390 million infections](https://www.who.int/southeastasia/publications-detail/ISSN-0250-8362) worldwide, 96 million of which are symptomatic cases. An estimated [3.9 billion people, in 129 countries](https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue), are at risk of infection.
+
+### The virus
+
+The virus that causes dengue is a member of the genus _Flavivirus_, which also includes yellow fever virus, West Nile virus, and Zika virus. Dengue virus exists as four distinct serotypes (closely related forms of the virus). Immunity from infection with one serotype may provide [lifelong protection](https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue) from that serotype, but is only partially protective against other serotypes. 
+
+### The disease
+
+Infection with the dengue virus can result in a [wide spectrum](https://www.cdc.gov/dengue/symptoms/index.html) of disease severity. Approximately 75% of infections cause little or no clinical disease, but some may produce flu-like symptoms such as high fever, headache, and painful body aches that have earned it the nickname of “breakbone fever.” Patients usually recover in a few weeks with supportive care, including rest, hydration, and pain killers. 
+
+In 1-5% of cases, severe dengue can develop, as dengue hemorrhagic fever or dengue shock syndrome. The severe bleeding, shock, and organ failure can be fatal in up to 20% of severe cases, but [treatment](https://www.mayoclinic.org/diseases-conditions/dengue-fever/diagnosis-treatment/drc-20353084) (supportive care, intravenous fluids and electrolytes, blood transfusions), can reduce mortality in severe cases to less than 1%. A [second infection](https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue#:) with a different serotype than the first infection increases the risk of severe dengue.   
+
+A [vaccine](https://www.cdc.gov/vaccines/acip/recs/grade/CYD-TDV-dengue-vaccine.html) to prevent dengue fever has been approved in twenty countries. It should only be used in individuals who have previously been infected with the dengue virus. Those who receive the vaccine without a previous history of infection are at a higher risk of severe dengue. Recently, however, a [new vaccine](https://www.takeda.com/newsroom/newsreleases/2022/takedas-qdenga-dengue-tetravalent-vaccine-live-attenuated-approved-in-indonesia-for-use-regardless-of-prior-dengue-exposure/) was approved for use in Indonesia that does not require a previous infection. That vaccine has also been [recommended](https://www.reuters.com/business/healthcare-pharmaceuticals/eu-regulator-adopts-positive-opinion-dengue-vaccine-2022-10-14/) by the European Medicines Agency, a step toward approval for use in the EU. 
+
+### The vector
+
+The dengue virus cannot normally be transmitted from person to person directly, except in [rare instances](https://www.cdc.gov/dengue/transmission/index.html), such as through a blood transfusion or to a fetus during pregnancy. Transmission usually occurs through a [mosquito vector](https://www.nature.com/scitable/topicpage/dengue-transmission-22399758/). Mosquitoes are infected when they bite an infected person. The virus replicates in the infected mosquito, which can then transmit the virus to another person in a subsequent blood meal. 
+
+::: {#fig-1 .column-page-right}
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/11/Dengue-Transmission-Cycle-2048x1128.png)
+
+An infected mosquito bites and infects a person; another, uninfected mosquito later bites the infected person, picking up the dengue virus from them. This allows the virus to replicate in this new mosquito and when it bites a new person, the cycle continues.
+:::
+
+Dengue fever is transmitted by mosquitoes of two species: [_Aedes aegypti_ and _Aedes albopictus_](https://www.cdc.gov/mosquitoes/about/life-cycles/aedes.html). According to [one study](https://www.sciencedirect.com/science/article/pii/S1201971217303089), of 250 countries or territories worldwide, _Ae. aegypti_ can survive in 188 and _Ae. albopictus_ can survive in 197. Endemic cases of dengue fever (not associated with travel) were reported in 111 of these countries/territories.
+
+::: {#img-1 .column-margin}
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/11/Ghana-Piece-RF-Branded-Graphs-e1668115950660-700x512.png)
+
+_Aedes aegypti_, also known as the yellow fever mosquito. Photo credit: CDC
+:::
+
+* _Ae. aegypti_, known commonly as the yellow fever mosquito, is the primary vector, and also carries the zika and chikungunya viruses. _Ae. aegypti_ feeds mostly on humans, and is well-adapted to urban environments, living both indoors and outdoors. 
+
+* _Ae. albopictus_, known commonly as the Asian tiger mosquito or forest mosquito, can also transmit the dengue virus (although less effectively). _Ae. albopictus_ lives mostly outdoors and favors areas with heavy vegetation, feeding on animals, but it may also thrive in urban areas and feed on humans. Native to Asia, _Ae. albopictus_ has spread to other areas due to human activity, and was [introduced to the United States](https://www.invasivespeciesinfo.gov/terrestrial/invertebrates/asian-tiger-mosquito) in the 1980s in shipments of used tires. Its range is [expanding rapidly](https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-12-72).
+
+::: {#img-2 .column-margin}
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/11/PHIL_2165_lores.jpg)
+
+_Aedes albopictus_, also known as the Asian tiger or forest mosquito. Photo Credit: CDC
+:::
+
+Both species of mosquito bite aggressively during the day and require pools of stagnant water to breed. These pools may be [as small as a teaspoon](https://theconversation.com/after-a-horrific-covid-wave-indias-health-system-is-now-overwhelmed-by-a-different-virus-172685) and are found in nature (in puddles or tree holes) or in human environments (in trash, flower pots, buckets, etc.) Transmission is generally human→mosquito→human. [Animal reservoirs](https://www.sciencedirect.com/science/article/pii/S2352771421000069) such as [nonhuman primates](https://journals.asm.org/doi/full/10.1128/JVI.74.7.3227-3234.2000) are possible, but the role of animal→mosquito→human transmission is not clear. 
+
+::: {#fig-2 .column-page-right}
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/11/Mosquito-Lifecycle-2048x1128.png)
+
+A female mosquito requires a blood meal for egg production.  She then lays eggs onto the surface of stagnant water, where the larvae develop in stages and pupate.  The pupas then develop into mature adult mosquitoes, which then mate to continue the life cycle.
+:::
+
+### The influence of climate and climate change
+
+Dengue, like many diseases, has periods of increased incidence and transmission. Many areas have [seasonal variations](https://www.annualreviews.org/doi/full/10.1146/annurev.publhealth.21.1.271) in dengue incidence, for example, with increases associated with rainy or monsoon seasons. Natural weather perturbations, such as those caused by the [El Niño Southern Oscillation](https://www.nature.com/articles/s41598-018-24003-z) cycles, can influence the number of dengue cases, as can individual events, such as hurricanes or floods. Several [studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8416809/) have related these increases to elevated temperature, precipitation, or humidity. 
+
+Environmental changes are exacerbated by the effects of climate change, which can in turn exacerbate the impact of dengue fever. 
+
+* The mosquito vector is especially sensitive to weather since its body temperature depends on the temperature of the environment. 
+* The human response to heat, drought, flooding, and wildfires can influence land use choices for communities and agriculture, contributing to an increased disease burden through such activities as deforestation, urbanization, and migration. 
+
+Some of the climate change hazards that have been shown to affect the incidence and/or geographical distribution of dengue fever are summarized here: 
+
+* Higher temperatures can affect the [reproductive capacity](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0000382) of mosquitoes, stimulating egg hatching and accelerating growth of the larvae, thus decreasing the time to maturity. 
+* At higher temperatures, adult mosquitoes [bite more frequently](http://journal.tropika.net/scielo.php?script=sci_arttext&pid=S2078-86062010005000001). 
+* Warmer temperatures [enhance dengue virus replication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1533051/) within the mosquitoes’ bodies, so that they are able to infect new hosts more quickly. 
+* A warmer climate also affects the [range](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6378404/) of _Aedes_ mosquitoes, allowing them to overwinter in more regions, and [expanding the range](https://www.nature.com/articles/s41564-019-0476-8) to higher [elevations](https://byrd.osu.edu/sites/default/files/2021-01/Epstein-BAMS-98.pdf) and [latitudes](https://core.ac.uk/download/pdf/47192414.pdf). 
+* Warmer temperatures can [extend the length of the season](https://www.nature.com/articles/s41590-020-0648-y) when mosquitoes are active, allowing a longer time period for dengue transmission. 
+* [High humidity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3855512/) increases the survival, feeding behavior, and egg development of _Aedes_ mosquitoes.
+* Excess [precipitation](https://www.nature.com/articles/s41558-022-01426-1), storms, flooding, and rising sea level can increase _Aedes_ mosquito populations by providing the shallow, stagnant pools of water they need to reproduce. Recent catastrophic [flooding in Pakistan](https://www.nytimes.com/2022/09/15/climate/pakistan-floods-global-warming.html), for example, has resulted in a [massive increase](https://www.bbc.com/news/world-asia-62907449) in dengue cases.  
+* Perhaps surprisingly, [drought](https://www.int-res.com/articles/cr2002/19/c019p035.pdf) can contribute to mosquito populations because people collect and save water in containers that can provide breeding places for mosquitoes. 
+* [Urbanization](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2723410/pdf/12199_2008_Article_BF02897701.pdf) or [deforestation](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0262473) can increase the risk of dengue fever by initiating contact with vector populations that had previously been more isolated from inhabited areas. 
+* Reduced agricultural performance can lead to malnutrition, which [weakens the human immune system](https://www.nature.com/articles/s41558-022-01426-1) and worsens the ability to resist infectious diseases, including dengue fever. 
+* [Interruption of vector control programs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2725828/) during natural disasters can worsen outbreaks of vector-transmissible diseases like dengue fever. 
+* As land becomes unlivable or unfarmable, people will need to migrate, becoming [climate refugees](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4720222/). As people move into new areas, they may carry diseases, [including dengue](https://www.reuters.com/article/us-climate-disease/malaria-and-dengue-the-sting-in-climate-change-idUSTRE4AJ2RQ20081120), with them, or they may be newly exposed to endemic diseases to which they have little resistance. They may need to settle into refugee camps, where there may be [outbreaks of dengue fever](https://www.aa.com.tr/en/asia-pacific/poor-sanitation-in-bangladeshs-rohingya-camps-breeding-dengue-mosquitos/2665410). 
+
+### The dengue explosion
+
+The World Health Organization (WHO) [has reported](https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue) an eightfold increase in the annual number of reported dengue cases over the last twenty years. Reported annual deaths increased more than fourfold between 2000 and 2015. Severe dengue epidemics had occurred in only seven countries before 1970, but the disease is now endemic in over 100 countries, and distribution of dengue is expanding within countries. While increased awareness, diagnosis, and reporting may account for some of this increase, climate change likely plays a significant role through a variety of mechanisms such as those listed above.  
+
+::: {#fig-3 .column-page-right}
+
+<div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/11227811?900894"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+Estimated annual dengue cases by country, 1990–2019, for the top 15 countries by caseload. Estimated cases have risen sharply in tropical and subtropical zones the last thirty years. Note that these figures differ slightly from the WHO’s estimate for symptomatic infections.
+:::
+
+Severe dengue was rare in India [before 1996](https://www.researchgate.net/publication/232065961_Dengue_in_India), but India now bears the majority of the global dengue burden. Although dengue follows a general pattern associated with the [monsoon season](https://www.thehindu.com/data/data-tracing-the-link-between-dengue-outbreaks-and-monsoon-seasons/article65589547.ece), the annual incidence of dengue in India has increased [dramatically](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GH000477) in the last ten years. Numerous factors may contribute to this increase. With a lack of financial and medical resources, diagnosis and treatment are [delayed](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GH000477). [Urbanization](https://scroll.in/article/1011940/special-report-why-is-india-seeing-a-massive-dengue-outbreak-this-year#) may play a large role. [Mosquito control](https://academic.oup.com/jtm/article/28/8/taab146/6368502) programs are insufficient to control the vector population. [Climate change](https://www.worldbank.org/en/news/feature/2013/06/19/india-climate-change-impacts) in India has increased both the temperature and frequency of heavy rainfalls, both of which promote mosquito activity and [expand their geographic range](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GH000477). India is not, however, the only country suffering from a dengue uptick: 
+
+
+
+* Dengue cases have surged in other endemic areas, such as in [Vietnam](https://www.who.int/docs/default-source/wpro---documents/emergency/surveillance/dengue/dengue_20220908.pdf?Status=Master&sfvrsn=b4a28654_56), where cases in 2022 are four times the number of cases reported in 2021. 
+* Surges may be the result of weather events, which are exacerbated by climate change. Recent catastrophic [flooding in Pakistan](https://www.nytimes.com/2022/09/15/climate/pakistan-floods-global-warming.html), for example, has resulted in a [massive increase](https://www.aninews.in/news/world/asia/dengue-outbreak-worsens-in-pakistan-cases-exceed-30000-this-year20221001182426/) in dengue cases
+* Dengue is expanding geographically within Brazil.  In the past five years, [481 communities](https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(22)00091-6/fulltext) reported local transmission for the first time, with 63 new communities affected in just the first three months of 2022. Scientists [attribute](https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(22)00091-6/fulltext) the rapid expansion of dengue in Brazil to climate change, urbanization, human mobility, and a larger area of the country becoming hospitable to the mosquito vectors.
+* In [Nepal](https://kathmandupost.com/province-no-1/2021/12/28/tropical-diseases-detected-in-high-altitude-places), dengue has been reported more frequently at higher altitudes in recent years, since mosquitoes are able to survive at these elevations due to a warmer climate. 
+* Some previously unaffected subtropical countries, such as [Niger](https://apps.who.int/iris/bitstream/handle/10665/362665/OEW37-0511092022.pdf), have reported their first ever dengue cases. 
+* Cases are even increasing in areas outside the tropical and subtropical zones. In France, for example, no locally transmitted cases of dengue had been documented [prior to 2010](https://www.eurosurveillance.org/images/dynamic/ee/v15n39/art19676.pdf), but [65 such cases](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2022.27.44.2200818) have been reported in 2022 as of mid-October. This is due in part to the [expanded range](https://www.umontpellier.fr/en/articles/les-cas-de-dengue-explosent-en-france-metropolitaine-que-faut-il-savoir) of _Ae. albopictus_, which can now be found in [two thirds of the country](https://www.francetvinfo.fr/sante/sante-les-cas-de-dengue-sont-en-hausse-en-france_5367961.html).
+
+::: {#fig-4 .column-page-right}
+
+<div class="flourish-embed flourish-map" data-src="visualisation/11052002?900894"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+Reports of dengue occurrences increased dramatically from 1960 to 2010. These occurrences were reported in peer-reviewed literature, case reports, and informal online sources.
+:::
+
+### Dengue and COVID-19
+
+The interactions between climate and public health have become even more evident with the onset of the COVID-19 pandemic, which has [exacerbated](https://www.who.int/southeastasia/publications-detail/ISSN-0250-8362) the impact of dengue fever in several ways. Overlapping symptoms and coinfections have complicated diagnosis. Facilities and personnel dedicated to vector control, research, and healthcare have been [diverted](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0009778) from dengue to COVID-19, placing [extra pressure](https://www.bmj.com/content/378/bmj.o2090) on already strained health systems.  
+
+In the summer of 2020, [Singapore](https://edition.cnn.com/2020/07/03/asia/singapore-dengue-intl-hnk/index.html) suffered a particularly bad dengue season, with record numbers of weekly dengue cases. Reasons for the surge include warmer, wetter weather, circulation of an uncommon dengue virus serotype (to which residents had only partial immunity), and COVID-19 restrictions, which resulted in people spending more time at home, where [mosquito populations are high](https://www.channelnewsasia.com/singapore/mosquito-singapore-dengue-clusters-weekly-historical-high-726791).  
+
+Conversely, in [Australia](https://www.who.int/docs/default-source/wpro---documents/emergency/surveillance/dengue/dengue_20220908.pdf?sfvrsn=b4a28654_56), dengue cases have declined significantly since the beginning of the pandemic. The decline is attributed to COVID-19 travel restrictions, which have prevented travelers from dengue-endemic areas from bringing the disease into the country.
+
+### Beyond dengue fever
+
+Dengue is not the only disease that can be exacerbated by climate change. A [recent study](https://www.nature.com/articles/s41558-022-01426-1) proposed that 58% of known infectious diseases can be negatively affected by the hazards of climate change. Diseases transmitted by mosquitoes, such as yellow fever, zika, and chikungunya could be affected in a similar manner as dengue fever. Diseases carried by other vectors, and those with animal reservoirs, may also be affected by climate change, as can those transmitted by water, air, and food. 
+
+The many effects of climate change increase the risk for hundreds of infectious diseases by numerous pathways. Whether by land use changes increasing tick-borne Lyme disease, floods affecting schistosomiasis spread by snails, or drought prompting hantavirus-infected mice to invade homes in search of food, climate change is a serious threat to human health. While mitigation efforts to interrupt such individual transmission pathways are certainly helpful, a concerted effort to halt climate change will do much more to reduce the current and future burden of infectious diseases. 

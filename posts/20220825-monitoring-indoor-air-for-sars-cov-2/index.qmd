@@ -1,0 +1,132 @@
+---
+title: "There’s Something in the Air: Monitoring Indoor Air for SARS-CoV-2"
+subtitle: "Air surveillance in indoor spaces where people gather can be an important complement to clinical and wastewater data."
+date: "2022-08-25"
+author: 
+  - name: "Jacqueline Houtman"
+  - name: "Lindsey Shultz"
+  - name: "Rebecca Glassman"
+  - name: "Jonathan Gilmour"
+  - name: "Jessica Malaty Rivera"
+  - name: "Kaitlyn Johnson"
+categories: ["Air Monitoring"]
+image: https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/Air-Surveillance1-2048x1128.png
+title-block-banner: false
+---
+::: {.callout-note}
+This piece is originally published at [https://www.rockefellerfoundation.org/blog/theres-something-in-the-air-monitoring-indoor-air-for-sars-cov-2/](https://www.rockefellerfoundation.org/blog/theres-something-in-the-air-monitoring-indoor-air-for-sars-cov-2/)
+:::
+
+Public health decisions about Covid-19 depend to a large extent on knowledge about the level of SARS-CoV-2 circulating in a community. Clinical data obtained from individuals through nasal swab samples is crucial, but with a [decrease in case reporting, in part due to increased home testing](https://twitter.com/PPI_Insights/status/1526327292976324609?s=20&t=Z-Hrs9hAnL5s-s7tlWoaVw), the data needed to estimate disease prevalence is becoming less reliable. As an important complement to clinical data, monitoring of the [physical environment](https://www.karger.com/Article/FullText/511575?ref=36#ref36) for the presence of the virus—and for viral variants— is essential for informing public health decisions, detecting outbreaks, and preventing future pandemics. 
+
+### SARS-CoV-2 in the Environment
+
+Of the methodologies for environmental surveillance, [wastewater monitoring](https://www.rockefellerfoundation.org/case-study/tracking-sars-cov-2-and-its-variants-in-wastewater-an-old-technique-is-yielding-powerful-new-insights-in-the-covid-19-pandemic/) has received the most attention. Wastewater has proved to be a valuable addition to the public health toolbox. Since SARS-CoV-2 is shed in feces, it can be detected in sewage as it flows to wastewater treatment facilities. The percentage of infected individuals who [shed virus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7311891/) in the feces varies, however, as does the amount of viral RNA shed. Viral variants [may also differ](https://www.medrxiv.org/content/10.1101/2022.05.12.22274823v1.full.pdf) in the amount of fecal shedding. Analysis of wastewater introduces [complexities](https://www.rockefellerfoundation.org/case-study/tackling-the-complexities-of-covid-19-wastewater-surveillance/) that can make interpretation difficult. Monitoring for SARS-CoV-2 in a variety of environmental contexts would provide a more complete picture of the viruses circulating in a community.
+
+As a respiratory pathogen, the most relevant surveillance for SARS-CoV-2 would involve exhaled air. Virus from respiratory droplets falls on surfaces, and [early studies](https://www.nih.gov/news-events/news-releases/new-coronavirus-stable-hours-surfaces#:) showed viral RNA could be detected on these surfaces for days. It eventually became clear that transmission of Covid-19 is primarily through [aerosols](https://www.science.org/doi/10.1126/science.abd9149), not respiratory droplets and that surface virus is a poor [indicator](https://onlinelibrary.wiley.com/doi/10.1111/ina.12930) of viral load in an environment. Detecting virus on a surface does not imply that it is infectious, and exuberant disinfection of surfaces ([“hygiene theater”](https://www.theatlantic.com/ideas/archive/2020/07/scourge-hygiene-theater/614599/)) was determined to be less effective at preventing the spread of Covid-19 than strategies to mitigate aerosol transmission, such as masking and ventilation. Airborne virus is thus a logical target for monitoring.
+
+### History: From Canaries to Anthrax
+
+For centuries, diseases were thought to be caused by miasmas, or “bad air.” Today, we know that pathogens and pollutants in the air can indeed make us sick. Air surveillance for pollutants goes back as far as the 19th century with literal [canaries](https://www.smithsonianmag.com/smart-news/story-real-canary-coal-mine-180961570/) in coal mines, which would die if carbon monoxide levels got too high (a practice that was continued [until 1996](https://review.gale.com/2020/09/08/canaries-in-the-coal-mine/)). Sampling air specifically for microorganisms began in 1861 with [Louis Pasteur](https://pubmed.ncbi.nlm.nih.gov/22267210/). In the 1930s, [William Firth Wells](https://www.karger.com/Article/FullText/511575) developed an “[air centrifuge](https://academic.oup.com/aje/article-abstract/31-SectionB/2/85/130873?redirectedFrom=fulltext)” to detect pathogens, including influenza virus, from the air. Mechanical methods for sampling air to measure [air pollution](https://www.aqmd.gov/home/research/publications/the-evolution-of-air-quality-monitoring) were first developed in the 1940s. Air sampling technology progressed over the decades, but accelerated in the aftermath of the terrorist attacks of September 11, 2001, with an increased awareness of the threat of bioterrorism.
+
+Beginning in late September 2001, several letters containing a powdered form of the [anthrax](https://www.smithsonianmag.com/smithsonian-institution/anthrax-letters-terrorized-nation-now-decontaminated-public-view-180960407/) bacterium (_Bacillus anthracis_) were mailed to prominent members of the media and Congress. Ultimately, 17 individuals who handled those [letters](https://www.fbi.gov/history/famous-cases/amerithrax-or-anthrax-investigation) became ill, and five died. ([Anthrax](https://www.cdc.gov/anthrax/pdf/evergreen-pdfs/anthrax-evergreen-content-english.pdf) can be transmitted by several routes, but inhalation anthrax is the most deadly form of the disease.) In response, the [US Department of Homeland Security](https://www.dhs.gov/biowatch-program) developed the [BioWatch](https://www.ncbi.nlm.nih.gov/books/NBK219708/) system in 2003. The US Centers for Disease Control and Prevention (CDC), which had [analyzed the powder](https://archives.fbi.gov/archives/news/pressrel/press-releases/statement-of-director-mueller-on-fbi-investigations-into-anthrax-exposures-and-suspected-anthrax-exposure) in the letters, addressed anthrax as a [potential bioterrorism agent](https://www.cdc.gov/anthrax/bioterrorism/index.html). The CDC [evaluated](https://www.cdc.gov/niosh/hhe/reports/pdfs/2002-0109-2927.pdf) several methods for sampling air for _B. anthracis_ at a contaminated US Postal Service processing facility in Trenton, New Jersey. 
+
+
+::: {#img-1 .column-margin}
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/anthrax.jpg)
+
+When mail delivered to Capitol Hill was suspected of anthrax contamination, it was collected for analysis. Air samplers were used to monitor the containment area for _B. anthracis_. Image Credit: US Federal Bureau of Investigation.
+:::
+
+### Air Sampling Science
+
+There are several [methods](https://link.springer.com/article/10.1007/s11356-021-13001-w) for sampling air.
+
+
+
+* **Passive sampling** allows suspended particles to fall through gravity onto collection material, such as agar plates or an adhesive surface.
+* **[Electrostatic precipitation](https://onlinelibrary.wiley.com/doi/full/10.1111/ina.12875)** applies an electric current to the air, ionizing it. As aerosols and droplets collide with the ionized air, they become charged and are attracted to an oppositely charged electrode.
+* **Active filtration** involves passing air through a filter and analyzing the material that is collected on the filter. A wide range of filter materials have been used in this type of sampler. 
+* **Impingers and impactors** are active forms of sampling that force air onto the surface of a liquid or solid collection material, sometimes first forcing the air through slits or sieves of known size to limit the size of the particles collected. In the abovementioned anthrax study, an impactor was found to be the most sensitive of the methods tested.
+
+### Proof of Concept: Laboratory Studies and Controlled Environments
+
+[Numerous studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7905194/) have been performed to assess the effectiveness of air sampling for SARS-CoV-2 using different methods of sampling. [Passive](https://www.medrxiv.org/content/10.1101/2021.03.26.21254416v1) and [electrostatic](https://onlinelibrary.wiley.com/doi/full/10.1111/ina.12875) methods were found to be relatively ineffective for detecting respiratory viruses in the air. Early studies were performed in laboratory and health care settings, or in rooms where Covid-19 patients were being isolated. In [one study](https://www.nature.com/articles/s41598-022-11303-8), using an impaction-based sampler in a dormitory isolation room, for example, increased symptoms in patients was associated with a higher aerosol viral load, while improved ventilation decreased the amount of virus detected in the air.  
+
+### The Real World
+
+Once proof of concept had been established, the next step in developing an air surveillance strategy was to move from highly controlled situations to sites where substantial numbers of people gather naturally, in real life. In a project [supported by The Rockefeller Foundation’s](https://www.wpr.org/its-science-fiction-until-it-isnt-uw-madison-joins-global-institute-help-prepare-prevent-future) [U.S. Regional Accelerators for Genomic Surveillance](https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-key-grants-and-collaborations-toward-the-creation-of-a-pandemic-prevention-institute/), [researchers](https://openresearch.labkey.com/project/Coven/begin.view?) at the University of Wisconsin-Madison [performed air surveillance](https://www.nature.com/articles/s41467-022-32406-w) in 15 sites, including rooms in hospitals, schools, and athletic buildings, as well as establishments serving food and beverages. 
+
+::: {#img-2 .column-margin}
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/The-Real-World.jpg)
+
+The size and portability of air samplers, as seen on the left in this school study site, can make them very useful in monitoring for airborne viruses in localized settings, like particular hallways or classrooms. Photo Credit: O’Connor Labs, UW-Madison
+:::
+
+To perform the [surveillance](https://openresearch.labkey.com/wiki/Coven/page.view?name=Current%20Sampling%20Workflow%20at%20UW-Madison), the researchers used an [impactor-type](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257689) air sampler with cartridges that were simple to change with minimal training, allowing individuals at the site such as staff or students to replace cartridges, which are the [size of a 10 cc syringe.](https://www.nytimes.com/2021/03/24/health/coronavirus-testing-airborne-aerosol-indoor.html) A barcode system kept track of samples using a mobile phone app. The barcode on the cartridge was scanned when it was inserted and removed from the sampler, and metadata about the location (via GPS) and sampling time was automatically recorded. In the laboratory, the contents of the cartridge were removed and analyzed by [quantitative PCR (qPCR)](https://www.ncbi.nlm.nih.gov/probe/docs/techqpcr/).
+
+::: {#fig-1 .column-page-right}
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/Air-Surveillance1-2048x1128.png)
+
+Air sampling study design. At the sampling site, a barcode on the cartridge was scanned to record the beginning and end of the sampling time, as well as the location of the site. The cartridge was transported to the laboratory for analysis. PCR results were combined with metadata.
+:::
+
+### Results
+
+Daily, over the course of 29 weeks, 527 samples were collected, 106 of which were positive for the presence of SARS-CoV-2. In one example, when an outbreak of 20 confirmed cases occurred at one site, positive air samples were detected 7 days before the first confirmed case was reported. These findings demonstrate the utility of air surveillance and that it can be part of an effective public health strategy, particularly for keeping places like classrooms and hospitals virus-free. Some samples obtained in the study underwent genomic sequencing and all of them contained mutations characteristic of the variants (i.e., Delta and Omicron) that were predominant at the time samples were taken.
+
+The group expanded the study to test weekly for the presence of [40 additional pathogens](https://www.nature.com/articles/s41467-022-32406-w), including bacteria, viruses, and fungi. They detected 16 pathogens in eight sites, and noted distinctive patterns. For example: 
+
+
+
+* [Bocavirus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5075545/), which is typically found in respiratory infections in children under two years of age, was only found in sites where there were young children. 
+* Influenza A virus was detected in on-campus sites during an influenza outbreak at the University of Wisconsin-Madison. 
+
+::: {#img-3 .column-margin}
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/Results.png)
+
+The convenience of air samplers means they can be used in many public settings, which also provides an opportunity to educate the public on what they are and why air surveillance can be an important part of the public health pandemic toolkit. Photo Credit: O’Connor Labs, UW-Madison
+
+:::
+
+### The Advantage of Air
+
+While wastewater surveillance has been demonstrated to be a crucial tool in the public health response to Covid-19 in a community, this study, and others, illustrate the usefulness of monitoring the air for SARS-CoV-2 in indoor spaces. Air surveillance does have some advantages over wastewater surveillance that may make it a preferable method in some situations. 
+
+
+
+* There is no need for a centralized sewer. Air sampling can be performed anywhere people breathe, without the requirement that they use a bathroom.
+* It is safer. There are no manholes to climb into or exposure to raw sewage (which can contain other pathogens).
+* There is no technical expertise required to collect samples.
+* It is portable and can easily be moved from room to room within a building. (The unit used in the UW-Madison study weighs less than 30 pounds.)
+* It can be targeted in space and time. For example, it can be used for individual events or gatherings. Mitigation efforts can then be deployed very precisely.
+
+### The Challenge of Air
+
+As with wastewater surveillance, the methods and equipment used by investigators can vary greatly and must be [standardized](https://journals.sagepub.com/doi/pdf/10.1177/1420326X20980160). In addition, wastewater is generally sampled from defined streams; it flows through pipes. Air circulates in a much less defined way, and is more difficult to quantify. The placement of the sampler can affect the usefulness of air monitoring, and an inappropriate placement may not reflect the actual viral content of the air, causing a misleading measure of the risk of transmission in a room. Some factors that [can affect airflow](https://www.epa.gov/sites/default/files/2014-08/documents/sec_2.pdf) and viral spread in a room include: 
+
+
+
+* Temperature gradients
+* Humidity
+* The number and activity level of people
+* Shape of the room
+* Open windows and doors
+* Effectiveness of HVAC system
+
+The sampler used in the UW-Madison costs approximately $5,000 for a unit that can sample one room at a time, reflecting a substantial startup cost. Cartridges and testing add additional expenses. [Wastewater monitoring](https://www.pnas.org/doi/10.1073/pnas.2119600119) also has significant startup and testing costs, but expenses for both systems can be limited by optimizing sample location and timing. 
+
+There are also ethical questions about [what to do with positive results](https://www.nytimes.com/2021/03/24/health/coronavirus-testing-airborne-aerosol-indoor.html). Because of the way the experiments were conducted by the UW-Madison group, it was not possible to use that information to intervene in that particular outbreak, but positive results could be a signal to increase public health measures in an area. Maintaining the privacy of the individuals involved may be challenging.  
+
+### Future Directions
+
+Monitoring air for SARS-CoV-2 is not yet in widespread use. The technology and methods for air monitoring continue to be developed, refined, and standardized.  
+
+
+
+* One of the more important variables in air sampling is the placement of the sampler for optimum detection of airborne virus. Since humans exhale carbon dioxide (CO<sub>2</sub>), monitors to measure [CO2 levels](https://forhealth.org/tools/co2-calculator/) can be used to [assess the amount of exhaled air](https://www.rnz.co.nz/news/in-depth/470690/whose-breath-are-you-breathing) in a room. Measuring levels of CO<sub>2</sub> can thus be a way to optimize sampler placement to better detect virus.
+* In the UW-Madison work described here, sampler cartridges were transported to a laboratory for analysis, resulting in a delay in determining the viral content of the sampled air, and thus a delay in implementing appropriate mitigation measures. Real-time detection of aerosol virus is under development by numerous groups, including those in the [United States](https://news.miami.edu/stories/2021/09/researchers-developing-air-quality-sensors-to-detect-covid-19.html), [United Kingdom](https://www.smithsdetection.com/contact-us/), [Canada](https://www.mcgill.ca/oss/article/covid-19-critical-thinking-general-science/bioclouds-science-air), and [South Korea](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8009694/).  
+* Improved ventilation and filtration of indoor air is known to reduce the risk of viral transmission. [Integrating air filtration with air sampling](https://healthydavistogether.org/wp-content/uploads/2021/06/HealthyDavisTogether__AirFilterSampling.pdf) would allow simultaneous mitigation and monitoring. 
+* Researchers at [Yale University](https://ysph.yale.edu/news-article/wearable-air-sampler-detects-personal-exposure-to-sars-cov-2/) are developing personal, wearable monitoring devices. 
+
+Expanded monitoring of indoor air for SARS-CoV-2 can act as an important complement to clinical and wastewater data. Air surveillance also shows promise for detecting other airborne pathogens and will be an important tool for detecting future outbreaks and possibly identifying early indicators and warnings for future pandemics. 
