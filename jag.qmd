@@ -1,0 +1,18 @@
+---
+title: "Jonathan Gilmour"
+image: about/jag.jpg
+
+about:
+  template: solana
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jonathangilmour/
+    - icon: github
+      text: Github
+      href: https://github.com/gilmourj
+
+---
+##### Data Scientist
+Data scientist and engineer passionate about health, climate, and addressing complex problems.

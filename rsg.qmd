@@ -1,0 +1,24 @@
+---
+title: "Rebecca Glassman, MPH"
+# image: 
+
+about:
+  template: solana
+  image-shape: round
+  # links:
+    # - icon: twitter
+    #   text: Twitter
+    #   href: https://twitter.com/anthropoco
+    # - icon: linkedin
+    #   text: LinkedIn
+    #   href: https://linkedin.com
+    # - icon: github
+    #   text: Github
+    #   href: https://github.com
+    # - icon: flower1
+    #   text: Portfolio
+    #   href: https://github.com
+
+---
+##### Public Health Researcher and Data Quality Lead
+TBD

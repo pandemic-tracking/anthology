@@ -1,0 +1,24 @@
+---
+title: "Jennifer Clyde"
+# image: 
+
+about:
+  template: solana
+  image-shape: round
+  # links:
+    # - icon: twitter
+    #   text: Twitter
+    #   href: https://twitter.com/anthropoco
+    # - icon: linkedin
+    #   text: LinkedIn
+    #   href: https://linkedin.com
+    # - icon: github
+    #   text: Github
+    #   href: https://github.com
+    # - icon: flower1
+    #   text: Portfolio
+    #   href: https://github.com
+
+---
+##### Data Quality Lead and Researcher
+Jennifer is a someone who somethinged some stuff in some places.

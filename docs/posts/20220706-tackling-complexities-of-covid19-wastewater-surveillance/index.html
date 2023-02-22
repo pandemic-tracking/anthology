@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,10 +17,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -83,28 +88,34 @@ ga('send', {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../../index.html">
-    <img src="../../ptc-bars.png" alt="">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../ptc-bars.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">PTC</span>
-  </a>
+    </a>
+  </div>
           <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">Anthology</a>
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">Anthology</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../scorecards.html">Scorecards</a>
+    <a class="nav-link" href="../../scorecards.html">
+ <span class="menu-text">Scorecards</span></a>
   </li>  
 </ul>
           <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="../../about.html"><i class="bi bi-info-circle-fill" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/pandemictrack"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
             <div id="quarto-search" class="" title="Search"></div>
@@ -115,7 +126,7 @@ ga('send', {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
   <ul>
@@ -166,6 +177,7 @@ ga('send', {
       <p class="date">July 6, 2022</p>
     </div>
   </div>
+  
     
   </div>
   
@@ -190,7 +202,7 @@ Note
 <div id="fig-1" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/07/ww-process-final-1440@2x-1440x793.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure 1: Wastewater monitoring is a process that requires multiple steps to collect, process, and analyze samples and report data.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: Wastewater monitoring is a process that requires multiple steps to collect, process, and analyze samples and report data.</figcaption><p></p>
 </figure>
 </div>
 <section id="sampling-where-and-when" class="level4">
@@ -220,7 +232,7 @@ Note
 <div id="fig-2" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/07/ww-pcrtypes-final-1440@2x-1440x793.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure 2: In quantitative PCR, the signal is detected over the course of the amplification process. The more of the target sequence present in the original sample, the quicker the signal will reach the detection threshold. In digital PCR, the sample is separated into thousands of separate amplification reactions, each of which results in either a positive or negative signal at the endpoint.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: In quantitative PCR, the signal is detected over the course of the amplification process. The more of the target sequence present in the original sample, the quicker the signal will reach the detection threshold. In digital PCR, the sample is separated into thousands of separate amplification reactions, each of which results in either a positive or negative signal at the endpoint.</figcaption><p></p>
 </figure>
 </div>
 <p>One of the most important choices in developing PCR for wastewater analysis is selecting which sequences within the dozen or so SARS-CoV-2 genes to target. The specificity of a PCR assay is determined by the sequence of the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7340604/">primers</a>, short stretches of DNA that correspond to parts of the target gene. The choice of target sequences and primers can vary between laboratories and, depending on the <a href="https://www.rockefellerfoundation.org/case-study/variants-sublineages-and-recombinants-the-constantly-changing-genome-of-sars-cov-2/">evolution of the virus</a>, may need to be changed.</p>
@@ -273,7 +285,7 @@ Note
 <div class="flourish-embed flourish-map" data-src="visualisation/10520083?900894">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption class="figure-caption">Figure 3: US counties with SARS-CoV-2 wastewater monitoring. Coverage is growing, but many counties and some states and territories still lack wastewater monitoring.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;3: US counties with SARS-CoV-2 wastewater monitoring. Coverage is growing, but many counties and some states and territories still lack wastewater monitoring.</figcaption><p></p>
 </figure>
 </div>
 <p>While the CDC’s <a href="https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance">NWSS site</a> currently displays only trends in virus levels in wastewater, sequencing of viral RNA is essential for tracking variants in communities able to perform that analysis, Early detection of new variants in a community can track the introduction and geographic spread of variants. Expansion of sequencing capacity would help improve genomic surveillance of both clinical and wastewater samples. As with quantitative analysis, genomic analysis would benefit from standardization. CDC is working with the National Center for Biotechnology Information (NCBI) to establish a <a href="https://www.nist.gov/system/files/documents/2021/07/23/Kirby-day1.pdf">wastewater sequencing database</a>.</p>
@@ -340,7 +352,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -368,31 +397,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

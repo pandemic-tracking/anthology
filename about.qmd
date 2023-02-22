@@ -3,7 +3,7 @@ title: "About"
 image: ptc-logo-transparent.png
 
 about:
-  template: jolla
+  template: solana
   image-shape: rectangle
   links:
     - icon: twitter
@@ -18,4 +18,16 @@ about:
 
 ---
 
-A group of former leads and key contributors with The COVID Tracking Project. Now working with The Rockefeller Foundation's Pandemic Prevention Institute. Still tracking.
+A group of former leads and key contributors with The COVID Tracking Project. Now working with The Rockefeller Foundation's Pandemic Prevention Institute.
+
+| [Jennifer Clyde](jac.html)  
+| [Jonathan Gilmour](jag.html)
+| [Rebecca Glassman](rsg.html)
+| [Jacqueline Houtman](jjh.html)
+| [Julia Kodysh]()
+| [Dave Luo](dl.html)
+| [Jessica Malaty Rivera]()
+| [Michal Mart](mm.html)
+| [Brandon Park]()
+| [Kara Schechtman]()
+| [Lindsey Shultz]()

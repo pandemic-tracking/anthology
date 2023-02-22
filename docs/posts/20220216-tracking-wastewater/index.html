@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,10 +19,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -85,28 +90,34 @@ ga('send', {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../../index.html">
-    <img src="../../ptc-bars.png" alt="">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../ptc-bars.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">PTC</span>
-  </a>
+    </a>
+  </div>
           <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">Anthology</a>
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">Anthology</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../scorecards.html">Scorecards</a>
+    <a class="nav-link" href="../../scorecards.html">
+ <span class="menu-text">Scorecards</span></a>
   </li>  
 </ul>
           <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="../../about.html"><i class="bi bi-info-circle-fill" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/pandemictrack"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
             <div id="quarto-search" class="" title="Search"></div>
@@ -117,7 +128,7 @@ ga('send', {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
   <ul>
@@ -166,6 +177,7 @@ ga('send', {
       <p class="date">February 16, 2022</p>
     </div>
   </div>
+  
     
   </div>
   
@@ -193,7 +205,7 @@ Note
 <div id="fig-1" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/02/wastewater-viz1-Street-Graph-1440x793.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure 1: A portion of John Snow’s 1854 map of the London Cholera outbreak showing the locations of cholera cases and the source - a contaminated water pump located at the intersection of Broad Street and Cambridge Street (now Lexington Street)</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: A portion of John Snow’s 1854 map of the London Cholera outbreak showing the locations of cholera cases and the source - a contaminated water pump located at the intersection of Broad Street and Cambridge Street (now Lexington Street)</figcaption><p></p>
 </figure>
 </div>
 <p>For decades, wastewater testing has played an important role in the global effort to <a href="https://polioeradication.org/">eradicate polio</a>, especially in <a href="https://academic.oup.com/jid/article/210/suppl_1/S294/2194423">resource-poor environments</a>. Poliovirus detected in wastewater can alert officials to the presence of the virus in a community, even in the <a href="https://www.pnas.org/content/115/45/E10625">absence of clinical disease</a>. <a href="https://theconversation.com/sewage-surveillance-is-the-next-frontier-in-the-fight-against-polio-105012">Genetic analysis</a> of pathogen-positive wastewater samples can help track a virus to its source and monitor a virus as it evolves. <a href="https://journals.lww.com/co-infectiousdiseases/fulltext/2020/10000/final_frontiers_of_the_polio_eradication_endgame.12.aspx">Control measures</a>, including vaccination, hospital resources, and therapeutics, can then be effectively and efficiently targeted to a specific location.</p>
@@ -208,7 +220,7 @@ Note
 <div id="fig-2" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/02/wastewater-viz2-Louisvile-Graph-1440x793.png" class="img-fluid figure-img" alt="Top is a line chart and map showing reported COVID-19 cases per 100K over time in ZIP Code 40212 being similar or lower than overall Jefferson County. Bottom is a scatter plot and map showing Shawnee Park area which is within ZIP Code 40212 with higher virus levels in its wastewater starting in November 2021 compared to the neighboring catchment and encompassing sewershed."></p>
-<p></p><figcaption class="figure-caption">Figure 2: ZIP code-level clinical data for 40212, the Louisville, Kentucky ZIP code encompassing the Shawnee Park and 34th Street catchment areas (top), compares case rates in that ZIP code (orange) to those of Jefferson County as a whole (blue). Wastewater data (bottom) shows higher SARS-CoV-2 virus concentrations detected in Shawnee Park wastewater (pink) than in surrounding wastewater catchment areas, including 34th Street (blue), and in the larger Morris Forman Water Quality Treatment Center catchment area (purple)</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: ZIP code-level clinical data for 40212, the Louisville, Kentucky ZIP code encompassing the Shawnee Park and 34th Street catchment areas (top), compares case rates in that ZIP code (orange) to those of Jefferson County as a whole (blue). Wastewater data (bottom) shows higher SARS-CoV-2 virus concentrations detected in Shawnee Park wastewater (pink) than in surrounding wastewater catchment areas, including 34th Street (blue), and in the larger Morris Forman Water Quality Treatment Center catchment area (purple)</figcaption><p></p>
 </figure>
 </div>
 <p>Even more localized data can be obtained by examining wastewater from individual facilities, such as <a href="https://www.cor.pa.gov/Pages/COVID-19.aspx">prisons</a>, <a href="https://www.houstontx.gov/health/NewsReleases/houston-health-department-launches-dashboard-displaying-wastewater-virus-levels.html">schools</a>, and <a href="https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7882920/">long-term-care centers</a>. Samples from airports, <a href="https://www.sciencedirect.com/science/article/pii/S0048969722002613">aircraft</a>, and <a href="https://pubmed.ncbi.nlm.nih.gov/32662867/">cruise ships</a> can reveal infections among travelers. <a href="https://www.mdpi.com/1660-4601/18/9/4455">Universities and colleges</a> have used wastewater data from dormitories to detect and control outbreaks. For example, in August 2020, the <a href="https://www.washingtonpost.com/nation/2020/08/28/arizona-coronavirus-wastewater-testing/">University of Arizona</a> detected SARS-CoV-2 in wastewater from one dormitory. All 311 residents were tested, and two asymptomatic cases were discovered. Those students were isolated, likely averting an outbreak.</p>
@@ -230,7 +242,7 @@ Note
 <div id="fig-3" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/02/wastewater-viz3-Global-Variant-Trends-1440x793.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure 3: Global prevalence of variants of concern, showing successive waves of the Alpha, Delta, and Omicron variants.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;3: Global prevalence of variants of concern, showing successive waves of the Alpha, Delta, and Omicron variants.</figcaption><p></p>
 </figure>
 </div>
 <p><a href="https://www.rockefellerfoundation.org/blog/genomic-surveillance-is-essential-to-track-covid-19-variants-in-both-unvaccinated-and-vaccinated-populations/">Genomic surveillance</a> has been critical for tracking <a href="https://www.rockefellerfoundation.org/blog/making-sense-of-variants-they-all-deserve-attention-a-few-merit-concern/">SARS-CoV-2 variants</a>. Reliance on clinical samples for genomic data can be insufficient, however, when healthcare and laboratory systems are limited or overwhelmed. Globally, only <a href="https://www.gisaid.org/index.php?id=208">13 countries</a> or territories have sequenced and publicly shared more than <a href="https://www.medrxiv.org/content/10.1101/2021.01.12.21249613v1.full">5% of cases</a> with GISAID in the last 90 days. The result is a spotty and geographically skewed picture of variant presence, evolution, and spread. By turning to wastewater, a non-traditional data source that functions independent of medical systems, public health officials and researchers around the world have filled critical gaps in pathogen genomic surveillance.</p>
@@ -240,7 +252,7 @@ Note
 <div class="flourish-embed" data-src="story/1131027?900894">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption class="figure-caption">Figure 4: Louisville Wastewater SARS-CoV-2 Variant Surveillance: Wastewater testing can identify SARS-CoV-2 variant proportions in wastewater for small catchment areas around Louisville and at larger Water Quality Treatment Centers. This visualization shows the spread of different variants over the past ten months in each wastewater catchment area monitored by the Christina Lee Brown Envirome Institute, KY INBRE Bioinformatics and Genomics Cores, University of Louisville.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;4: Louisville Wastewater SARS-CoV-2 Variant Surveillance: Wastewater testing can identify SARS-CoV-2 variant proportions in wastewater for small catchment areas around Louisville and at larger Water Quality Treatment Centers. This visualization shows the spread of different variants over the past ten months in each wastewater catchment area monitored by the Christina Lee Brown Envirome Institute, KY INBRE Bioinformatics and Genomics Cores, University of Louisville.</figcaption><p></p>
 </figure>
 </div>
 <p>Advances in wastewater testing for COVID-19 can facilitate surveillance for <a href="https://www.medrxiv.org/content/10.1101/2021.07.26.21261155v1">many pathogens</a>, including respiratory pathogens like <a href="https://pubs.acs.org/doi/10.1021/acs.estlett.1c00963">respiratory syncytial virus</a> (RSV) and <a href="https://okcfox.com/newsletter-daily/oklahoma-researchers-seeing-increasing-levels-of-influenza-a-in-wastewater-samples">influenza</a> <a href="https://www.khou.com/article/news/health/houston-health-department-testing-wastewater-schools-flu-covid/285-98a72baf-4988-4cd3-ae94-05c68e9430f2">virus</a>. Wastewater can also be used to monitor other <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)02724-0/fulltext">global threats</a>, like <a href="https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7128895/">antimicrobial resistant bacteria</a> in disease-causing organisms. With the technology to monitor wastewater in place, communities will be better able to quickly identify and track new disease threats as they surge and wane.</p>
@@ -303,7 +315,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -331,31 +360,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

@@ -1,0 +1,21 @@
+---
+title: "Michal Mart"
+image: about/mm.jpg
+
+about:
+  template: solana
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/michal-mart-992227107/
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/michalmart1
+    - icon: github
+      text: Github
+      href: https://github.com/muamichali
+
+---
+##### Data Quality Lead
+Battle-tested technical leader, having served in leadership roles at startups, consulting companies and large corporations. Excels at pinpointing problems and finding practical solutions. Driven by the desire to make the world a better place.

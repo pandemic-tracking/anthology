@@ -1,0 +1,21 @@
+---
+title: "Jacqueline Houtman, PhD"
+image: about/jjh.jpeg
+
+about:
+  template: solana
+  image-shape: round
+  links:
+    - icon: book
+      text: Website
+      href: https://jhoutman.com/index.html
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jacqueline-houtman-b027a318/
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/jjhoutman
+
+---
+##### Science Editorial Lead
+Biomedical science writer and editor for a wide range of audiences: Middle school to medical professionals. Making complex science engaging and accessible. Hands-on experience in immunology and virology. 

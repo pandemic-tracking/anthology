@@ -1,0 +1,21 @@
+---
+title: "Dave Luo"
+image: https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/1419797/91684_492042.jpg
+
+about:
+  template: solana
+  image-shape: round
+  links:
+    - icon: flower1
+      text: Portfolio
+      href: https://www.davidluo.com
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/anthropoco
+    - icon: github
+      text: Github
+      href: https://github.com/daveluo
+
+---
+##### Data Scientist 
+Someone somewhere doing something something that's done somehow sometime

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -22,10 +22,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -88,28 +93,34 @@ ga('send', {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../../index.html">
-    <img src="../../ptc-bars.png" alt="">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../ptc-bars.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">PTC</span>
-  </a>
+    </a>
+  </div>
           <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">Anthology</a>
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">Anthology</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../scorecards.html">Scorecards</a>
+    <a class="nav-link" href="../../scorecards.html">
+ <span class="menu-text">Scorecards</span></a>
   </li>  
 </ul>
           <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="../../about.html"><i class="bi bi-info-circle-fill" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/pandemictrack"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
             <div id="quarto-search" class="" title="Search"></div>
@@ -120,7 +131,7 @@ ga('send', {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
   <ul>
@@ -172,6 +183,7 @@ ga('send', {
       <p class="date">December 22, 2021</p>
     </div>
   </div>
+  
     
   </div>
   
@@ -191,7 +203,7 @@ Note
 <p>This piece is originally published at <a href="https://www.rockefellerfoundation.org/case-study/tracking-state-reporting-of-covid-19-vaccine-breakthrough-infections/">https://www.rockefellerfoundation.org/case-study/tracking-state-reporting-of-covid-19-vaccine-breakthrough-infections/</a></p>
 </div>
 </div>
-<div class="page-columns page-full"><p><strong>Today, we are releasing a reporting scorecard that evaluates US state data reporting for Covid-19 breakthrough infections (BI) against best practices we have identified.</strong><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> We assign states letter grades based on their alignment with these best practices for reporting BI data.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> The scorecard with states’ grades, as well as breakdowns of the criteria they meet, will be updated regularly. You can find it here.</p><div class="no-row-height column-margin column-container"><li id="fn1" role="doc-endnote"><p><sup>1</sup>&nbsp;While we use the term “breakthrough infections data” as a shorthand for data about Covid-19 cases, hospitalizations, and deaths after vaccination, it is important to remember that data does not reflect all post-vaccination infections because of limited testing.</p></li><li id="fn2" role="doc-endnote"><p><sup>2</sup>&nbsp;We use “states” as a shorthand term for both states and territories.</p></li></div></div>
+<div class="page-columns page-full"><p><strong>Today, we are releasing a reporting scorecard that evaluates US state data reporting for Covid-19 breakthrough infections (BI) against best practices we have identified.</strong><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> We assign states letter grades based on their alignment with these best practices for reporting BI data.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> The scorecard with states’ grades, as well as breakdowns of the criteria they meet, will be updated regularly. You can find it here.</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;While we use the term “breakthrough infections data” as a shorthand for data about Covid-19 cases, hospitalizations, and deaths after vaccination, it is important to remember that data does not reflect all post-vaccination infections because of limited testing.</p></li><li id="fn2"><p><sup>2</sup>&nbsp;We use “states” as a shorthand term for both states and territories.</p></li></div></div>
 <p>We are launching this scorecard because of the <a href="https://www.rockefellerfoundation.org/blog/the-critical-challenge-of-tracking-breakthrough-infections-and-why-we-still-need-better-data-standards/">lack of high-quality breakthrough data in the United States</a>. While the CDC shares <a href="https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status">some helpful information</a> on breakthrough rates, that information is <a href="https://coronavirus.jhu.edu/pandemic-data-initiative/data-outlook/states-and-cdc-improve-breakthrough-and-booster-data-reporting">challenging to aggregate</a> on a nationwide scale; as a result, it is updated <a href="https://www.medpagetoday.com/special-reports/exclusives/95591">infrequently</a> and cannot be broken down by state. State-provided BI data is faster and more granular than federal data, but <a href="https://covidtracking.com/analysis-updates/three-covid-19-data-problems/">like with other state Covid-19 metrics,</a> also highly incomplete and unstandardized. The ability to see local, fast-updating data on breakthrough infections is critical to effective pandemic response. <strong>We hope the scorecard will encourage states to share more and higher-quality BI data in support of that mission.</strong></p>
 <section id="what-were-grading" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="what-were-grading">What we’re grading</h3>
@@ -227,14 +239,14 @@ As with cumulative data, states can report time series data either as raw number
 <div id="fig-1" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2021/12/btscorecard-viz1-final-1440@2x-1440x793.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure 1: Currently, nine states receive an F grade because they do not share data regularly. Of the remaining states, three (California, Colorado, and Utah) meet the criteria for an A.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: Currently, nine states receive an F grade because they do not share data regularly. Of the remaining states, three (California, Colorado, and Utah) meet the criteria for an A.</figcaption><p></p>
 </figure>
 </div>
 <p>Our analysis of state reporting found <strong>that most states are now reporting breakthrough data</strong>—with 43 out of 52 juridictions now regularly sharing data, up from <a href="https://www.google.com/url?q=https://www.kff.org/policy-watch/covid-19-vaccine-breakthrough-cases-data-from-the-states/&amp;sa=D&amp;source=docs&amp;ust=1639640438444000&amp;usg=AOvVaw2F1m_Wd2i1HqbFibMMOTp9">just over half that in the summer.</a> Those states almost all report important cumulative counts of cases, hospitalizations, and deaths. The majority of those states also report time-series data, with 34 states reporting at least one metric over time.</p>
 <div id="fig-2" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2021/12/btscorecard-viz2-final-1440@2x-1440x793.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure 2: Including states with both regular and ad hoc public reports, as of December 16, 2021, 40 states have reported cumulative breakthrough cases, 37 states have reported cumulative breakthrough hospitalizations, and 42 states have reported cumulative breakthrough deaths.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: Including states with both regular and ad hoc public reports, as of December 16, 2021, 40 states have reported cumulative breakthrough cases, 37 states have reported cumulative breakthrough hospitalizations, and 42 states have reported cumulative breakthrough deaths.</figcaption><p></p>
 </figure>
 </div>
 <p><br>
@@ -294,7 +306,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -322,31 +351,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

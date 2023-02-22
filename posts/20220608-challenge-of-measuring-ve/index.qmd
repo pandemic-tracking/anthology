@@ -99,7 +99,7 @@ No single study (out of more than [1,000 documented by the WHO](https://www.who.
 
 ::: {#fig-viz1 .column-page-right}
 
-![](https://test-pandemic-prevention-institute.pantheonsite.io/wp-content/uploads/2022/06/ve-acip-summaryve-1440-20220524final@2x.png){fig-alt="Point and bar chart summarizing 2- and 3-dose VEs over time against symptomatic infection, ED/urgent care visit, hospitalization, critical illness/death in adults during Omicron"}
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/06/Figure-1-1-2048x1128.png){fig-alt="Point and bar chart summarizing 2- and 3-dose VEs over time against symptomatic infection, ED/urgent care visit, hospitalization, critical illness/death in adults during Omicron"}
 
 Summary of US vaccine effectiveness studies estimating 2- and 3-dose mRNA VE over time vs different outcomes in adults during Omicron predominance. VE is higher against more severe outcomes. Receiving a booster increases protection across all outcomes and remains high among immunocompetent individuals 4–6 months after dose.
 

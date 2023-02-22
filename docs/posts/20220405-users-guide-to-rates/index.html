@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -21,10 +21,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -87,28 +92,34 @@ ga('send', {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../../index.html">
-    <img src="../../ptc-bars.png" alt="">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../ptc-bars.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">PTC</span>
-  </a>
+    </a>
+  </div>
           <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">Anthology</a>
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">Anthology</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../scorecards.html">Scorecards</a>
+    <a class="nav-link" href="../../scorecards.html">
+ <span class="menu-text">Scorecards</span></a>
   </li>  
 </ul>
           <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="../../about.html"><i class="bi bi-info-circle-fill" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/pandemictrack"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
             <div id="quarto-search" class="" title="Search"></div>
@@ -119,18 +130,18 @@ ga('send', {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
   <ul>
   <li><a href="#what-is-a-breakthrough-rate" id="toc-what-is-a-breakthrough-rate" class="nav-link active" data-scroll-target="#what-is-a-breakthrough-rate"><strong>What is a breakthrough rate?</strong></a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#anatomy-of-a-rate" id="toc-anatomy-of-a-rate" class="nav-link" data-scroll-target="#anatomy-of-a-rate"><strong>Anatomy of a rate</strong></a></li>
   </ul></li>
   <li><a href="#vaccine-breakthrough-rates" id="toc-vaccine-breakthrough-rates" class="nav-link" data-scroll-target="#vaccine-breakthrough-rates">Vaccine breakthrough rates</a></li>
   <li><a href="#rate-ratios-and-vaccine-effectiveness" id="toc-rate-ratios-and-vaccine-effectiveness" class="nav-link" data-scroll-target="#rate-ratios-and-vaccine-effectiveness"><strong>Rate ratios and vaccine effectiveness</strong></a></li>
   <li><a href="#how-do-states-calculate-vaccine-breakthrough-rates" id="toc-how-do-states-calculate-vaccine-breakthrough-rates" class="nav-link" data-scroll-target="#how-do-states-calculate-vaccine-breakthrough-rates"><strong>How do states calculate vaccine breakthrough rates?</strong></a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#population-definitions" id="toc-population-definitions" class="nav-link" data-scroll-target="#population-definitions"><strong>Population definitions</strong></a></li>
   <li><a href="#are-partially-vaccinated-individuals-included-in-the-unvaccinated-population" id="toc-are-partially-vaccinated-individuals-included-in-the-unvaccinated-population" class="nav-link" data-scroll-target="#are-partially-vaccinated-individuals-included-in-the-unvaccinated-population">Are partially vaccinated individuals included in the “unvaccinated” population?</a></li>
   <li><a href="#are-boosted-individuals-included-in-the-vaccinated-population" id="toc-are-boosted-individuals-included-in-the-vaccinated-population" class="nav-link" data-scroll-target="#are-boosted-individuals-included-in-the-vaccinated-population">Are boosted individuals included in the “vaccinated” population?</a></li>
@@ -182,6 +193,7 @@ ga('send', {
       <p class="date">April 5, 2022</p>
     </div>
   </div>
+  
     
   </div>
   
@@ -236,7 +248,7 @@ Note
 <div class="flourish-embed" data-src="story/1201660?889196">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption class="figure-caption">Figure 1: A sequence of illustrative examples showing how raw counts of cases in vaccinated compared to unvaccinated are misleading and can be calculated into rates per 100k and rate ratios for more appropriate population-adjusted comparison</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: A sequence of illustrative examples showing how raw counts of cases in vaccinated compared to unvaccinated are misleading and can be calculated into rates per 100k and rate ratios for more appropriate population-adjusted comparison</figcaption><p></p>
 </figure>
 </div>
 <p>Unlike state populations, which are relatively stable over the time frame of interest, <strong>the size of vaccinated and unvaccinated populations constantly change as more individuals get vaccinated. </strong>That makes calculating rates by vaccination status more data-intensive than calculating other Covid-19 rates. Taking a vaccine breakthrough case rate over time requires a well-defined time series for both the numerator of cases in vaccinated individuals and** for the denominator—the growing size of the vaccinated population.**</p>
@@ -282,7 +294,7 @@ Note
 <div id="fig-2" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Unvaccinated-Population-Denom-1440x793.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure 2: Figure 2. 23 states report rates as a time series, but they use different definitions of the “unvaccinated” population denominator. Some lump in partially vaccinated individuals, while others exclude those partially vaccinated or split them out into a separate comparison group.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: Figure 2. 23 states report rates as a time series, but they use different definitions of the “unvaccinated” population denominator. Some lump in partially vaccinated individuals, while others exclude those partially vaccinated or split them out into a separate comparison group.</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -309,7 +321,7 @@ Note
 <div id="fig-3" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Rates-by-Booster-Status-1440x793.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure 3: 11 states reporting vaccine breakthrough rates data distinguish in their “vaccinated” group between those vaccinated with a primary series of doses only and those who have received an additional/booster dose.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;3: 11 states reporting vaccine breakthrough rates data distinguish in their “vaccinated” group between those vaccinated with a primary series of doses only and those who have received an additional/booster dose.</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -342,7 +354,7 @@ Note
 <div id="fig-4" class="quarto-figure quarto-figure-center column-page-right anchored">
 <figure class="figure">
 <p><img src="https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Presenting-1440x793.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure 4: Of the 23 states reporting breakthrough rates, some report age-adjusted rates, some report crude rates, some report disaggregated rates by age group, and for some it’s unclear if and how rates are adjusted for differences in age distribution.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;4: Of the 23 states reporting breakthrough rates, some report age-adjusted rates, some report crude rates, some report disaggregated rates by age group, and for some it’s unclear if and how rates are adjusted for differences in age distribution.</figcaption><p></p>
 </figure>
 </div>
 <p>The difference in crude versus age-adjusted rates can also be compared in data compiled at a <a href="https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36">multi-state level</a> by the CDC:</p>
@@ -351,7 +363,7 @@ Note
 <div class="flourish-embed" data-src="story/1227285?889196">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption class="figure-caption">Figure 5: CDC-compiled data shows weekly case and death rates per 100K by vaccine status with age adjustment compared to without age adjustment (crude rates).</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;5: CDC-compiled data shows weekly case and death rates per 100K by vaccine status with age adjustment compared to without age adjustment (crude rates).</figcaption><p></p>
 </figure>
 </div>
 <p>Adjusting for different age distributions can make a big difference in reported rates. In the above figure, that effect is especially pronounced in reporting the death rates. The age-adjusted death rate is much higher than the crude rate in the unvaccinated population, while it is lower when age-adjusted in the boosted population. Rates can also be presented broken out by age group to show the relative risk within and across age groups, as the CDC does for <a href="https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status">cases, deaths</a>, and <a href="https://covid.cdc.gov/covid-data-tracker/#covidnet-hospitalizations-vaccination">hospitalizations</a> aggregated across multiple state and local jurisdictions.</p>
@@ -360,7 +372,7 @@ Note
 <div class="flourish-embed" data-src="story/1227283?889196">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption class="figure-caption">Figure 6: CDC-compiled data shows the relative risk by vaccine status and age group as weekly rate ratios and rates per 100K for cases, hospitalizations, and deaths before and after Omicron became dominant. Hospitalization data source does not provide rates for the 12-17 age group.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;6: CDC-compiled data shows the relative risk by vaccine status and age group as weekly rate ratios and rates per 100K for cases, hospitalizations, and deaths before and after Omicron became dominant. Hospitalization data source does not provide rates for the 12-17 age group.</figcaption><p></p>
 </figure>
 </div>
 <p><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
@@ -389,10 +401,10 @@ Note
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1" role="doc-endnote"><p>When the rates are further separated by both vaccination status and age, as seen in figure 6, it appears that the case rate in the 18–49 age group is actually higher for those who were boosted than for those who received only the primary series. It would be wrong to jump to the conclusion that getting vaccinated and boosted is now less effective against infection than getting just the primary vaccine series. This pattern also does not appear in the rates of hospitalization or death among boosted versus primary series vaccinated in any age group. What may actually be happening involves yet another confounding factor: the time since vaccination (or boosting) and how people move between groups defined as vaccinated and boosted. Because of waning vaccine effectiveness over time, a population that mostly was vaccinated many months ago may seem to reflect a lower vaccine effectiveness against infection in aggregate than a recently-vaccinated population.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>When the rates are further separated by both vaccination status and age, as seen in figure 6, it appears that the case rate in the 18–49 age group is actually higher for those who were boosted than for those who received only the primary series. It would be wrong to jump to the conclusion that getting vaccinated and boosted is now less effective against infection than getting just the primary vaccine series. This pattern also does not appear in the rates of hospitalization or death among boosted versus primary series vaccinated in any age group. What may actually be happening involves yet another confounding factor: the time since vaccination (or boosting) and how people move between groups defined as vaccinated and boosted. Because of waning vaccine effectiveness over time, a population that mostly was vaccinated many months ago may seem to reflect a lower vaccine effectiveness against infection in aggregate than a recently-vaccinated population.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -436,7 +448,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -464,31 +493,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

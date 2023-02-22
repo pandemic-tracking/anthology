@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -77,28 +82,34 @@ ga('send', {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
-    <img src="./ptc-bars.png" alt="">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./ptc-bars.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">PTC</span>
-  </a>
+    </a>
+  </div>
           <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Anthology</a>
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Anthology</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./scorecards.html" aria-current="page">Scorecards</a>
+    <a class="nav-link active" href="./scorecards.html" aria-current="page">
+ <span class="menu-text">Scorecards</span></a>
   </li>  
 </ul>
           <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="./about.html"><i class="bi bi-info-circle-fill" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/pandemictrack"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
             <div id="quarto-search" class="" title="Search"></div>
@@ -109,7 +120,7 @@ ga('send', {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
   <ul>
@@ -157,6 +168,7 @@ ga('send', {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -186,7 +198,7 @@ Note
 <div class="flourish-embed flourish-map" data-src="visualisation/10254485?900894">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 </div>
-<p></p><figcaption class="figure-caption">Figure 1: Most recent hexmap of scorecard</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: Most recent hexmap of scorecard</figcaption><p></p>
 </figure>
 </div>
 <section id="scorecard-and-criteria" class="level3">
@@ -280,17 +292,17 @@ Note
 <tr class="odd">
 <td><strong>Cases</strong></td>
 <td><ul>
-<li>As a percent of not fully vaccinated, fully vaccinated, and boosted individuals</li>
-<li>Cumulative counts of COVID-19 cases in not fully vaccinated, fully vaccinated, and boosted individuals</li>
-<li>Definition of a breakthrough case</li>
+<li>As a percent of not fully vaccinated, fully vaccinated, and boosted individuals |</li>
+<li>Cumulative counts of COVID-19 cases in not fully vaccinated, fully vaccinated, and boosted individuals |</li>
+<li>Definition of a breakthrough case |</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><strong>Hospitalizations</strong></td>
 <td><ul>
-<li>As a percent of not fully vaccinated, fully vaccinated, and boosted individuals</li>
-<li>Cumulative counts of COVID-19 hospitalizations in not fully vaccinated, fully vaccinated, and boosted individuals</li>
-<li>Definition of a COVID-19 breakthrough hospitalization, including specifying if hospitalizations are COVID-19-related</li>
+<li>As a percent of not fully vaccinated, fully vaccinated, and boosted individuals |</li>
+<li>Cumulative counts of COVID-19 hospitalizations in not fully vaccinated, fully vaccinated, and boosted individuals |</li>
+<li>Definition of a COVID-19 breakthrough hospitalization, including specifying if hospitalizations are COVID-19-related |</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -308,7 +320,7 @@ Note
 <li>Report rate ratios of cases, hospitalizations, and deaths by vaccination status for a specific recent time period*, rather than solely as part of a time series</li>
 <li>Definition of COVID-19 breakthrough deaths, including specifying if deaths are COVID-19-related</li>
 </ul>
-<em>* Recent time period includes data no more than two calendar months prior to the current date</em></td>
+<p><em>* Recent time period includes data no more than two calendar months prior to the current date</em></p></td>
 </tr>
 <tr class="odd">
 <td><strong>Vaccination Status</strong></td>
@@ -338,7 +350,7 @@ Note
 <ul>
 <li>Specify what age population is included in the calculation</li>
 <li>Specify if the rate is crude or age-adjusted</li>
-<li>Specify how subgroups are categorized by vaccination status (i.e.&nbsp;are partially vaccinated individuals included in the unvaccinated population and/or are boosted individuals included in the fully vaccinated population)</li>
+<li>Specify how subgroups are categorized by vaccination status (i.e.&nbsp;are partially vaccinated individuals included in the unvaccinated population and/or are boosted individuals included in the fully vaccinated population</li>
 </ul></li>
 </ul></td>
 </tr>
@@ -354,25 +366,25 @@ Note
 <tr class="odd">
 <td><strong>Age</strong></td>
 <td><ul>
-<li>All data listed above broken out by age groups</li>
+<li>All data listed above broken out by age groups |</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><strong>Vaccine manufacturer</strong></td>
 <td><ul>
-<li>All breakthrough data listed above broken out by vaccine manufacturer</li>
+<li>All breakthrough data listed above broken out by vaccine manufacturer |</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><strong>Time since vaccination</strong></td>
 <td><ul>
-<li>COVID-19 outcomes as counts and rates per capita by vaccination status
+<li>COVID-19 outcomes as counts and rates per capita by vaccination status |
 <ul>
-<li>fully vaccinated (within 6 months)</li>
-<li>fully vaccinated (6+ months past final dose)</li>
-<li>boosted</li>
+<li>fully vaccinated (within 6 months) |</li>
+<li>fully vaccinated (6+ months past final dose) |</li>
+<li>boosted |</li>
 </ul></li>
-<li>Percent and count of vaccinated population now 6 months past their last dose</li>
+<li>Percent and count of vaccinated population now 6 months past their last dose |</li>
 <li>Percent and count of booster eligible population who have not received a booster dose</li>
 </ul></td>
 </tr>
@@ -498,25 +510,22 @@ Note
 <col style="width: 20%">
 <col style="width: 80%">
 </colgroup>
-<thead>
-<tr class="header">
-<th>Date</th>
-<th>Change</th>
-</tr>
-</thead>
 <tbody>
 <tr class="odd">
-<td>2/25/22</td>
-<td><ul>
-<li>Added booster data reporting best practices</li>
-</ul></td>
+<td><h1 id="date">Date</h1>
+<p>2/25/22</p></td>
+<td>Change | ===============+ - Added booster data reporting best practices</td>
 </tr>
 <tr class="even">
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>7/7/22</td>
 <td><ul>
-<li>Added recent reporting best practices</li>
-<li>Removed North Dakota example</li>
-<li>Added New Mexico</li>
+<li>Added recent reporting best practices |</li>
+<li>Removed North Dakota example |</li>
+<li>Added New Mexico |</li>
 </ul></td>
 </tr>
 </tbody>
@@ -528,11 +537,11 @@ Note
 <h2 class="anchored" data-anchor-id="scorecard-archive">Scorecard Archive</h2>
 <section id="july-7-2022" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="july-7-2022">July 7 2022</h3>
-<div class="page-columns page-full"><p><img src="scorecards/btscorecard-20220707.png" class="img-fluid"> </p><div class="no-row-height column-margin column-container"><span class="aside"><a href="https://github.com/pandemic-tracking/bi/blob/d750786817220a1a37ef2c315b110a1039bbe425/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv">7/7/22 data file</a></span></div></div>
+<div class="page-columns page-full"><p><img src="scorecards/btscorecard-20220707.png" class="img-fluid"> </p><div class="no-row-height column-margin column-container"><span class=""><a href="https://github.com/pandemic-tracking/bi/blob/d750786817220a1a37ef2c315b110a1039bbe425/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv">7/7/22 data file</a></span></div></div>
 </section>
 <section id="june-2-2022" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="june-2-2022">June 2 2022</h3>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside"><a href="https://github.com/pandemic-tracking/bi/blob/4387ee9e70398de782d6766ce1f08c42d9925e54/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv">6/2/22 data file</a></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><a href="https://github.com/pandemic-tracking/bi/blob/4387ee9e70398de782d6766ce1f08c42d9925e54/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv">6/2/22 data file</a></span></div></div>
 <p><img src="scorecards/btscorecard-20220602.png" class="img-fluid"></p>
 </section>
 <section id="may-5-2022" class="level3">
@@ -541,22 +550,22 @@ Note
 </section>
 <section id="april-7-2022" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="april-7-2022">April 7 2022</h3>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside"><a href="https://github.com/pandemic-tracking/bi/blob/7771e2b7b5eed6278468e8480fa53d7f7ae7fc7b/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv">4/7/22 data file</a></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><a href="https://github.com/pandemic-tracking/bi/blob/7771e2b7b5eed6278468e8480fa53d7f7ae7fc7b/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv">4/7/22 data file</a></span></div></div>
 <p><img src="scorecards/btscorecard-20220407.png" class="img-fluid"></p>
 </section>
 <section id="march-10-2022" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="march-10-2022">March 10 2022</h3>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside"><a href="https://github.com/pandemic-tracking/bi/blob/1d2be8240b45c98efdeb973d4af58931ca6adde9/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv">3/10/22 data file</a></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><a href="https://github.com/pandemic-tracking/bi/blob/1d2be8240b45c98efdeb973d4af58931ca6adde9/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv">3/10/22 data file</a></span></div></div>
 <p><img src="scorecards/btscorecard-20220310.png" class="img-fluid"></p>
 </section>
 <section id="february-10-2022" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="february-10-2022">February 10 2022</h3>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside"><a href="https://github.com/pandemic-tracking/bi/blob/b99d01884cf5acf9486a32bfe16d9d4831bd77a7/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv">2/10/22 data file</a></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><a href="https://github.com/pandemic-tracking/bi/blob/b99d01884cf5acf9486a32bfe16d9d4831bd77a7/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv">2/10/22 data file</a></span></div></div>
 <p><img src="scorecards/btscorecard-20220210.png" class="img-fluid"></p>
 </section>
 <section id="january-13-2022" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="january-13-2022">January 13 2022</h3>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside"><a href="https://github.com/pandemic-tracking/bi/blob/e9ab72a8eebbf408b248ea78001ad7bb1df39591/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv">1/13/22 data file</a></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><a href="https://github.com/pandemic-tracking/bi/blob/e9ab72a8eebbf408b248ea78001ad7bb1df39591/US%20states%20breakthrough%20scorecard%20-%20Publish-Summary.csv">1/13/22 data file</a></span></div></div>
 <p><img src="scorecards/btscorecard-20220113.png" class="img-fluid"></p>
 
 
@@ -605,7 +614,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -633,31 +659,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
