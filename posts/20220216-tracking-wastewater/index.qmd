@@ -32,7 +32,7 @@ Hospitalization and death rates, and case counts obtained from clinical samples,
 
 
 ::: {#fig-1 .column-page-right}
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/02/wastewater-viz1-Street-Graph-1440x793.png)
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/02/wastewater-viz1-Street-Graph-1440x793.png){fig-alt="John Snow's 1854 map of the London Cholera outbreak with the source of the outbreak highlighted - the contaminated Broad Street water pump"}
 
 A portion of John Snow’s 1854 map of the London Cholera outbreak showing the locations of cholera cases and the source - a contaminated water pump located at the intersection of Broad Street and Cambridge Street (now Lexington Street)
 :::
@@ -82,7 +82,7 @@ The emergence of the Omicron variant in [November 2021](https://www.rockefellerf
 
 ::: {#fig-3 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/02/wastewater-viz3-Global-Variant-Trends-1440x793.png "")
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/02/wastewater-viz3-Global-Variant-Trends-1440x793.png){fig-alt="Line chart showing proportion of genome sequences in GISAID per Variant of Concern over time with Alpha, then Delta, and now Omicron being the dominant variant globally."}
 
 Global prevalence of variants of concern, showing successive waves of the Alpha, Delta, and Omicron variants.
 

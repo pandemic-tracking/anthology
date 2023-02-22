@@ -22,7 +22,12 @@ There are [many advantages](https://www.rockefellerfoundation.org/case-study/tra
 
 ::: {#fig-1 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/07/ww-process-final-1440@2x-1440x793.png)
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/07/ww-process-final-1440@2x-1440x793.png){fig-alt="1. The first step in wastewater surveillance is choosing sampling sites and frequency.
+2: A sample of wastewater can be taken at a single point in time, or over a longer time period.
+3. Transport and storage conditions can affect the quality of the sample.
+4. Several laboratory procedures prepare the sample for analysis.
+5. PCR can measure levels of viral RNA and suggest the presence of variants, which can be confirmed with sequencing.
+6. Reporting methods may take into account variables such as population and wastewater flow rate."}
 
 Wastewater monitoring is a process that requires multiple steps to collect, process, and analyze samples and report data.
 
@@ -65,7 +70,7 @@ The composition of wastewater is quite different from the material collected in 
 
 ::: {#fig-2 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/07/ww-pcrtypes-final-1440@2x-1440x793.png)
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/07/ww-pcrtypes-final-1440@2x-1440x793.png){fig-alt="A schematic illustrating the steps in qPCR vs. dPCR as described in the caption."}
 
 In quantitative PCR, the signal is detected over the course of the amplification process. The more of the target sequence present in the original sample, the quicker the signal will reach the detection threshold. In digital PCR, the sample is separated into thousands of separate amplification reactions, each of which results in either a positive or negative signal at the endpoint.
 

@@ -85,7 +85,7 @@ Soon after its discovery, the Omicron variant was shown to have [three quite dis
 
 ::: {#fig-2 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/03/sublineages-viz2-final-1440@2x-1440x793.png)
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/03/sublineages-viz2-final-1440@2x-1440x793.png){fig-alt="SARS-CoV-2 evolutionary tree diagram using Nextstrain data. The distance between branches and twigs shows the differences in mutations between lineages and sublineages."}
 
 SARS-CoV-2 evolutionary tree diagram using Nextstrain data and adapted from the work of Dr. Emma Hodcroft. The distance between branches and twigs shows the differences in mutations between lineages and sublineages. This tree shows both Pango lineages and Nextstrain clades for Delta and Omicron where applicable.
 

@@ -33,7 +33,7 @@ Beginning in late September 2001, several letters containing a powdered form of 
 
 
 ::: {#img-1 .column-margin}
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/anthrax.jpg)
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/anthrax.jpg){fig-alt="Workers in PPE examine large barrels for anthrax contamination."}
 
 When mail delivered to Capitol Hill was suspected of anthrax contamination, it was collected for analysis. Air samplers were used to monitor the containment area for _B. anthracis_. Image Credit: US Federal Bureau of Investigation.
 :::
@@ -58,7 +58,7 @@ There are several [methods](https://link.springer.com/article/10.1007/s11356-021
 Once proof of concept had been established, the next step in developing an air surveillance strategy was to move from highly controlled situations to sites where substantial numbers of people gather naturally, in real life. In a project [supported by The Rockefeller Foundation’s](https://www.wpr.org/its-science-fiction-until-it-isnt-uw-madison-joins-global-institute-help-prepare-prevent-future) [U.S. Regional Accelerators for Genomic Surveillance](https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-key-grants-and-collaborations-toward-the-creation-of-a-pandemic-prevention-institute/), [researchers](https://openresearch.labkey.com/project/Coven/begin.view?) at the University of Wisconsin-Madison [performed air surveillance](https://www.nature.com/articles/s41467-022-32406-w) in 15 sites, including rooms in hospitals, schools, and athletic buildings, as well as establishments serving food and beverages. 
 
 ::: {#img-2 .column-margin}
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/The-Real-World.jpg)
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/The-Real-World.jpg){fig-alt="A photo of a school hallway used as a testing site, with an air sampling device on a cart on the left, nestled between an upright piano and a series of cubbyholes for children's jackets."}
 
 The size and portability of air samplers, as seen on the left in this school study site, can make them very useful in monitoring for airborne viruses in localized settings, like particular hallways or classrooms. Photo Credit: O’Connor Labs, UW-Madison
 :::
@@ -66,7 +66,7 @@ The size and portability of air samplers, as seen on the left in this school stu
 To perform the [surveillance](https://openresearch.labkey.com/wiki/Coven/page.view?name=Current%20Sampling%20Workflow%20at%20UW-Madison), the researchers used an [impactor-type](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257689) air sampler with cartridges that were simple to change with minimal training, allowing individuals at the site such as staff or students to replace cartridges, which are the [size of a 10 cc syringe.](https://www.nytimes.com/2021/03/24/health/coronavirus-testing-airborne-aerosol-indoor.html) A barcode system kept track of samples using a mobile phone app. The barcode on the cartridge was scanned when it was inserted and removed from the sampler, and metadata about the location (via GPS) and sampling time was automatically recorded. In the laboratory, the contents of the cartridge were removed and analyzed by [quantitative PCR (qPCR)](https://www.ncbi.nlm.nih.gov/probe/docs/techqpcr/).
 
 ::: {#fig-1 .column-page-right}
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/Air-Surveillance1-2048x1128.png)
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/Air-Surveillance1-2048x1128.png){fig-alt="A diagram showing a generalized example of an Air Surveillance Workflow, from the sampling site to the laboratory.  Metadata on the cartridge used for sampling is recorded on mobile app at the sampling site.  The cartridge is then transported to the lab, analyzed and findings are merged with the metadata from the sampling site to give the reported results."}
 
 Air sampling study design. At the sampling site, a barcode on the cartridge was scanned to record the beginning and end of the sampling time, as well as the location of the site. The cartridge was transported to the laboratory for analysis. PCR results were combined with metadata.
 :::
@@ -83,7 +83,7 @@ The group expanded the study to test weekly for the presence of [40 additional p
 * Influenza A virus was detected in on-campus sites during an influenza outbreak at the University of Wisconsin-Madison. 
 
 ::: {#img-3 .column-margin}
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/Results.png)
+![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/Results.png){fig-alt="A photo of a ThermoFisher air sampling device labelled "iceman" in lab tape, sitting on the end of a school table surrounded by printouts hanging on the wall explaining what the device is, how it is used, and why it matters."}
 
 The convenience of air samplers means they can be used in many public settings, which also provides an opportunity to educate the public on what they are and why air surveillance can be an important part of the public health pandemic toolkit. Photo Credit: O’Connor Labs, UW-Madison
 
