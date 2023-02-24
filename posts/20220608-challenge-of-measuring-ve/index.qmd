@@ -12,7 +12,7 @@ title-block-banner: false
 ---
 
 ::: {.callout-note}
-This piece is originally published at [https://www.rockefellerfoundation.org/case-study/the-challenge-of-measuring-vaccine-effectiveness/](https://www.rockefellerfoundation.org/case-study/the-challenge-of-measuring-vaccine-effectiveness/)
+This piece is originally published at [rockefellerfoundation.org/case-study/the-challenge-of-measuring-vaccine-effectiveness/](https://www.rockefellerfoundation.org/case-study/the-challenge-of-measuring-vaccine-effectiveness/)
 :::
 
 In mid-November 2020, as Covid-19 cases were rising and two thousand people were dying every day in the US, Americans needed hope. They got it. 

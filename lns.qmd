@@ -1,0 +1,21 @@
+---
+title: "Dr. Lindsey Shultz"
+image: about/lns.jpeg
+
+about:
+  template: solana
+  image-shape: round
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/lshultz82
+    - icon: mastodon
+      text: Mastodon
+      href: https://mastodon.online/@LShultz82
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/lindsey-shultz-27550819/
+
+---
+##### Public Health and Science Advisor
+Physician and public health analyst from Pittsburgh, PA. Broader interests include harm reduction, bioethics, especially the interface of health and technology, and health systems. Worked with Prevention Point Pittsburgh focusing on evidence-based drug policy. Undergraduate degrees from the Carnegie Mellon University Science and Humanities Scholars program in Biological Sciences and Ethics, History, and Public Policy. Earned her MD from Weill Cornell Medical College where she was recognized in student instruction of anatomy, and trained in public health at Columbia University. 4-time jeopardy champion and a semi-finalist in the 2019 Tournament of Champions.

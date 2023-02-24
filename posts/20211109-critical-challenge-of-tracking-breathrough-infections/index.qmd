@@ -16,7 +16,7 @@ reference-location: document
 ---
 
 ::: {.callout-note}
-This piece is originally published at [https://www.rockefellerfoundation.org/blog/the-critical-challenge-of-tracking-breakthrough-infections-and-why-we-still-need-better-data-standards/](https://www.rockefellerfoundation.org/blog/the-critical-challenge-of-tracking-breakthrough-infections-and-why-we-still-need-better-data-standards/)
+This piece is originally published at [rockefellerfoundation.org/blog/the-critical-challenge-of-tracking-breakthrough-infections-and-why-we-still-need-better-data-standards/](https://www.rockefellerfoundation.org/blog/the-critical-challenge-of-tracking-breakthrough-infections-and-why-we-still-need-better-data-standards/)
 :::
 
 As the percentage of [Americans considered fully vaccinated](https://www.nytimes.com/interactive/2021/us/covid-cases.html) reached 58 percent, and COVID-19-related deaths surpassed [three quarters of a million]( https://www.nytimes.com/interactive/2021/us/covid-cases.html), concerns over breakthrough infections continue to grow. [Breakthrough infections](https://www.rockefellerfoundation.org/blog/the-u-s-can-lead-the-way-in-vaccine-breakthrough-reporting-will-it-squander-this-opportunity/) tend to be mild, and the risk of secondary transmission from these infections, [while real](https://www.channelnewsasia.com/singapore/covid-19-changi-airport-cluster-timeline-1393701), especially in [high-risk settings](https://www.cdc.gov/mmwr/volumes/70/wr/mm7031e2.htm), [is low](https://www.theatlantic.com/ideas/archive/2021/09/the-vaccinated-arent-just-as-likely-to-spread-covid/620161/) compared to those who have not been fully vaccinated. What do breakthrough cases mean in the context of ending this pandemic? The answer is neither simple nor short. 

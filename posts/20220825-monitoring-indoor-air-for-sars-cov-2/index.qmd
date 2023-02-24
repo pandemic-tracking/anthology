@@ -14,7 +14,7 @@ image: https://www.rockefellerfoundation.org/wp-content/uploads/2022/08/Air-Surv
 title-block-banner: false
 ---
 ::: {.callout-note}
-This piece is originally published at [https://www.rockefellerfoundation.org/blog/theres-something-in-the-air-monitoring-indoor-air-for-sars-cov-2/](https://www.rockefellerfoundation.org/blog/theres-something-in-the-air-monitoring-indoor-air-for-sars-cov-2/)
+This piece is originally published at [rockefellerfoundation.org/blog/theres-something-in-the-air-monitoring-indoor-air-for-sars-cov-2/](https://www.rockefellerfoundation.org/blog/theres-something-in-the-air-monitoring-indoor-air-for-sars-cov-2/)
 :::
 
 Public health decisions about Covid-19 depend to a large extent on knowledge about the level of SARS-CoV-2 circulating in a community. Clinical data obtained from individuals through nasal swab samples is crucial, but with a [decrease in case reporting, in part due to increased home testing](https://twitter.com/PPI_Insights/status/1526327292976324609?s=20&t=Z-Hrs9hAnL5s-s7tlWoaVw), the data needed to estimate disease prevalence is becoming less reliable. As an important complement to clinical data, monitoring of the [physical environment](https://www.karger.com/Article/FullText/511575?ref=36#ref36) for the presence of the virus—and for viral variants— is essential for informing public health decisions, detecting outbreaks, and preventing future pandemics. 

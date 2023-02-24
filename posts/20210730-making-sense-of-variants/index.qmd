@@ -16,7 +16,7 @@ reference-location: document
 ---
 
 ::: {.callout-note}
-This piece is originally published at [https://www.rockefellerfoundation.org/blog/making-sense-of-variants-they-all-deserve-attention-a-few-merit-concern/](https://www.rockefellerfoundation.org/blog/making-sense-of-variants-they-all-deserve-attention-a-few-merit-concern/)
+This piece is originally published at [rockefellerfoundation.org/blog/making-sense-of-variants-they-all-deserve-attention-a-few-merit-concern/](https://www.rockefellerfoundation.org/blog/making-sense-of-variants-they-all-deserve-attention-a-few-merit-concern/)
 :::
 
 - SARS-CoV-2 has already mutated since it was first identified and will continue to do so.

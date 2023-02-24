@@ -30,4 +30,4 @@ A group of former leads and key contributors with The COVID Tracking Project. No
 | [Michal Mart](mm.html)
 | [Brandon Park]()
 | [Kara Schechtman]()
-| [Lindsey Shultz]()
+| [Lindsey Shultz](lns.html)

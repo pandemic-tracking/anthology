@@ -14,7 +14,7 @@ tbl-colwidths: [20,80]
 
 ---
 ::: {.callout-note}
-Originally published at [https://www.rockefellerfoundation.org/pandemicpreventioninstitute/u-s-vaccine-breakthrough-reporting-scorecard/](https://www.rockefellerfoundation.org/pandemicpreventioninstitute/u-s-vaccine-breakthrough-reporting-scorecard/)
+Originally published at [rockefellerfoundation.org/pandemicpreventioninstitute/u-s-vaccine-breakthrough-reporting-scorecard/](https://www.rockefellerfoundation.org/pandemicpreventioninstitute/u-s-vaccine-breakthrough-reporting-scorecard/)
 :::
 
 ## Intro

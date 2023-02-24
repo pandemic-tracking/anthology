@@ -19,7 +19,7 @@ reference-location: document
 ---
 
 ::: {.callout-note}
-This piece is originally published at [https://www.rockefellerfoundation.org/blog/a-users-guide-to-u-s-vaccine-breakthrough-rates/](https://www.rockefellerfoundation.org/blog/a-users-guide-to-u-s-vaccine-breakthrough-rates/)
+This piece is originally published at [rockefellerfoundation.org/blog/a-users-guide-to-u-s-vaccine-breakthrough-rates/](https://www.rockefellerfoundation.org/blog/a-users-guide-to-u-s-vaccine-breakthrough-rates/)
 :::
 
 With the United States over a year into its vaccination campaign, all eyes right now are on Covid-19 rates broken out by vaccination status—measures of the number of Covid-19 cases, hospitalizations, and deaths per 100,000 vaccinated or unvaccinated individuals. Shared by the [US Centers for Disease Control and Prevention](https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status) (CDC) as well as many [state, territorial](https://www.rockefellerfoundation.org/pandemicpreventioninstitute/u-s-vaccine-breakthrough-reporting-scorecard/), and local health departments, rates broken down by vaccination status provide a useful way to compare vaccinated and unvaccinated individuals’ relative risk, assess an individual’s absolute risk, and understand how vaccines are faring over time against challenges like new variants.
