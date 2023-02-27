@@ -32,7 +32,7 @@ Hospitalization and death rates, and case counts obtained from clinical samples,
 
 
 ::: {#fig-1 .column-page-right}
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/02/wastewater-viz1-Street-Graph-1440x793.png){fig-alt="John Snow's 1854 map of the London Cholera outbreak with the source of the outbreak highlighted - the contaminated Broad Street water pump"}
+![](wastewater-viz1-Street-Graph-1440x793.png){fig-alt="John Snow's 1854 map of the London Cholera outbreak with the source of the outbreak highlighted - the contaminated Broad Street water pump"}
 
 A portion of John Snow’s 1854 map of the London Cholera outbreak showing the locations of cholera cases and the source - a contaminated water pump located at the intersection of Broad Street and Cambridge Street (now Lexington Street)
 :::
@@ -54,7 +54,7 @@ One such “hot spot” was detected in Louisville, Kentucky during the onset of
 
 ::: {#fig-2 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/02/wastewater-viz2-Louisvile-Graph-1440x793.png){fig-alt="Top is a line chart and map showing reported COVID-19 cases per 100K over time in ZIP Code 40212 being similar or lower than overall Jefferson County. Bottom is a scatter plot and map showing Shawnee Park area which is within ZIP Code 40212 with higher virus levels in its wastewater starting in November 2021 compared to the neighboring catchment and encompassing sewershed."}
+![](wastewater-viz2-Louisvile-Graph-1440x793.png){fig-alt="Top is a line chart and map showing reported COVID-19 cases per 100K over time in ZIP Code 40212 being similar or lower than overall Jefferson County. Bottom is a scatter plot and map showing Shawnee Park area which is within ZIP Code 40212 with higher virus levels in its wastewater starting in November 2021 compared to the neighboring catchment and encompassing sewershed."}
 
 ZIP code-level clinical data for 40212, the Louisville, Kentucky ZIP code encompassing the Shawnee Park and 34th Street catchment areas (top), compares case rates in that ZIP code (orange) to those of Jefferson County as a whole (blue). Wastewater data (bottom) shows higher SARS-CoV-2 virus concentrations detected in Shawnee Park wastewater (pink) than in surrounding wastewater catchment areas, including 34th Street (blue), and in the larger Morris Forman Water Quality Treatment Center catchment area (purple)
 
@@ -82,7 +82,7 @@ The emergence of the Omicron variant in [November 2021](https://www.rockefellerf
 
 ::: {#fig-3 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/02/wastewater-viz3-Global-Variant-Trends-1440x793.png){fig-alt="Line chart showing proportion of genome sequences in GISAID per Variant of Concern over time with Alpha, then Delta, and now Omicron being the dominant variant globally."}
+![](wastewater-viz3-Global-Variant-Trends-1440x793.png){fig-alt="Line chart showing proportion of genome sequences in GISAID per Variant of Concern over time with Alpha, then Delta, and now Omicron being the dominant variant globally."}
 
 Global prevalence of variants of concern, showing successive waves of the Alpha, Delta, and Omicron variants.
 

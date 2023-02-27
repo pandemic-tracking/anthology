@@ -64,7 +64,7 @@ As with cumulative data, states can report time series data either as raw number
 
 ::: {#fig-1 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/12/btscorecard-viz1-final-1440@2x-1440x793.png)
+![](btscorecard-viz1-final-1440@2x-1440x793.png){fig-alt="Stacked bar chart showing all US states by score category from A to F."}
 
 Currently, nine states receive an F grade because they do not share data regularly. Of the remaining states, three (California, Colorado, and Utah) meet the criteria for an A.
 
@@ -75,7 +75,7 @@ Our analysis of state reporting found **that most states are now reporting break
 
 ::: {#fig-2 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/12/btscorecard-viz2-final-1440@2x-1440x793.png)
+![](btscorecard-viz2-final-1440@2x-1440x793.png){fig-alt="3 hexmaps showing which US states report breakthough cases, breakthrough hospitalizations, or breakthrough deaths."}
 
 Including states with both regular and ad hoc public reports, as of December 16, 2021, 40 states have reported cumulative breakthrough cases, 37 states have reported cumulative breakthrough hospitalizations, and 42 states have reported cumulative breakthrough deaths.
 :::

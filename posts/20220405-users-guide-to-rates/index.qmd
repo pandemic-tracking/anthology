@@ -35,7 +35,7 @@ In this post, we’ll be giving you a guide to interpreting Covid-19 breakthroug
 Before diving into the complexities of breakthrough rates, it’s worth reviewing [what rates are in public health and epidemiology](https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section1.html#:~:text=In%20epidemiology%2C%20a%20rate%20is,a%20specified%20period%20of%20time.) and why they are so useful. Rates in this piece refer to the number of events or outcomes of interest that occur per person in the population susceptible to that event or outcome, over a specified time period (this could be granular, like daily or weekly, but also could be cumulative across the course of the pandemic). \
 
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Rate-1-1440x583.jpg "")
+![](Rate-1-1440x583.jpg){fig-alt="Equation showing rate equals number of times an event occurs divided by size of the defined population over a specified time period."}
 
 
 This calculation will tell you the proportion of individuals, in the specified population, that the event has occurred in over the specified time period. If the rate is less than one, that means the event has not happened to every single person in the population over the time period in question. For example, in a population with a 0.5 per capita rate of a given event, we would expect one out of every two people in that population to have experienced that event within the time period.
@@ -54,7 +54,7 @@ Rates are so useful because **they provide a way of understanding and comparing 
 In the context of [vaccine breakthrough data](https://www.cdc.gov/vaccines/covid-19/downloads/covid-vaccine-breakthrough-case-investigations-protocol.pdf), rates serve a very similar purpose as they do in comparisons across states: they let us fairly compare Covid-19 statistics across differently-sized populations. But instead of state populations, **the populations in question for vaccine breakthrough rates are those of vaccinated individuals and unvaccinated individuals.**
 
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Rate-per-capita-1440x581.jpg "")
+![](Rate-per-capita-1440x581.jpg){fig-alt="Equation showing vaccine breakthrough rate per 100k equals number of cases, hospitalizations, or deaths in unvaccinated individuals divided by size of the vaccinated population multiplied by 100,000."}
 
 Breakthrough rates are calculated for a specific time period, in a specific region. Almost all states that report breakthrough data will perform the analogous calculation for the unvaccinated population to compare with vaccine breakthrough rates.
 
@@ -79,14 +79,14 @@ By comparing rates of cases, hospitalizations, and deaths broken down by vaccina
 
 **Rate ratios** **(RRs) **capture how many more times Covid-19 cases, hospitalizations, or deaths occur in unvaccinated individuals than vaccinated individuals. For example, if the outcome of interest is cases:
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Rate-Ratio-1440x581.jpg "")
+![](Rate-Ratio-1440x581.jpg){fig-alt="Equation showing rate ratio (RR) equals rate of cases in unvaccinated individuals divided by rate of cases in vaccinated individuals."}
 
 
 Since vaccinations are expected to reduce the risk of cases, hospitalizations, and deaths across the board, the rate ratios are almost always numbers greater than one, meaning a person who is unvaccinated is at higher risk than one who is not. The rate ratio is a metric often highlighted on state [dashboards](https://covid19.ca.gov/state-dashboard/) as well as by the [CDC COVID data tracker. The rate ratio number (and definition of what populations are being compared) is often summarized in headlines as an “X” multiple](https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status); for example, the CDC page states that “unvaccinated people aged 5 years and older had **2.8X** risk of testing positive for COVID-19 in February, compared to people vaccinated with at least a primary series.”
 
 **Vaccine effectiveness (VE) **is the real-world counterpart measure to vaccine efficacy, which is used in controlled trials to quantify the protective effect of vaccines against Covid-19 cases and severe outcomes. VE measures how much vaccination reduces_ _the number of Covid-19 cases, hospitalizations, or deaths. One way of finding this value is (where RR represents the rate ratio as shown above):
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Vaccine-Effectiveness-1440x586.jpg "")
+![](Vaccine-Effectiveness-1440x586.jpg){fig-alt="Equation showing vaccine effectiveness (VE) equals unvaccinated rate minus vaccinated rate divided by unvaccinated rate. Alternately, one minus one divided by the rate ratio (RR)."}
 
 
 By comparing population-level rates, VE measures the relative risk of an outcome in a vaccinated group compared to an unvaccinated group of similar makeup. For example, a vaccine effectiveness of 65% against infection means there were 65% fewer cases in a group of vaccinated individuals compared to a similar group that is unvaccinated. 
@@ -125,7 +125,7 @@ As a result of this ambiguity, methods for breaking down the population into com
 
 ::: {#fig-2 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Unvaccinated-Population-Denom-1440x793.png "")
+![](Unvaccinated-Population-Denom-1440x793.png){fig-alt="Hexmap of US states showing differences between states in how unvaccinated is defined: fully unvaccinated only, lumps unvaccinated and partially vaccinated, splits unvaccinated from partially vaccinated, or does not report a rate at all."}
 
 Figure 2. 23 states report rates as a time series, but they use different definitions of the “unvaccinated” population denominator. Some lump in partially vaccinated individuals, while others exclude those partially vaccinated or split them out into a separate comparison group.
 
@@ -154,7 +154,7 @@ Currently, only 11 states out of the 23 that provide time series of vaccine brea
 
 ::: {#fig-3 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Rates-by-Booster-Status-1440x793.png "")
+![](Rates-by-Booster-Status-1440x793.png){fig-alt="Hexmap of US states showing which states report rates by booster status, rates without booster status, or no rates reported as timeseries at all."}
 
 11 states reporting vaccine breakthrough rates data distinguish in their “vaccinated” group between those vaccinated with a primary series of doses only and those who have received an additional/booster dose.
 :::
@@ -198,7 +198,7 @@ Once the state or public health body selects a data source, they [adjust the cru
 
 ::: {#fig-4 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2022/04/Presenting-1440x793.png "")
+![](Presenting-1440x793.png){fig-alt="Hexmap of US states showing which states report age-adjusted rates, crude rates, unclearly defined rates, or no rates at all."}
 
 Of the 23 states reporting breakthrough rates, some report age-adjusted rates, some report crude rates, some report disaggregated rates by age group, and for some it’s unclear if and how rates are adjusted for differences in age distribution.
 

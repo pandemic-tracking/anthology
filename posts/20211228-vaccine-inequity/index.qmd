@@ -22,7 +22,7 @@ To control the Covid-19 pandemic, the World Health Organization (WHO) called on 
 
 #### Vaccination rates
 ::: {#fig-1 .column-page-right}
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/12/ptc2-viz1-final-1440@2x-2048x1128.png)
+![](ptc2-viz1-final-1440@2x-2048x1128.png){fig-alt="Bar chart showing share of world population with at least one dose of COVID-19 vaccine colored by country income level."}
 
 Vaccination rates by population size and country income level. High and upper middle income countries have vaccinated far more of their populations than have most low and lower middle income countries.
 
@@ -41,7 +41,7 @@ Detection and tracking of variants requires [genomic sequencing](https://www.roc
 #### Sequencing capacity
 ::: {#fig-2 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/12/ptc2-viz2-final-1440@2x-2048x1128.png)
+![](ptc2-viz2-final-1440@2x-2048x1128.png){fig-alt="3 bar charts showing sequences shared, % of cases sequenced and shared, and median days to deposition of data per country, colored by country income level."}
 
 Countries that have published more than 2000 sequences to GISAID in the last 180 days
 :::
@@ -63,7 +63,7 @@ The variant, assigned to Pango lineage B.1.1.529, was detected the afternoon of 
 #### Omicron sequences
 ::: {#fig-3 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/12/ptc2-viz3-final-1440@2x-2048x1128.png)
+![](ptc2-viz3-final-1440@2x-2048x1128.png){fig-alt="Line and dot chart showing the earliest sample collection date and number of Omicron sequences shared for all 64 countries sharing Omicron sequences to GISAID from 11/5/21 to 12/16/21."}
 
 Visualizing the timeline of Omicron sequences collected and submitted to GISAID by country, with circle sizes representing number of Omicron samples collected per date, the line spanning from earliest collected sample to latest submitted sequence, color denoting continent, and ordered top-down by earliest date of collection
 :::

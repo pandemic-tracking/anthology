@@ -45,7 +45,7 @@ In unvaccinated populations, rampant viral replication and transmission increase
 
 ::: {#fig-1 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/2nd-Piece-Image-1440x793.png)
+![](2nd-Piece-Image-1440x793.png){fig-alt="3 bar charts showing US states by sequencing capacity: genomes shared, % of cases sequenced and shared, median days to deposition of data."}
 
 Sequencing capacity varies greatly across U.S. states based on what % of cases are sequenced, how many sequences are shared, and submission latency to GISAID over the past 180 days.
 
@@ -60,7 +60,7 @@ The cost for sequencing complete genomes has [rapidly declined](https://www.nyti
 
 ::: {#fig-2 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/2nd-Piece-Image2-1440x793.png)
+![](2nd-Piece-Image2-1440x793.png){fig-alt="Scatter plots by US region showing each county as a dot positioned by % popultion fully vaccinated on the x-axis and either % of population in poverty or social vulnerability score on the y-axis. Color of dot indicates large metro, small metro, or micropolitan/rural and radius represents population size."}
 
 Poorer, more vulnerable, and more rural U.S. counties lag behind in vaccination, including Lincoln Parish, L.A. with 30% in poverty, a medium vulnerability score, and 39% of people fully vaccinated.
 

@@ -1,6 +1,6 @@
 ---
 title: "Jacqueline Houtman, PhD"
-image: about/jjh.jpeg
+image: about/jjh.jpg
 
 about:
   template: solana

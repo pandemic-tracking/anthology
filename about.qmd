@@ -1,24 +1,21 @@
 ---
-title: "About"
+title: ""
 image: ptc-logo-transparent.png
 
 about:
-  template: solana
+  template: trestles
   image-shape: rectangle
   links:
     - icon: twitter
       text: Twitter
       href: https://twitter.com/pandemictrack
-    # - icon: linkedin
-    #   text: LinkedIn
-    #   href: https://linkedin.com
-    # - icon: github
-    #   text: Github
-    #   href: https://github.com
+    - icon: github
+      text: Github
+      href: https://github.com/pandemic-tracking
 
 ---
 
-A group of former leads and key contributors with The COVID Tracking Project. Now working with The Rockefeller Foundation's Pandemic Prevention Institute.
+The Pandemic Tracking Collective (PTC) is a research group dedicated to tracking and reporting public health data. Our expertise includes emerging infectious diseases, immunology, virology, clinical medicine, epidemiology, science communication, data science, data infrastructure, and data visualization. The founding members of PTC are all former leads and key contributors from [The COVID Tracking Project](https://covidtracking.com/).
 
 | [Jennifer Clyde](jac.html)  
 | [Jonathan Gilmour](jag.html)

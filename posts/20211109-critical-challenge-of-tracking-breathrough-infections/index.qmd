@@ -27,7 +27,7 @@ Between March 2020 and March 2021, [The COVID Tracking Project](https://covidtra
 
 ::: {#fig-1 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/1-1-2048x1128.png)
+![](1-1-2048x1128.png){fig-alt="3 hexmaps showing US states that report breakthrough cases, hospital admissions, or deaths as of Oct 21, 2021."}
 
 In the US, states do not report COVID vaccine breakthrough cases, hospitalizations, or deaths in a uniform or standardized manner.
 
@@ -43,7 +43,7 @@ On a [county-by-county level](https://www.nytimes.com/interactive/2020/us/covid-
 
 ::: {#fig-2 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/2-2048x1128.png)
+![](2-2048x1128.png){fig-alt="Scatter plots showing fully vaccinated % of population per county, per state, and per US region as of Nov 2, 2021."}
 
 Vaccination rates visualized on a county-by-county basis show a great deal of variability within regions and states.
 
@@ -53,7 +53,7 @@ Within countries like the US, which have secured enough doses to vaccinate the e
 
 ::: {#fig-3 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/3-2048x1128.png)
+![](3-2048x1128.png){fig-alt="Timeseries line and bar charts spanning Jan to Nov 2021 showing new cases, new hospital admissions, new deaths, and % of total population vaccinated for the entire US."}
 
 Daily vaccinations in the US peaked in April 2021, then fell, ticking up again in the fall due, in part, to the approval of booster doses for certain populations. Daily COVID-19 cases increased in late summer, after a midsummer lull.
 
@@ -63,7 +63,7 @@ By mid-May 2021, the number of new daily cases was declining and [nearly 37%](ht
 
 ::: {#fig-4 .column-page-right}
 
-![](https://www.rockefellerfoundation.org/wp-content/uploads/2021/11/ptc1a-viz4-final-1440@2x-sm-2048x1128.png)
+![](ptc1a-viz4-final-1440@2x-sm-2048x1128.png){fig-alt="Timeseries line charts spanning Jan to Nov 2021 of US states showing new cases per 100k, new hospital admissions per 100k, new deaths per 100k."}
 
 In some states, the number of cases, hospitalizations, and deaths in late summer and fall exceeded those of the January peak.
 
