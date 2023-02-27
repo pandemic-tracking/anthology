@@ -227,7 +227,7 @@ The current CDC data does not update frequently and does not include the ability
 - Machine-readable data table with a download option
 
 ![](scorecards/ca_example1.png){fig-alt="Screenshot of CA tabular data showing counts of cases and vaccinated or unvaccinated population per day."}
-![](scorecards/ca_example2.png)fig-alt="Screenshot of CA tabular data showing rates per 100k of cases in unvaccinated, vaccinated, or boosted people per day."}
+![](scorecards/ca_example2.png){fig-alt="Screenshot of CA tabular data showing rates per 100k of cases in unvaccinated, vaccinated, or boosted people per day."}
 
 #### [Colorado](https://covid19.colorado.gov/vaccine-breakthrough)
 
