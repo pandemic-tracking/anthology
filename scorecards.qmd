@@ -19,33 +19,33 @@ Originally published at [rockefellerfoundation.org/pandemicpreventioninstitute/u
 
 ## Intro
 
-[The Pandemic Tracking Collective](https://www.rockefellerfoundation.org/news/the-rockefeller-foundations-pandemic-prevention-institute-announces-collaboration-with-the-pandemic-tracking-collective/) [is working with The Rockefeller Foundation’s Pandemic Prevention Institute](https://www.rockefellerfoundation.org/news/the-rockefeller-foundations-pandemic-prevention-institute-announces-collaboration-with-the-pandemic-tracking-collective/) to survey U.S. vaccine breakthrough infection (BI) data by U.S. states and territories with over 500,000 people. Our scorecard defines and measures best practices for complete and meaningful reporting of Covid-19 vaccine BI data. We assign states letter grades based on their alignment with these best practices. You can read more about why we selected these best practices in [our announcement blog post](posts/20211222-tracking-state-reporting/) and in this [best practices document](#best-practices-guide) we sent to states.
+[The Pandemic Tracking Collective](https://www.rockefellerfoundation.org/news/the-rockefeller-foundations-pandemic-prevention-institute-announces-collaboration-with-the-pandemic-tracking-collective/) [partnered with The Rockefeller Foundation’s Pandemic Prevention Institute](https://www.rockefellerfoundation.org/news/the-rockefeller-foundations-pandemic-prevention-institute-announces-collaboration-with-the-pandemic-tracking-collective/) to survey U.S. vaccine breakthrough infection (BI) data by U.S. states and territories with over 500,000 people. Our scorecard defined and measured best practices for complete and meaningful reporting of Covid-19 vaccine BI data. We assigned states letter grades based on their alignment with these best practices. You can read more about why we selected these best practices in [our announcement blog post](posts/20211222-tracking-state-reporting/) and in this [best practices document](#best-practices-guide) we sent to states.
 
-This scorecard does not evaluate how well state health officials are responding to Covid-19 overall, but instead specifically reflects the completeness of each state’s publicly available vaccine breakthrough data reporting and presentation, with a focus on data transparency and interpretability. Additionally, many health departments that do not share BI data publicly face insurmountable technical obstacles to collecting data caused by decades of chronic underfunding. Bear this in mind for states receiving especially low grades.
+This scorecard did not evaluate how well state health officials were responding to Covid-19 overall, but instead specifically reflects the completeness of each state’s publicly available vaccine breakthrough data reporting and presentation, with a focus on data transparency and interpretability. Additionally, many health departments that did not share BI data publicly faced insurmountable technical obstacles to collecting data caused by decades of chronic underfunding. Bear this in mind for states that received especially low grades.
 
-Our scorecard focuses on the U.S. since states began reporting BI data when global reporting was still scarce; we hope to draw out lessons in best practices that could apply both in the U.S. and globally.
+Our scorecard focused on the U.S. since states began reporting BI data when global reporting was still scarce; we hoped to draw out lessons in best practices that could apply both in the U.S. and globally.
 
 ::: {#fig-hexmap}
 
 <div class="flourish-embed flourish-map" data-src="visualisation/10254485?900894"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-Most recent hexmap of scorecard
+Final hexmap of scorecard
 
 :::
 
 
 ### Scorecard and Criteria
-Our state scoring system uses 29 criteria to calculate the grade for each state and territory we track. (We use “state” throughout to refer to states, territories, and the District of Columbia.)
+Our state scoring system used 29 criteria to calculate the grade for each state and territory we tracked. (We used “state” throughout to refer to states, territories, and the District of Columbia.)
 
 ::: {#tbl-sheet}
 <iframe width=650 height=600 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2qBA8Pd3X_5dPmPZDVan0PyEdOlHP1gdiRbzoRw1OnDahJ7QfawDes3k8Dq37Su_rzdYxFrTSQxt4/pubhtml"></iframe>
 
-Most recent scorecard
+Final scorecard
 
 :::
 
 ### Data Reporting
-These criteria measure whether a state is publishing complete breakthrough data, as well as non breakthrough data during the same time period. You can see the exact metrics and evaluation criteria in the Data Dictionary tab of the spreadsheet above. 
+These criteria measured whether a state was publishing complete breakthrough data, as well as non breakthrough data during the same time period. You can see the exact metrics and evaluation criteria in the Data Dictionary tab of the spreadsheet above.
 
 **Cumulative counts** 
 
@@ -80,7 +80,7 @@ These criteria measure whether a state is publishing complete breakthrough data,
 - Other breakthrough infection data by booster status
 
 ### Data Presentation
-These criteria evaluate how well states contextualize, format and publish their Covid-19 data.
+These criteria evaluated how well states contextualized, formatted and published their Covid-19 data.
  
 **Definitions**
 
@@ -95,7 +95,26 @@ These criteria evaluate how well states contextualize, format and publish their 
 - Data available to download in a machine readable format
 - Data updated regularly (at least monthly)
 
-## Best Practices Guide
+## Findings
+
+On 12/20/2022, we released our final update on US states’ data reporting of COVID-19 vaccine breakthrough infections (BI). In our final December survey, we found that grades had plateaued. Half the jurisdictions had an F grade, the vast majority of which now reported no BI data. Only 5 states continued to receive our highest marks.
+
+When we began collecting data in Dec. 2021, 43 out of 52 US jurisdictions were regularly reporting breakthrough data. As of 12/20/2022, that number stood at 28 jurisdictions, and falling. While some states had increased the quality and granularity of their reporting over time, many states had completely eliminated their BI data reporting.
+
+::: {#fig-hexmapanim .column-page-right}
+
+![](scorecards/year_of_grades_final.gif){fig-alt="Animated gif of US states hexmap showing change in scorecard grades each month of 2022."}
+
+Animation showing how scores changed for 52 US states and jurisidictions in 2022.
+:::
+
+We ended our scorecard updates at the one year mark due to this decreased state reporting & an increasingly complex immune landscape. This does not mean the need for predictable and targeted surveillance data, integrated into a larger public health strategy, is at an end.
+
+The data landscape has become increasingly fragmented. At home tests make monitoring case counts more challenging. The splintering of omicron subvariants, and changes in vaccination strategy as a result, have led to efforts to streamline data collection to be more sustainable. 
+
+But collecting data is only the beginning, not the end, of public health communication. As states cut back on their public data reporting, we hope that the CDC will continue to refine its BI reporting. Federal data will have to fill in the gaps left by less state reporting. 
+
+## Best Practices Guide (last updated 7/7/22)
 
 ### About This Document
 
@@ -120,7 +139,7 @@ This document summarizes our view of some reporting best practices states should
 |                            | - Report rate ratios of cases, hospitalizations, and deaths by vaccination status for a specific recent time period*, rather than solely as part of a time series
 |                            | - Definition of COVID-19 breakthrough deaths, including specifying if deaths are COVID-19-related
 |                            | 
-|                            | _* Recent time period includes data no more than two calendar months prior to the current date_
+|                            | _* Recent time period included data no more than two calendar months prior to the current date_
 +----------------------------+---------------+
 | **Vaccination Status**     | - Cumulative number of not fully vaccinated, fully vaccinated, and boosted individuals reported alongside breakthrough data
 |                            | - Definitions for not fully vaccinated, partially vaccinated, fully vaccinated, and boosted individuals
@@ -207,8 +226,8 @@ The current CDC data does not update frequently and does not include the ability
 - Reports numerator and denominator for rates calculations
 - Machine-readable data table with a download option
 
-![](scorecards/ca_example1.png)
-![](scorecards/ca_example2.png)
+![](scorecards/ca_example1.png){fig-alt="Screenshot of CA tabular data showing counts of cases and vaccinated or unvaccinated population per day."}
+![](scorecards/ca_example2.png)fig-alt="Screenshot of CA tabular data showing rates per 100k of cases in unvaccinated, vaccinated, or boosted people per day."}
 
 #### [Colorado](https://covid19.colorado.gov/vaccine-breakthrough)
 
@@ -217,7 +236,7 @@ The current CDC data does not update frequently and does not include the ability
 - COVID-19 cases, hospitalizations, and deaths over time by vaccination status, including booster status
 - Machine-readable data table with a download option
 
-![](scorecards/co_example.png)
+![](scorecards/co_example.png){fig-alt="Screenshot of CO timeseries chart showing hospitalizations per 100k by admission date and vaccination status."}
 
 #### [Michigan](https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173_105123---,00.html)
 
@@ -227,7 +246,7 @@ The current CDC data does not update frequently and does not include the ability
 - Percent of cases, deaths, and hospitalizations among fully vaccinated and not fully vaccinated individuals 
 - Percent of fully vaccinated individuals who had a breakthrough case, hospitalization, or death
 
-![](scorecards/mi_example.png)
+![](scorecards/mi_example.png){fig-alt="Screenshot of MI table showing cumulative cases, hospitalizations, or deaths by vaccination status."}
 
 #### [Minnesota](https://www.health.state.mn.us/diseases/coronavirus/stats/vbt.html#vbto1)
 
@@ -235,12 +254,12 @@ The current CDC data does not update frequently and does not include the ability
 
 - Clear definitions for vaccine breakthrough hospitalizations and deaths
 
-![](scorecards/mn_example1.png)
+![](scorecards/mn_example1.png){fig-alt="Screenshot of MN data note clearly defining COVID-19 hospitalizations and deaths due to COVID-19."}
 
 - Machine-readable data table under graphics
 - Includes detailed rate methodology, including listing the population age and whether rates are crude or age-adjusted
 
-![](scorecards/mn_example2.png)
+![](scorecards/mn_example2.png){fig-alt="Screenshot of MN data notes explaining how data is presented, time lag in updating, and other limitations to consider in interpretation."}
 
 #### [New Mexico](https://cv.nmhealth.org/epidemiology-reports/) 
 (click _Download the Vaccination Report_)
@@ -249,9 +268,9 @@ The current CDC data does not update frequently and does not include the ability
 
 - Reports recent rates and rate ratios of cases, hospitalizations, and deaths by vaccination status during the past four weeks 
 
-![](scorecards/nm_example1.png)
-![](scorecards/nm_example2.png)
-![](scorecards/nm_example3.png)
+![](scorecards/nm_example1.png){fig-alt="Part 1 of 3 screenshot of NM table showing percentages and age-adjusted rates of cases, hospitalizations, and deaths by vaccination status during past four weeks."}
+![](scorecards/nm_example2.png){fig-alt="Part 2 of 3 screenshot of NM table showing percentages and age-adjusted rates of cases, hospitalizations, and deaths by vaccination status during past four weeks."}
+![](scorecards/nm_example3.png){fig-alt="Part 3 of 3 screenshot of NM table showing percentages and age-adjusted rates of cases, hospitalizations, and deaths by vaccination status during past four weeks."}
 
 ### Changelog
 
