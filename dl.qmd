@@ -1,6 +1,6 @@
 ---
 title: "Dave Luo"
-image: https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/1419797/91684_492042.jpg
+image: about/dl.jpg
 
 about:
   template: solana
