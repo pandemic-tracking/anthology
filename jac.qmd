@@ -1,24 +1,15 @@
 ---
 title: "Jennifer Clyde"
-# image: 
+image: about/jac.jpg
 
 about:
   template: solana
   image-shape: round
-  # links:
-    # - icon: twitter
-    #   text: Twitter
-    #   href: https://twitter.com/anthropoco
-    # - icon: linkedin
-    #   text: LinkedIn
-    #   href: https://linkedin.com
-    # - icon: github
-    #   text: Github
-    #   href: https://github.com
-    # - icon: flower1
-    #   text: Portfolio
-    #   href: https://github.com
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jaclyde/
 
 ---
 ##### Data Quality Lead and Researcher
-Jennifer is a someone who somethinged some stuff in some places.
+Information professional with a background in library science and user experience design. Passionate about organizing complex information in accessible and meaningful ways through research, data quality, information architecture, and content strategy. Also loves cats.
