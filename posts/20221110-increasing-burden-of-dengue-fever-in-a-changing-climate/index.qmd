@@ -46,9 +46,9 @@ An infected mosquito bites and infects a person; another, uninfected mosquito la
 Dengue fever is transmitted by mosquitoes of two species: [_Aedes aegypti_ and _Aedes albopictus_](https://www.cdc.gov/mosquitoes/about/life-cycles/aedes.html). According to [one study](https://www.sciencedirect.com/science/article/pii/S1201971217303089), of 250 countries or territories worldwide, _Ae. aegypti_ can survive in 188 and _Ae. albopictus_ can survive in 197. Endemic cases of dengue fever (not associated with travel) were reported in 111 of these countries/territories.
 
 ::: {layout-ncol=2}
-![_Aedes aegypti_, also known as the yellow fever mosquito. Photo credit: CDC](aegypti.jpeg){fig-alt="A picture of an Aedes aegypti (also known as the yellow fever mosquito) which has characteristic black and white markings on its body and legs."}
+![_Aedes aegypti_, also known as the yellow fever mosquito. _Photo Credit: CDC_](aegypti.jpeg){fig-alt="A picture of an Aedes aegypti (also known as the yellow fever mosquito) which has characteristic black and white markings on its body and legs."}
 
-![_Aedes albopictus_, also known as the Asian tiger or forest mosquito. Photo Credit: CDC](albopictus.jpeg){fig-alt="A picture of an Aedes albopictus mosquito (also known as the Asian tiger or forest mosquito) displaying a distinct end-to-end black and white pattern."}
+![_Aedes albopictus_, also known as the Asian tiger or forest mosquito. _Photo Credit: CDC_](albopictus.jpeg){fig-alt="A picture of an Aedes albopictus mosquito (also known as the Asian tiger or forest mosquito) displaying a distinct end-to-end black and white pattern."}
 :::
 
 * _Ae. aegypti_, known commonly as the yellow fever mosquito, is the primary vector, and also carries the zika and chikungunya viruses. _Ae. aegypti_ feeds mostly on humans, and is well-adapted to urban environments, living both indoors and outdoors. 

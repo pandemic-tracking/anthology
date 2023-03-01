@@ -123,13 +123,13 @@ This document summarizes our view of some reporting best practices states should
 ### What Data Should States Publish?
 
 +----------------------------+---------------+
-| **Cases**                  | - As a percent of not fully vaccinated, fully vaccinated, and boosted individuals |
-|                            | - Cumulative counts of COVID-19 cases in not fully vaccinated, fully vaccinated, and boosted individuals |
-|                            | - Definition of a breakthrough case |
+| **Cases**                  | - As a percent of not fully vaccinated, fully vaccinated, and boosted individuals
+|                            | - Cumulative counts of COVID-19 cases in not fully vaccinated, fully vaccinated, and boosted individuals
+|                            | - Definition of a breakthrough case
 +----------------------------+---------------+
-| **Hospitalizations**       | - As a percent of not fully vaccinated, fully vaccinated, and boosted individuals |
-|                            | - Cumulative counts of COVID-19 hospitalizations in not fully vaccinated, fully vaccinated, and boosted individuals |
-|                            | - Definition of a COVID-19 breakthrough hospitalization, including specifying if hospitalizations are COVID-19-related |
+| **Hospitalizations**       | - As a percent of not fully vaccinated, fully vaccinated, and boosted individuals
+|                            | - Cumulative counts of COVID-19 hospitalizations in not fully vaccinated, fully vaccinated, and boosted individuals
+|                            | - Definition of a COVID-19 breakthrough hospitalization, including specifying if hospitalizations are COVID-19-related
 +----------------------------+---------------+
 | **Deaths**                 | - As a percent of not fully vaccinated, fully vaccinated, and boosted individuals
 |                            | - Cumulative counts of COVID-19 deaths in not fully vaccinated, fully vaccinated, and boosted individuals
@@ -161,16 +161,16 @@ This document summarizes our view of some reporting best practices states should
 : **Included in scorecard grading**
 
 +----------------------------+---------------+
-| **Age**                    | - All data listed above broken out by age groups |
+| **Age**                    | - All data listed above broken out by age groups
 +----------------------------+---------------+
-| **Vaccine manufacturer**   | - All breakthrough data listed above broken out by vaccine manufacturer |
+| **Vaccine manufacturer**   | - All breakthrough data listed above broken out by vaccine manufacturer
 +----------------------------+---------------+
-| **Time since vaccination** | - COVID-19 outcomes as counts and rates per capita by vaccination status |
-|                            |   - fully vaccinated (within 6 months) |
-|                            |   - fully vaccinated (6+ months past final dose) |
-|                            |   - boosted |
-|                            | - Percent and count of vaccinated population now 6 months past their last dose |
-|                            | - Percent and count of booster eligible population who have not received a booster dose |
+| **Time since vaccination** | - COVID-19 outcomes as counts and rates per capita by vaccination status
+|                            |   - fully vaccinated (within 6 months)
+|                            |   - fully vaccinated (6+ months past final dose)
+|                            |   - boosted
+|                            | - Percent and count of vaccinated population now 6 months past their last dose
+|                            | - Percent and count of booster eligible population who have not received a booster dose
 +----------------------------+---------------+
 
 : **Recommended but not currently included in scorecard grading**
@@ -179,9 +179,9 @@ This document summarizes our view of some reporting best practices states should
 
 | | |
 |---|---|
-| **Update** | Update data on a regular cadence (at least monthly) |
-| **Include Timestamps** | Post the date range the data reflects |
-| **Downloadable Data** | Provide breakthrough data in a downloadable format |
+| **Update** | Update data on a regular cadence (at least monthly)
+| **Include Timestamps** | Post the date range the data reflects
+| **Downloadable Data** | Provide breakthrough data in a downloadable format
 
 ### Frequently Asked Questions
 

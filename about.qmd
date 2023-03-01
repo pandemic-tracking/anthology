@@ -1,5 +1,5 @@
 ---
-title: ""
+# title: ""
 image: ptc-logo-transparent.png
 
 about:
@@ -26,5 +26,5 @@ The Pandemic Tracking Collective (PTC) is a research group dedicated to tracking
 | [Jessica Malaty Rivera]()
 | [Michal Mart](mm.html)
 | [Brandon Park]()
-| [Kara Schechtman]()
+| [Kara Schechtman](https://www.karaschechtman.com/)
 | [Lindsey Shultz](lns.html)

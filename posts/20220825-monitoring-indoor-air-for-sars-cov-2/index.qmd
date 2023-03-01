@@ -35,7 +35,7 @@ Beginning in late September 2001, several letters containing a powdered form of 
 ::: {#img-1 .column-margin}
 ![](anthrax.jpg){fig-alt="Workers in PPE examine large barrels for anthrax contamination."}
 
-When mail delivered to Capitol Hill was suspected of anthrax contamination, it was collected for analysis. Air samplers were used to monitor the containment area for _B. anthracis_. _Image Credit: US Federal Bureau of Investigation._
+When mail delivered to Capitol Hill was suspected of anthrax contamination, it was collected for analysis. Air samplers were used to monitor the containment area for _B. anthracis_. _Photo Credit: US Federal Bureau of Investigation._
 :::
 
 ### Air Sampling Science
