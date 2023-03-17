@@ -18,7 +18,7 @@ image: https://www.rockefellerfoundation.org/wp-content/uploads/2021/12/btscorec
 title-block-banner: false
 ---
 ::: {.callout-note}
-This piece is originally published at [rockefellerfoundation.org/case-study/tracking-state-reporting-of-covid-19-vaccine-breakthrough-infections/](https://www.rockefellerfoundation.org/case-study/tracking-state-reporting-of-covid-19-vaccine-breakthrough-infections/)
+Originally published at [rockefellerfoundation.org/case-study/tracking-state-reporting-of-covid-19-vaccine-breakthrough-infections/](https://www.rockefellerfoundation.org/case-study/tracking-state-reporting-of-covid-19-vaccine-breakthrough-infections/)
 
 :::
 

@@ -13,7 +13,7 @@ image: https://www.rockefellerfoundation.org/wp-content/uploads/2022/07/ww-pcrty
 title-block-banner: false
 ---
 ::: {.callout-note}
-This piece is originally published at [rockefellerfoundation.org/case-study/tackling-the-complexities-of-covid-19-wastewater-surveillance/](https://www.rockefellerfoundation.org/case-study/tackling-the-complexities-of-covid-19-wastewater-surveillance/)
+Originally published at [rockefellerfoundation.org/case-study/tackling-the-complexities-of-covid-19-wastewater-surveillance/](https://www.rockefellerfoundation.org/case-study/tackling-the-complexities-of-covid-19-wastewater-surveillance/)
 :::
 
 For more than two years, data derived from polymerase chain reaction (PCR) and rapid antigen tests on nasal swabs from individuals has been the primary source of data on Covid-19 in communities. As clinical testing data is becoming [less reliably available](https://apnews.com/article/covid-us-testing-decline-14bf5b0901260b063e4fa444633f4d31), wastewater surveillance has emerged as a valuable epidemiological tool. It can detect the presence of SARS-CoV-2 and its variants in a community and monitor trends over time. Because wastewater monitoring does not rely on access to individual diagnostics, it can provide insights that are essential for controlling the current Covid-19 pandemic and preventing future pandemics.

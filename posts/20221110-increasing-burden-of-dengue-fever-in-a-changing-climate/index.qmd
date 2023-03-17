@@ -14,7 +14,7 @@ image: thumbnail.jpg
 title-block-banner: false
 ---
 ::: {.callout-note}
-This piece is originally published at [rockefellerfoundation.org/blog/the-increasing-burden-of-dengue-fever-in-a-changing-climate/](https://www.rockefellerfoundation.org/blog/the-increasing-burden-of-dengue-fever-in-a-changing-climate/)
+Originally published at [rockefellerfoundation.org/blog/the-increasing-burden-of-dengue-fever-in-a-changing-climate/](https://www.rockefellerfoundation.org/blog/the-increasing-burden-of-dengue-fever-in-a-changing-climate/)
 :::
 
 When they think of climate change, many people envision global warming and a rising sea level. While climate change is indeed warming the globe and causing the seas to rise, that is not the only detrimental effect. [Disruption of weather patterns](https://climate.nasa.gov/effects/) can include stronger and more frequent storms, droughts, wildfires, and heat waves. Climate change can also affect agriculture and land use. As regions become less livable, more people will become [climate refugees](https://www.unhcr.org/en-us/climate-change-and-disasters.html). These other consequences of climate change can have profound effects on infectious diseases. In this way, climate change can contribute to the emergence or spread of diseases. 

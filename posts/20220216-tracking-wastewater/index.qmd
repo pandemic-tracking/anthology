@@ -18,7 +18,7 @@ reference-location: document
 ---
 
 ::: {.callout-note}
-This piece is originally published at [rockefellerfoundation.org/case-study/tracking-sars-cov-2-and-its-variants-in-wastewater-an-old-technique-is-yielding-powerful-new-insights-in-the-covid-19-pandemic/](https://www.rockefellerfoundation.org/case-study/tracking-sars-cov-2-and-its-variants-in-wastewater-an-old-technique-is-yielding-powerful-new-insights-in-the-covid-19-pandemic/)
+Originally published at [rockefellerfoundation.org/case-study/tracking-sars-cov-2-and-its-variants-in-wastewater-an-old-technique-is-yielding-powerful-new-insights-in-the-covid-19-pandemic/](https://www.rockefellerfoundation.org/case-study/tracking-sars-cov-2-and-its-variants-in-wastewater-an-old-technique-is-yielding-powerful-new-insights-in-the-covid-19-pandemic/)
 :::
 
 The [newest addition](https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance) to the Centers for Disease Control and Prevention’s (CDC) suite of [COVID data trackers](https://covid.cdc.gov/covid-data-tracker/#datatracker-home) reports on levels of SARS-CoV-2 RNA in wastewater. While researchers, public health departments, and some private companies have been monitoring wastewater since the beginning of the pandemic, this tracker marks an important step in the establishment of the [National Wastewater Surveillance System (NWSS)](https://www.cdc.gov/healthywater/surveillance/wastewater-surveillance/wastewater-surveillance.html). 
